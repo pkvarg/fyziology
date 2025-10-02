@@ -1,11 +1,11 @@
 <section {{ $attributes->merge(['class' => 'faq-7 px-[5%] py-16 md:py-24 lg:py-28 relative overflow-hidden']) }}>
     <!-- Gradient Circle - bottom left near FAQ -->
-    <div class="absolute top-64 -right-96 w-[52.5%] h-auto pointer-events-none">
+    <div class="absolute top-[30rem] lg:top-64 -right-56 lg:-right-96 w-[100%] lg:w-[52.5%] h-auto pointer-events-none">
         <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
     </div>
 
      <!-- Gradient Half Circle - bottom right -->
-    <div class="absolute top-28 left-8 w-40 h-40  pointer-events-none">
+    <div class="hidden lg:flex absolute top-28 left-8 w-40 h-40  pointer-events-none">
         <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
     </div>
 

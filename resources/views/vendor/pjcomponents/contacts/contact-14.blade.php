@@ -4,7 +4,7 @@
             @isset($tagline)
                 <p class="mb-3 font-semibold md:mb-4">{{ $tagline }}</p>
             @endisset
-            <h2 class="rb-5 mb-5 text-4xl font-bold md:mb-6 md:text-6xl">{{ $heading }}</h2>
+            <h2 class="rb-5 mb-5 text-4xl font-black md:mb-6 md:text-6xl">{{ $heading }}</h2>
             @isset($text)
                 <p class="md:text-md">{{ $text }}</p>
             @endisset

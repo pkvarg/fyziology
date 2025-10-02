@@ -130,6 +130,7 @@ body {
         border-radius: 50px;
         padding: 12px 40px;
         font-weight: 500;
+        margin-top: 40px;
     }
 
     form {
@@ -148,7 +149,7 @@ body {
     .pj-classic input,
     .pj-textarea textarea {
         border: none;
-        border-bottom: 2px solid #0c5eb6;
+        border-bottom: 2px solid #0c5ea0;
         border-radius: 0;
         padding: 12px 0;
         background-color: transparent;
@@ -215,8 +216,8 @@ body {
                 top: 24px;
                 width: 12px;
                 height: 12px;
-                border-right: 2px solid $primary;
-                border-bottom: 2px solid $primary;
+                border-right: 3px solid $primary;
+                border-bottom: 3px solid $primary;
                 transform: rotate(45deg);
                 transition: transform 0.3s;
             }
