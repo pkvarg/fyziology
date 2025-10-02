@@ -18,6 +18,7 @@ class SendContactFormRequest extends FormRequest
             'gdpr' => 'required|accepted',
             'name' => 'required|string',
             'email' => 'required|email',
+            'phone' => 'nullable|string',
             'message' => 'required|string',
         ];
     }
@@ -45,6 +46,11 @@ class SendContactFormRequest extends FormRequest
     public function getEmail(): string
     {
         return $this->input('email');
+    }
+
+    public function getPhone(): ?string
+    {
+        return $this->input('phone');
     }
 
     public function getMessage(): string

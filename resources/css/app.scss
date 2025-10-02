@@ -9,7 +9,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     color: #333333;
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Wix Madefor Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, sans-serif;
     background-color: #fafafa;
 }
 
@@ -17,7 +18,7 @@ body {
     background-color: $primary;
     color: #ffffff;
     border-color: $primary;
-    transition-duration: .3s;
+    transition-duration: 0.3s;
 }
 
 .pjcomponents-button-primary:hover {
@@ -28,7 +29,7 @@ body {
     background-color: #ffffff;
     color: $primary;
     border-color: $primary;
-    transition-duration: .3s;
+    transition-duration: 0.3s;
 }
 
 .pjcomponents-button-secondary:hover {
@@ -89,7 +90,7 @@ body {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             transform: translate(-34px, 12px);
-            font-family: "Charmonman", serif;
+            font-family: 'Charmonman', serif;
             text-transform: lowercase;
             line-height: 2;
         }
@@ -122,7 +123,7 @@ body {
 }
 
 .contact {
-    .contact-1 button[type="submit"] {
+    .contact-1 button[type='submit'] {
         background-color: $primary;
         color: #ffffff;
         border-color: $primary;
@@ -135,7 +136,8 @@ body {
         gap: 0;
     }
 
-    .pj-btn.info, .pj-btn.button-like.info {
+    .pj-btn.info,
+    .pj-btn.button-like.info {
         background-color: $primary;
         color: #ffffff;
         border-color: $primary;
@@ -157,16 +159,19 @@ body {
         }
     }
 
-    .pj-checkbox label:before, .pj-radio label:before {
+    .pj-checkbox label:before,
+    .pj-radio label:before {
         box-sizing: content-box;
     }
 
-    .pj-checkbox input:checked+label:before, .pj-radio input:checked+label:before {
+    .pj-checkbox input:checked + label:before,
+    .pj-radio input:checked + label:before {
         background-color: $primary;
         border-color: $primary;
     }
 
-    .pj-checkbox input:checked+label:after, .pj-radio input:checked+label:after {
+    .pj-checkbox input:checked + label:after,
+    .pj-radio input:checked + label:after {
         box-sizing: content-box;
     }
 
@@ -226,24 +231,24 @@ body {
     // FAQ section icon
     .faq-7 > div > div:first-child {
         position: relative;
-        padding-left: 80px;
+        //padding-left: 80px;
 
-        &::before {
-            content: '?';
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 60px;
-            height: 60px;
-            background: linear-gradient(135deg, #60c5e8 0%, #0c5eb6 100%);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 32px;
-            font-weight: bold;
-        }
+        // &::before {
+        //     content: '?';
+        //     position: absolute;
+        //     left: 0;
+        //     top: 0;
+        //     width: 60px;
+        //     height: 60px;
+        //     background: linear-gradient(135deg, #60c5e8 0%, #0c5eb6 100%);
+        //     border-radius: 50%;
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: center;
+        //     color: white;
+        //     font-size: 32px;
+        //     font-weight: bold;
+        // }
     }
 }
 

@@ -15,6 +15,7 @@ class ContactController
             ->send(new ContactForm([
                 'name' => $request->getName(),
                 'email' => $request->getEmail(),
+                'phone' => $request->getPhone(),
                 'message' => $request->getMessage(),
             ]));
 

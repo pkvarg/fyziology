@@ -16,8 +16,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="Fyziology" />
     <link rel="manifest" href="/favicon/site.webmanifest" />
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=charmonman:400|coustard:400|figtree:400,500,600,700" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ asset('css/fonts.css') }}">
     <link rel="stylesheet" href="{{ asset('vendor/pjcomponents/assets/main.css') }}">
     @stack('styles')
     @vite(['resources/css/app.scss', 'resources/js/app.js'])

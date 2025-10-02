@@ -1,7 +1,18 @@
-<section {{ $attributes->merge(['class' => 'faq-7 px-[5%] py-16 md:py-24 lg:py-28']) }}>
-    <div class="container mx-auto w-full max-w-lg lg:max-w-6xl">
-        <div class="rb-12 mb-12 text-center md:mb-18 lg:mb-20">
-            <h2 class="rb-5 mb-5 text-4xl font-bold md:mb-6 md:text-6xl">{{ $heading }}</h2>
+<section {{ $attributes->merge(['class' => 'faq-7 px-[5%] py-16 md:py-24 lg:py-28 relative overflow-hidden']) }}>
+    <!-- Gradient Circle - bottom left near FAQ -->
+    <div class="absolute top-64 -right-96 w-[52.5%] h-auto pointer-events-none">
+        <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+    </div>
+
+     <!-- Gradient Half Circle - bottom right -->
+    <div class="absolute top-28 left-8 w-40 h-40  pointer-events-none">
+        <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
+    </div>
+
+    <div class="container mx-auto w-full max-w-lg lg:max-w-6xl relative z-10">
+        
+        <div class="rb-12 mb-12 text-left md:mb-18 lg:mb-20">
+            <h2 class="rb-5 mb-5 text-4xl font-black md:mb-6 md:text-6xl">{{ $heading }}</h2>
             @isset($text)
                 <p class="md:text-md">{{ $text }}</p>
             @endisset

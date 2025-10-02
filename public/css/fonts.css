@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Wix Madefor Text';
+    src: url('/fonts/wix-madefor/WixMadeforText-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Wix Madefor Text';
+    src: url('/fonts/wix-madefor/WixMadeforText-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Wix Madefor Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
