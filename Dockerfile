@@ -1,4 +1,61 @@
-FROM serversideup/php:8.2-fpm-nginx
+FROM php:8.4-fpm-alpine
+
+# Install system dependencies
+RUN apk add --no-cache \
+    nginx \
+    git \
+    curl \
+    libpng-dev \
+    oniguruma-dev \
+    libxml2-dev \
+    zip \
+    unzip \
+    nodejs \
+    npm \
+    supervisor
+
+# Install PHP extensions
+RUN docker-php-ext-install pdo pdo_mysql mbstring exif pcntl bcmath gd
+
+# Get Composer
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+
+# Configure nginx
+COPY <<EOF /etc/nginx/http.d/default.conf
+server {
+    listen 80;
+    server_name _;
+    root /var/www/html/public;
+    index index.php;
+
+    location / {
+        try_files \$uri \$uri/ /index.php?\$query_string;
+    }
+
+    location ~ \.php$ {
+        fastcgi_pass 127.0.0.1:9000;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME \$document_root\$fastcgi_script_name;
+        include fastcgi_params;
+    }
+}
+EOF
+
+# Configure supervisor
+COPY <<EOF /etc/supervisor/conf.d/supervisord.conf
+[supervisord]
+nodaemon=true
+
+[program:php-fpm]
+command=php-fpm
+autostart=true
+autorestart=true
+
+[program:nginx]
+command=nginx -g 'daemon off;'
+autostart=true
+autorestart=true
+EOF
 
 # Set working directory
 WORKDIR /var/www/html
@@ -6,12 +63,17 @@ WORKDIR /var/www/html
 # Copy application files
 COPY --chown=www-data:www-data . /var/www/html
 
-# Install Composer dependencies
+# Install dependencies
 RUN composer install --optimize-autoloader --no-dev
 
-# Install Node dependencies and build assets
+# Build assets
 RUN npm install && npm run build && rm -rf node_modules
 
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache \
     && chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
+
+# Expose port
+EXPOSE 80
+
+CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
