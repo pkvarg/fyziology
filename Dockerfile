@@ -23,7 +23,7 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Configure nginx
 COPY <<EOF /etc/nginx/http.d/default.conf
 server {
-    listen 80;
+    listen 7003;
     server_name _;
     root /var/www/html/public;
     index index.php;
@@ -83,6 +83,6 @@ RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cac
     && chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
 
 # Expose port
-EXPOSE 80
+EXPOSE 7003
 
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
