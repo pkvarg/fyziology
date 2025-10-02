@@ -1,0 +1,60 @@
+name: "fyziology"
+
+x-debug: &xdebug
+  XDEBUG_CONFIG: client_host=host.docker.internal
+  XDEBUG_MODE: develop,debug,coverage
+  PHP_XDEBUG_ENABLED: 1
+  PHP_IDE_CONFIG: serverName=fyziology-web
+  XDEBUG_SESSION: PHPSTORM
+
+services:
+  web:
+    image: "patrikjak/php84-laravel-development"
+    container_name: "fyziology-web"
+    ports:
+      - "80:80"
+      - "5173:5173"
+    environment:
+      <<: *xdebug
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ".:/var/www"
+      - "../packages/web-components:/var/packages/web-components"
+    networks:
+      - shared
+    depends_on:
+      - mariadb
+
+  cli:
+    image: "patrikjak/php84-cli"
+    container_name: "fyziology-cli"
+    networks:
+      - shared
+    volumes:
+      - ".:/var/www"
+
+  mariadb:
+    container_name: "fyziology-db"
+    image: 'mariadb:latest'
+    ports:
+      - '3306:3306'
+    environment:
+      MYSQL_ROOT_PASSWORD: 'rootpassword'
+      MYSQL_ROOT_HOST: '%'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: 'password'
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      MYSQL_DATABASE: '${DB_DATABASE}'
+    volumes:
+      - "database-data:/var/lib/mysql"
+    networks:
+      - shared
+
+networks:
+  shared:
+    driver: bridge
+
+volumes:
+  database-data:
+    driver: local

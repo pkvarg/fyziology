@@ -1,0 +1,309 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$primary: #0c5eb6;
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333333;
+    font-family: 'Figtree', sans-serif;
+    background-color: #fafafa;
+}
+
+.pjcomponents-button-primary {
+    background-color: $primary;
+    color: #ffffff;
+    border-color: $primary;
+    transition-duration: .3s;
+}
+
+.pjcomponents-button-primary:hover {
+    background-color: #0a4c8c;
+}
+
+.pjcomponents-button-secondary {
+    background-color: #ffffff;
+    color: $primary;
+    border-color: $primary;
+    transition-duration: .3s;
+}
+
+.pjcomponents-button-secondary:hover {
+    background-color: #f2f2f2;
+}
+
+.primary-color {
+    color: $primary;
+}
+
+.bg-primary-color {
+    background-color: $primary;
+    color: #ffffff;
+}
+
+.contact-14 {
+    svg {
+        fill: $primary;
+    }
+}
+
+.faq-7 .question {
+    color: $primary;
+}
+
+.portfolio-header-2 .image-container img,
+.header-9 img {
+    position: initial;
+    height: 35vh;
+}
+
+.header-9 .image-container {
+    position: initial;
+}
+
+.navbar-1 {
+    color: $primary;
+    background-color: #ffffff;
+    font-weight: 500;
+
+    .items-link > a {
+        font-weight: 500;
+    }
+
+    .sub-items a {
+        font-weight: 400;
+    }
+
+    .logo {
+        #first {
+            transform: translateY(-10px);
+            font-family: 'Coustard', serif;
+            letter-spacing: 5px;
+        }
+
+        #second {
+            background: linear-gradient(to bottom, #67bfae 50%, $primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            transform: translate(-34px, 12px);
+            font-family: "Charmonman", serif;
+            text-transform: lowercase;
+            line-height: 2;
+        }
+    }
+
+    .burger-menu div {
+        background-color: $primary;
+    }
+}
+
+.index {
+    .testimonial-3 {
+        background-color: #3a6cb7;
+        color: #ffffff;
+    }
+
+    .team-17 .role {
+        color: $primary;
+    }
+}
+
+.services {
+    .pricing-18c1 .pricing-18-item {
+        border-color: $primary;
+
+        .plan-benefit {
+            justify-content: center;
+        }
+    }
+}
+
+.contact {
+    .contact-1 button[type="submit"] {
+        background-color: $primary;
+        color: #ffffff;
+        border-color: $primary;
+        border-radius: 50px;
+        padding: 12px 40px;
+        font-weight: 500;
+    }
+
+    form {
+        gap: 0;
+    }
+
+    .pj-btn.info, .pj-btn.button-like.info {
+        background-color: $primary;
+        color: #ffffff;
+        border-color: $primary;
+        border-radius: 50px;
+    }
+
+    // Underline style inputs
+    .pj-classic input,
+    .pj-textarea textarea {
+        border: none;
+        border-bottom: 2px solid #0c5eb6;
+        border-radius: 0;
+        padding: 12px 0;
+        background-color: transparent;
+
+        &:focus {
+            border-bottom-color: $primary;
+            outline: none;
+        }
+    }
+
+    .pj-checkbox label:before, .pj-radio label:before {
+        box-sizing: content-box;
+    }
+
+    .pj-checkbox input:checked+label:before, .pj-radio input:checked+label:before {
+        background-color: $primary;
+        border-color: $primary;
+    }
+
+    .pj-checkbox input:checked+label:after, .pj-radio input:checked+label:after {
+        box-sizing: content-box;
+    }
+
+    // FAQ section styling
+    .faq-7 {
+        background-color: transparent;
+
+        .qa-7 {
+            background-color: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 20px 24px;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+
+            &:hover {
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            }
+
+            .question {
+                color: $primary;
+                margin-bottom: 0;
+                padding-right: 40px;
+            }
+
+            .answer {
+                display: none;
+                margin-top: 12px;
+                color: #6b7280;
+            }
+
+            &.active .answer {
+                display: block;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                right: 24px;
+                top: 24px;
+                width: 12px;
+                height: 12px;
+                border-right: 2px solid $primary;
+                border-bottom: 2px solid $primary;
+                transform: rotate(45deg);
+                transition: transform 0.3s;
+            }
+
+            &.active::after {
+                transform: rotate(-135deg);
+                top: 28px;
+            }
+        }
+    }
+
+    // FAQ section icon
+    .faq-7 > div > div:first-child {
+        position: relative;
+        padding-left: 80px;
+
+        &::before {
+            content: '?';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #60c5e8 0%, #0c5eb6 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+        }
+    }
+}
+
+.portfolio-header-2 h1,
+.text-page h1 {
+    font-size: 3.25rem;
+    word-break: break-word;
+}
+
+.content-30 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.layout-306 a.image-link {
+    display: contents;
+}
+
+@media (min-width: 768px) {
+    .portfolio-header-2 h1,
+    .text-page h1 {
+        font-size: 4.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .portfolio-header-2 .image-container img,
+    .header-9 img {
+        position: initial;
+        height: 70vh;
+    }
+
+    .index .portfolio-header-2 img,
+    .ambulatory-physiotherapy .portfolio-header-2 img {
+        object-position: 0 40%;
+    }
+
+    .massages .layout-290 .features {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+
+        .feature-290 img {
+            height: 300px;
+        }
+    }
+
+    .navbar-1 {
+        .sub-items {
+            padding: 0;
+
+            a {
+                border-bottom: solid 1px #ccc;
+
+                &:hover {
+                    background-color: #f2f2f2;
+                }
+
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}
