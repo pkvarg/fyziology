@@ -76,7 +76,9 @@ COPY --chown=www-data:www-data . /var/www/html
 RUN composer install --optimize-autoloader --no-dev
 
 # Build assets
-RUN npm install && npm run build && rm -rf node_modules
+RUN npm install && npm run build && rm -rf node_modules && \
+    ls -la public/build/ && \
+    echo "Build files created successfully"
 
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache \
