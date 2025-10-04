@@ -50,6 +50,24 @@
             </div>
         </div>
 
+        <!-- Získajte prvú konzultáciu zdarma -->
+        <section class="px-[5%] py-16 md:py-24 lg:py-16 relative overflow-hidden bg-gray-50">
+            <div class="container mx-auto w-full max-w-4xl relative z-10">
+                <!-- Gradient Half Circle - left -->
+                <div class="hidden lg:inline absolute top-0 -left-32 w-40 h-40 pointer-events-none">
+                    <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
+                </div>
+
+                <h2 class="text-4xl md:text-5xl lg:text-4xl font-black mb-6 md:mb-8">Získajte prvú konzultáciu zdarma</h2>
+                <p class="text-lg md:text-xl mb-8 md:mb-10 max-w-3xl text-gray-700">
+                    Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
+                </p>
+                <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity">
+                    Vstupná konzultácia ZDARMA
+                </a>
+            </div>
+        </section>
+
         <x-pjcomponents::pricing.pricing-18c1 heading="Cenník" id="cennik">
             <x-slot:text>
                 <span class="primary-color font-bold">Vstupná konzultácia ZDARMA</span>
