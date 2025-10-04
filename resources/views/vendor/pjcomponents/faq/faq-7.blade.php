@@ -4,13 +4,12 @@
         <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
     </div>
 
-     <!-- Gradient Half Circle - bottom right -->
-    <div class="hidden lg:flex absolute top-28 left-8 w-40 h-40  pointer-events-none">
-        <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
-    </div>
-
     <div class="container mx-auto w-full max-w-lg lg:max-w-6xl relative z-10">
-        
+        <!-- Gradient Half Circle - bottom right -->
+        <div class="hidden lg:flex absolute top-[155px] -left-[12%] w-40 h-40  pointer-events-none">
+            <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
+        </div>
+
         <div class="rb-12 mb-12 text-left md:mb-18 lg:mb-20">
             <h2 class="rb-5 mb-5 text-4xl font-black md:mb-6 md:text-6xl">{{ $heading }}</h2>
             @isset($text)
