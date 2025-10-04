@@ -67,8 +67,9 @@ body {
 
 .navbar-1 {
     color: $primary;
-    background-color: #ffffff;
+    background-color: #fafafa;
     font-weight: 500;
+    box-shadow: none;
 
     .items-link > a {
         font-weight: 500;
@@ -296,7 +297,7 @@ body {
     }
 
     .navbar-1 {
-        background-color: #f5f5f5;
+        background-color: #fafafa;
         justify-content: center;
         gap: 3rem;
 

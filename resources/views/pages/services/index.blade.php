@@ -3,20 +3,25 @@
 <x-layout xmlns:x-slot="http://www.w3.org/1999/html">
 
     <div class="services">
-        <x-pjcomponents::portfolio-headers.header-2
+        {{-- <x-pjcomponents::portfolio-headers.header-2
             heading="Naše služby"
             text="Vo Fyziology ponúkame na výber z viacerých  možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Našim cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok či zabezpečiť pohodu počas terapie."
         >
             <x-slot:image>
                 <img src="{{ asset('assets/images/sluzby.jpg') }}" alt="sluzby">
             </x-slot:image>
-        </x-pjcomponents::portfolio-headers.header-2>
+        </x-pjcomponents::portfolio-headers.header-2> --}}
 
-        <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div>
+        <div class="px-[5%] py-16 md:py-24 lg:py-28 text-center">
+            <h1 class="text-4xl md:text-6xl font-black mb-5 md:mb-6">Naše služby</h1>
+            <p class="max-w-3xl mx-auto md:text-lg">Vo Fyziology ponúkame na výber z viacerých  možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Našim cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok či zabezpečiť pohodu počas terapie.</p>
+        </div>
+
+        <!-- <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div> -->
 
         <x-pjcomponents::features.layout-290>
             <x-slot:features>
-                <x-pjcomponents::features.feature-290
+                <!-- <x-pjcomponents::features.feature-290
                     heading="Mobilná fyzioterapia"
                     text="Je moderný prístup poskytovania fyzioterapeutickej starostlivosti, ktorý prináša profesionálnu pomoc priamo k pacientovi, bez nutnosti návštevy fyzioterapeutickej ambulancie."
                 >
@@ -27,10 +32,10 @@
                     <x-slot:actions>
                         <x-pjcomponents::button label="Detail" type="primary" :link="route('page.services.mobile-physiotherapy')" />
                     </x-slot:actions>
-                </x-pjcomponents::features.feature-290>
+                </x-pjcomponents::features.feature-290> -->
 
                 <x-pjcomponents::features.feature-290
-                    heading="Ambulantná fyzioterapia"
+                    heading="Mobilná a ambulantná fyzioterapia"
                     text="Je typ fyzioterapie, ktorý prebieha v rámci zdravotníckeho zariadenia, napríklad v ambulanciách alebo fyzioterapeutických klinikách, kde pacient dochádza na jednotlivé terapie."
                 >
                     <x-slot:image>
