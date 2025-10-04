@@ -2,7 +2,7 @@
 
 <x-layout xmlns:x-slot="http://www.w3.org/1999/html">
 
-    <div class="services">
+    <div class="services relative overflow-hidden">
         {{-- <x-pjcomponents::portfolio-headers.header-2
             heading="Naše služby"
             text="Vo Fyziology ponúkame na výber z viacerých  možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Našim cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok či zabezpečiť pohodu počas terapie."
@@ -12,9 +12,14 @@
             </x-slot:image>
         </x-pjcomponents::portfolio-headers.header-2> --}}
 
-        <div class="px-[5%] py-16 md:py-24 lg:py-28 text-center">
-            <h1 class="text-4xl md:text-6xl font-black mb-5 md:mb-6">Naše služby</h1>
-            <p class="max-w-3xl mx-auto md:text-lg">Vo Fyziology ponúkame na výber z viacerých  možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Našim cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok či zabezpečiť pohodu počas terapie.</p>
+        <div class="px-[5%] py-16 md:py-24 lg:py-28 text-center relative">
+            <!-- Gradient Circle - top left -->
+            <div class="absolute -top-[10rem] -left-[25rem] lg:-right-96 w-[100%] lg:w-[52.5%] h-auto pointer-events-none">
+                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
+
+            <h1 class="text-4xl md:text-6xl font-black mb-5 md:mb-6 relative z-10">Naše služby</h1>
+            <p class="max-w-3xl mx-auto md:text-lg relative z-10">Vo Fyziology ponúkame na výber z viacerých  možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Našim cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok či zabezpečiť pohodu počas terapie.</p>
         </div>
 
         <!-- <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div> -->
@@ -68,7 +73,13 @@
             </div>
         </section>
 
-        <x-pjcomponents::pricing.pricing-18c1 heading="Cenník" id="cennik">
+        <div class="relative overflow-hidden">
+            <!-- Gradient Circle - near pricing -->
+            <div class="absolute top-[10rem] lg:top-32 -right-56 lg:-right-[25rem] w-[100%] lg:w-[52.5%] h-auto pointer-events-none">
+                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
+
+            <x-pjcomponents::pricing.pricing-18c1 heading="Cenník" id="cennik" class="relative z-10">
             <x-slot:text>
                 <span class="primary-color font-bold">Vstupná konzultácia ZDARMA</span>
                 <br>
@@ -153,6 +164,7 @@
                 </x-pjcomponents::pricing.pricing-shared-item-1>
             </x-slot:prices>
         </x-pjcomponents::pricing.pricing-18c1>
+        </div>
 
         <x-pjcomponents::ctas.cta-7
             heading="Získajte svoju konzultáciu"
