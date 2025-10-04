@@ -19,61 +19,36 @@
 
         <!-- <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div> -->
 
-        <x-pjcomponents::features.layout-290>
-            <x-slot:features>
-                <!-- <x-pjcomponents::features.feature-290
-                    heading="Mobilná fyzioterapia"
-                    text="Je moderný prístup poskytovania fyzioterapeutickej starostlivosti, ktorý prináša profesionálnu pomoc priamo k pacientovi, bez nutnosti návštevy fyzioterapeutickej ambulancie."
-                >
-                    <x-slot:image>
-                        <img src="{{ asset('assets/images/mobilna-fyzioterapia.jpg') }}" alt="mobilna fyzioterapia">
-                    </x-slot:image>
+        <div class="px-[5%] pb-16 md:pb-24 lg:pb-28">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Mobilná a ambulantná fyzioterapia -->
+                <div class="text-center flex flex-col">
+                    <div class="mb-6">
+                        <img src="{{ asset('assets/images/ambulance.jpg') }}" alt="Mobilná a ambulantná fyzioterapia" class="w-full h-48 object-cover rounded-2xl">
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Mobilná a ambulantná<br>fyzioterapia</h3>
+                    <a href="{{ route('page.services.ambulatory-physiotherapy') }}" class="bg-primary-color text-white px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity mx-auto">Viac info</a>
+                </div>
 
-                    <x-slot:actions>
-                        <x-pjcomponents::button label="Detail" type="primary" :link="route('page.services.mobile-physiotherapy')" />
-                    </x-slot:actions>
-                </x-pjcomponents::features.feature-290> -->
+                <!-- Bankovanie -->
+                <div class="text-center flex flex-col">
+                    <div class="mb-6">
+                        <img src="{{ asset('assets/images/bankovanie.jpg') }}" alt="Bankovanie" class="w-full h-48 object-cover rounded-2xl">
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Bankovanie</h3>
+                    <a href="{{ route('page.services.banking') }}" class="bg-primary-color text-white px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity mx-auto">Viac info</a>
+                </div>
 
-                <x-pjcomponents::features.feature-290
-                    heading="Mobilná a ambulantná fyzioterapia"
-                    text="Je typ fyzioterapie, ktorý prebieha v rámci zdravotníckeho zariadenia, napríklad v ambulanciách alebo fyzioterapeutických klinikách, kde pacient dochádza na jednotlivé terapie."
-                >
-                    <x-slot:image>
-                        <img src="{{ asset('assets/images/ambulance.jpg') }}" alt="ambulancia">
-                    </x-slot:image>
-
-                    <x-slot:actions>
-                        <x-pjcomponents::button label="Detail" type="primary" :link="route('page.services.ambulatory-physiotherapy')" />
-                    </x-slot:actions>
-                </x-pjcomponents::features.feature-290>
-
-                <x-pjcomponents::features.feature-290
-                    heading="Bankovanie"
-                    text="Bankovanie je terapeutická technika, ktorá sa používa na zlepšenie prietoku krvi, uvoľnenie svalového napätia a zmiernenie bolesti."
-                >
-                    <x-slot:image>
-                        <img src="{{ asset('assets/images/bankovanie.jpg') }}" alt="bankovanie">
-                    </x-slot:image>
-
-                    <x-slot:actions>
-                        <x-pjcomponents::button label="Detail" type="primary" :link="route('page.services.banking')" />
-                    </x-slot:actions>
-                </x-pjcomponents::features.feature-290>
-
-                <x-pjcomponents::features.feature-290
-                    heading="Masáže"
-                    text="Masáž je technika, ktorá zahŕňa manipuláciu s pokožkou, svalmi, šľachami a inými mäkkými tkanivami tela."
-                >
-                    <x-slot:image>
-                        <img src="{{ asset('assets/images/massages-cover.jpg') }}" alt="masáže">
-                    </x-slot:image>
-
-                    <x-slot:actions>
-                        <x-pjcomponents::button label="Detail" type="primary" :link="route('page.services.massages')" />
-                    </x-slot:actions>
-                </x-pjcomponents::features.feature-290>
-            </x-slot:features>
-        </x-pjcomponents::features.layout-290>
+                <!-- Masáže -->
+                <div class="text-center flex flex-col">
+                    <div class="mb-6">
+                        <img src="{{ asset('assets/images/massages-cover.jpg') }}" alt="Masáže" class="w-full h-48 object-cover rounded-2xl">
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Masáže</h3>
+                    <a href="{{ route('page.services.massages') }}" class="bg-primary-color text-white px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity mx-auto">Viac info</a>
+                </div>
+            </div>
+        </div>
 
         <x-pjcomponents::pricing.pricing-18c1 heading="Cenník" id="cennik">
             <x-slot:text>
