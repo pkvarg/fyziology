@@ -32,7 +32,9 @@
             </x-slot:logo>
 
             <x-slot:items>
-                <x-pjcomponents::navbars.items-link text="Služby">
+                <x-pjcomponents::navbars.simple-link text="Domov" :link="route('page.index')" />
+
+                <x-pjcomponents::navbars.items-link text="Naše služby">
                     <x-pjcomponents::navbars.simple-link text="Naše služby" :link="route('page.services.index')" />
                     <x-pjcomponents::navbars.simple-link text="Mobilná fyzioterapia" :link="route('page.services.mobile-physiotherapy')" />
                     <x-pjcomponents::navbars.simple-link text="Ambulantná fyzioterapia" :link="route('page.services.ambulatory-physiotherapy')" />
@@ -41,6 +43,9 @@
                 </x-pjcomponents::navbars.items-link>
 
                 <x-pjcomponents::navbars.simple-link text="Naši klienti" :link="route('page.clients')" />
+
+                <x-pjcomponents::navbars.simple-link text="Cenník" :link="route('page.services.index') . '#cennik'" />
+
                 <x-pjcomponents::navbars.simple-link text="Kontakt" :link="route('page.contact')" />
             </x-slot:items>
         </x-pjcomponents::navbars.navbar-1>

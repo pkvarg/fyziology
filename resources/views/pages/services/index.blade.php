@@ -70,7 +70,7 @@
             </x-slot:features>
         </x-pjcomponents::features.layout-290>
 
-        <x-pjcomponents::pricing.pricing-18c1 heading="Cenník">
+        <x-pjcomponents::pricing.pricing-18c1 heading="Cenník" id="cennik">
             <x-slot:text>
                 <span class="primary-color font-bold">Vstupná konzultácia ZDARMA</span>
                 <br>
