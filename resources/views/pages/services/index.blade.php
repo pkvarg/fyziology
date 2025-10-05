@@ -125,41 +125,64 @@
 
                 <x-pjcomponents::pricing.pricing-shared-item-1 tagline="Ambulantná fyzioterapia">
                     <x-slot:benefits>
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="25 min./ 25 €" />
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                            <x-slot:text>
+                                <span class="text-gray-700">25 min./ <span class="font-bold">25 €</span></span>
+                            </x-slot:text>
+                        </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
 
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="50 min./ 45 €" />
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                            <x-slot:text>
+                                <span class="text-gray-700">50 min./ <span class="font-bold">45 €</span></span>
+                            </x-slot:text>
+                        </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
 
                         <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
                             <x-slot:text>
                                 <span class="font-bold text-primary-color">Balík ambulantnej fyzioterapie</span>
                             </x-slot:text>
-                        </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
-
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="10x 25 min./ 225 € (9+1)">
                             <x-slot:icon>
-                                <img src="{{ asset('style_files/SVG prvky/Discount.svg') }}" alt="" class="w-5 h-5">
+                                <img src="{{ asset('assets/svg/Discount.svg') }}" alt="" class="w-5 h-5">
                             </x-slot:icon>
                         </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
 
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="10x 50 min./ 405 € (9+1)">
-                            <x-slot:icon>
-                                <img src="{{ asset('style_files/SVG prvky/Discount.svg') }}" alt="" class="w-5 h-5">
-                            </x-slot:icon>
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                            <x-slot:text>
+                                <span class="text-gray-700">10x 25 min./ <span class="font-bold">225 € (9+1)</span></span>
+                            </x-slot:text>
+                        </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                            <x-slot:text>
+                                <span class="text-gray-700">10x 50 min./ <span class="font-bold">405 € (9+1)</span></span>
+                            </x-slot:text>
                         </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
                     </x-slot:benefits>
                 </x-pjcomponents::pricing.pricing-shared-item-1>
 
                 <x-pjcomponents::pricing.pricing-shared-item-1 tagline="Bankovanie">
                     <x-slot:benefits>
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="25 min./ 25 €" />
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                            <x-slot:text>
+                                <span class="text-gray-700">25 min./ <span class="font-bold">25 €</span></span>
+                            </x-slot:text>
+                        </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
                     </x-slot:benefits>
                 </x-pjcomponents::pricing.pricing-shared-item-1>
 
                 <x-pjcomponents::pricing.pricing-shared-item-1 tagline="Masáže">
                     <x-slot:benefits>
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="25 min./ 30 €" />
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                            <x-slot:text>
+                                <span class="text-gray-700">25 min./ <span class="font-bold">30 €</span></span>
+                            </x-slot:text>
+                        </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
 
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="50 min./ 45 €" />
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                            <x-slot:text>
+                                <span class="text-gray-700">50 min./ <span class="font-bold">45 €</span></span>
+                            </x-slot:text>
+                        </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
                     </x-slot:benefits>
                 </x-pjcomponents::pricing.pricing-shared-item-1>
             </x-slot:prices>
