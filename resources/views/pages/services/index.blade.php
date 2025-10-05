@@ -14,7 +14,7 @@
 
         <div class="px-[5%] py-16 md:py-24 lg:py-28 text-center relative">
             <!-- Gradient Circle - top left -->
-            <div class="absolute -top-[10rem] -left-[25rem] lg:-right-96 w-[100%] lg:w-[52.5%] h-auto pointer-events-none">
+            <div class="absolute hidden lg:inline -top-[10rem] -left-[25rem] lg:-right-96 w-[100%] lg:w-[52.5%] h-auto pointer-events-none">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
             </div>
 
@@ -28,8 +28,9 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <!-- Mobilná a ambulantná fyzioterapia -->
                 <div class="text-center flex flex-col">
-                    <div class="mb-6">
-                        <img src="{{ asset('assets/images/ambulance.jpg') }}" alt="Mobilná a ambulantná fyzioterapia" class="w-full h-48 object-cover rounded-2xl">
+                    <div class="mb-6 overflow-hidden rounded-2xl group relative">
+                        <img src="{{ asset('assets/images/ambulance.jpg') }}" alt="Mobilná a ambulantná fyzioterapia" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                     </div>
                     <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Mobilná a ambulantná<br>fyzioterapia</h3>
                     <a href="{{ route('page.services.ambulatory-physiotherapy') }}" class="bg-primary-color text-white px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity mx-auto">Viac info</a>
@@ -37,8 +38,9 @@
 
                 <!-- Bankovanie -->
                 <div class="text-center flex flex-col">
-                    <div class="mb-6">
-                        <img src="{{ asset('assets/images/bankovanie.jpg') }}" alt="Bankovanie" class="w-full h-48 object-cover rounded-2xl">
+                    <div class="mb-6 overflow-hidden rounded-2xl group relative">
+                        <img src="{{ asset('assets/images/bankovanie.jpg') }}" alt="Bankovanie" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                     </div>
                     <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Bankovanie</h3>
                     <a href="{{ route('page.services.banking') }}" class="bg-primary-color text-white px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity mx-auto">Viac info</a>
@@ -46,8 +48,9 @@
 
                 <!-- Masáže -->
                 <div class="text-center flex flex-col">
-                    <div class="mb-6">
-                        <img src="{{ asset('assets/images/massages-cover.jpg') }}" alt="Masáže" class="w-full h-48 object-cover rounded-2xl">
+                    <div class="mb-6 overflow-hidden rounded-2xl group relative">
+                        <img src="{{ asset('assets/images/massages-cover.jpg') }}" alt="Masáže" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                     </div>
                     <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Masáže</h3>
                     <a href="{{ route('page.services.massages') }}" class="bg-primary-color text-white px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity mx-auto">Viac info</a>
@@ -55,29 +58,10 @@
             </div>
         </div>
 
-        <!-- Získajte prvú konzultáciu zdarma -->
-        <section class="px-[5%] py-16 md:py-24 lg:py-16 relative overflow-hidden bg-gray-50">
-            <div class="container mx-auto w-full max-w-4xl relative z-10">
-                <!-- Gradient Half Circle - left -->
-                <div class="hidden lg:inline absolute top-0 -left-32 w-40 h-40 pointer-events-none">
-                    <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
-                </div>
-
-                <h2 class="text-4xl md:text-5xl lg:text-4xl font-black mb-6 md:mb-8">Získajte prvú konzultáciu zdarma</h2>
-                <p class="text-lg md:text-xl mb-8 md:mb-10 max-w-3xl text-gray-700">
-                    Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
-                </p>
-                <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity">
-                    Vstupná konzultácia ZDARMA
-                </a>
-            </div>
-        </section>
+    
 
         <div class="relative overflow-hidden">
-            <!-- Gradient Circle - near pricing -->
-            <div class="absolute top-[10rem] lg:top-32 -right-56 lg:-right-[25rem] w-[100%] lg:w-[52.5%] h-auto pointer-events-none">
-                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
-            </div>
+         
 
             <x-pjcomponents::pricing.pricing-18c1 heading="Cenník" id="cennik" class="relative z-10">
             <x-slot:text>
@@ -189,15 +173,42 @@
         </x-pjcomponents::pricing.pricing-18c1>
         </div>
 
-        <x-pjcomponents::ctas.cta-7
+        <!-- <x-pjcomponents::ctas.cta-7
             heading="Získajte svoju konzultáciu"
             text="Sme tu, aby sme Vám pomohli na ceste k lepšiemu zdraviu a pohybu. Tešíme sa na Vás!"
         >
             <x-slot:actions>
                 <x-pjcomponents::button label="Objednať sa" :link="route('page.contact')" />
             </x-slot:actions>
-        </x-pjcomponents::ctas.cta-7>
+        </x-pjcomponents::ctas.cta-7> -->
 
+      
+
+          <section class="px-[5%] py-16 md:py-24 lg:py-16 relative">
+                <!-- Gradient Circle - near CTA -->
+            <div class="absolute hidden lg:inline lg:-top-[12.5rem] -right-56 lg:-right-[25rem] w-[100%] lg:w-[52.5%] h-auto pointer-events-none">
+                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
+         
+            <div class="container mx-auto w-full max-w-4xl relative z-10">
+                <!-- Gradient Half Circle - left -->
+                <div class="hidden lg:inline absolute top-0 -left-32 w-40 h-40 pointer-events-none">
+                    <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
+                </div>
+
+                <h2 class="text-4xl md:text-5xl lg:text-4xl font-black mb-6 md:mb-8">Získajte prvú konzultáciu zdarma</h2>
+                <p class="text-lg md:text-xl mb-8 md:mb-10 max-w-3xl text-gray-700">
+                    Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
+                </p>
+                <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity">
+                    Vstupná konzultácia ZDARMA
+                </a>
+            </div>
+        </section>
+
+        
+        
+        
         <x-footer />
     </div>
 
