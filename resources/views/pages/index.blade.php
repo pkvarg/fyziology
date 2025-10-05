@@ -2,151 +2,169 @@
 
 <x-layout>
     <div class="index">
-        <x-pjcomponents::portfolio-headers.header-2
-            heading="Vitajte vo Fyziology!"
-            text="Fyziology je moderná a dynamická firma zameraná na poskytovanie kvalitných fyzioterapeutických služieb a rehabilitácie v Bratislave a okolí. Našim cieľom je pomáhať klientom dosiahnuť ich maximálny potenciál v oblasti pohybu a zdravia, a to pomocou mobilnej fyzioterapie v domácom prostredí klientov."
-        >
-            <x-slot:image>
-                <img src="{{ asset('assets/images/ambulance.jpg') }}" alt="ambulance">
-            </x-slot:image>
-        </x-pjcomponents::portfolio-headers.header-2>
+        <!-- Hero Section -->
+        <section class="px-[5%] py-16 md:py-24 lg:py-16 relative overflow-hidden bg-gray-50">
+            <!-- Gradient Circle - left side -->
+            <div class="absolute hidden lg:inline -top-32 -left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
 
-        <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div>
+            <div class="max-w-4xl mx-auto text-center relative z-10">
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-black mb-6">
+                    Vitajte vo <span class="primary-color">Fyziology</span>!
+                </h1>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8 text-gray-700">
+                    Fyziology je moderná a dynamická firma zameraná na poskytovanie kvalitných fyzioterapeutických služieb a rehabilitácie v Bratislave a okolí. Našim cieľom je pomáhať klientom dosiahnuť ich maximálny potenciál v oblasti pohybu a zdravia, a to pomocou mobilnej fyzioterapie v domácom prostredí klientov.
+                </p>
 
-        <x-pjcomponents::features.layout-207
-            heading="Prečo si vybrať Fyziology?"
-            :features="[
-                'fyzioterapia priamo u Vás doma alebo na ambulancii',
-                'kvalifikovaný a skúsený tím',
-                'podpora a motivácia počas terapie',
-                'profesionalita, ľudskosť a ochota'
-            ]"
-        >
-            <x-slot:feature-icon>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#0c5eb6" d="M96 352L96 96c0-35.3 28.7-64 64-64l256 0c35.3 0 64 28.7 64 64l0 197.5c0 17-6.7 33.3-18.7 45.3l-58.5 58.5c-12 12-28.3 18.7-45.3 18.7L160 416c-35.3 0-64-28.7-64-64zM272 128c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0zm24 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-160 0C60.9 512 0 451.1 0 376L0 152c0-13.3 10.7-24 24-24s24 10.7 24 24l0 224c0 48.6 39.4 88 88 88l160 0z"/></svg>
-            </x-slot:feature-icon>
+                <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity mt-8">
+                    Vstupná konzultácia ZDARMA
+                </a>
+            </div>
+        </section>
 
-            <x-slot:image>
-                <img src="{{ asset('assets/images/car.jpg') }}" alt="mobile physiotherapy" class="max-h-[80vh]">
-            </x-slot:image>
-        </x-pjcomponents::features.layout-207>
+        <!-- Why Choose Fyziology Section -->
+        <section class="px-[5%] py-16 lg:py-0 relative overflow-hidden">
+         
 
-        <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div>
+            <div class="max-w-6xl mx-auto relative z-10">
+                   <!-- Gradient Half Circle - left -->
+            <div class="absolute hidden lg:inline top-0 -left-0 lg:w-36 lg:h-36 pointer-events-none opacity-80">
+                <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
+                <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
+                    <!-- Content -->
+                    <div class="flex-1">
+                        <h2 class="text-3xl md:text-4xl lg:text-2xl font-black mb-6">Prečo si vybrať Fyziology?</h2>
+                        <p class="text-lg md:text-xl mb-6 text-gray-700">
+                            Ponúkame fyzioterapiu priamo u Vás doma alebo v našej ambulancii, ktorú zabezpečuje náš tím s odrazom na profesionalitu, ľudský prístup a ochotu, pričom počas celej terapie poskytujeme neustálu podporu a motiváciu.
+                        </p>
 
-        <x-pjcomponents::features.layout-306 heading="Naše služby">
-            <x-slot:tagline>
-                <span class="primary-color">Služby</span>
-            </x-slot:tagline>
+                        <div class="flex flex-col lg:flex-row gap-8">
+                            <div class="flex flex-col items-start gap-0">
+                                <div class="primary-color font-black text-2xl">Mnoho</div>
+                                <div class="text-gray-700">spokojných zákazníkov</div>
+                            </div>
+                            <div class="flex flex-col items-start gap-0">
+                                <div class="primary-color font-black text-2xl">Profesionálna</div>
+                                <div class="text-gray-700">starostlivosť o pacientov</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <x-slot:features>
-                <x-pjcomponents::features.feature-306 text="Je moderný prístup poskytovania fyzioterapeutickej starostlivosti, ktorý prináša profesionálnu pomoc priamo k pacientovi, bez nutnosti návštevy fyzioterapeutickej ambulancie.">
-                    <x-slot:heading>
-                        <a href="{{ route('page.services.mobile-physiotherapy') }}">Mobilná fyzioterapia</a>
-                    </x-slot:heading>
+                <!-- Large Ambulance Image -->
+                <div class="mt-12">
+                    <img src="{{ asset('assets/images/ambulance.jpg') }}" alt="Ambulance" class="w-full max-w-5xl mx-auto rounded-3xl shadow-lg object-cover" style="max-height: 500px;">
+                </div>
+            </div>
+        </section>
 
-                    <x-slot:image>
-                        <a href="{{ route('page.services.mobile-physiotherapy') }}" class="image-link">
-                            <img src="{{ asset('assets/images/mobilna-fyzioterapia.jpg') }}" alt="mobilna fyzioterapia">
-                        </a>
-                    </x-slot:image>
-                </x-pjcomponents::features.feature-306>
+        <!-- Typy fyzioterapie Section -->
+        <section class="px-[5%] py-16 md:py-20 lg:py-24 bg-gray-50 relative overflow-hidden">
+         
 
-                <x-pjcomponents::features.feature-306 text="Je typ fyzioterapie, ktorý prebieha v rámci zdravotníckeho zariadenia, napríklad v ambulanciách alebo fyzioterapeutických klinikách, kde pacient dochádza na jednotlivé terapie.">
-                    <x-slot:heading>
-                        <a href="{{ route('page.services.ambulatory-physiotherapy') }}">Ambulantná fyzioterapia</a>
-                    </x-slot:heading>
+            <div class="max-w-6xl mx-auto relative z-10">
+                   <!-- Gradient Half Circle - left -->
+            <div class="absolute hidden lg:inline top-0 -left-0 lg:w-36 lg:h-36 pointer-events-none opacity-80">
+                <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
+                 <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
+                    <div class="flex-1">
+                        <h2 class="text-3xl md:text-4xl lg:text-2xl font-black mb-6">Typy fyzioterapie</h2>
+                        <p class="text-lg md:text-xl text-gray-700">
+                            Naše fyzioterapie sú určené predovšetkým starším ľuďom s problémami pohybového aparátu, pacientom po operáciách alebo úrazoch, osobám so zníženou mobilitou, pracujúcim s časovým obmedzením, ľuďom trpiacim chronickými bolesťami & neurologickým pacientom, ktorým chceme uľahčiť a individuálne prispôsobiť fyzioterapii.
+                        </p>
+                    </div>
+                </div>
 
-                    <x-slot:image>
-                        <a href="{{ route('page.services.ambulatory-physiotherapy') }}" class="image-link">
-                            <img src="{{ asset('assets/images/ambulance.jpg') }}" alt="ambulancia">
-                        </a>
-                    </x-slot:image>
-                </x-pjcomponents::features.feature-306>
+                <!-- 6 Service Cards Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                    <!-- Card 1: Fyzioterapia pre seniorov -->
+                    <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                        <img src="{{ asset('assets/images/senior-physiotherapy.jpg') }}" alt="Fyzioterapia pre seniorov" class="w-full h-48 object-cover">
+                        <div class="p-6 text-center">
+                            <h3 class="font-bold text-lg mb-2">Fyzioterapia pre seniorov</h3>
+                        </div>
+                    </div>
 
-                <x-pjcomponents::features.feature-306 text="Bankovanie je terapeutická technika, ktorá sa používa na zlepšenie prietoku krvi, uvoľnenie svalového napätia a zmiernenie bolesti.">
-                    <x-slot:heading>
-                        <a href="{{ route('page.services.banking') }}">Bankovanie</a>
-                    </x-slot:heading>
+                    <!-- Card 2: Fyzioterapia pre dospelých -->
+                    <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                        <img src="{{ asset('assets/images/adult-physiotherapy.jpg') }}" alt="Fyzioterapia pre dospelých" class="w-full h-48 object-cover">
+                        <div class="p-6 text-center">
+                            <h3 class="font-bold text-lg mb-2">Fyzioterapia pre dospelých</h3>
+                        </div>
+                    </div>
 
-                    <x-slot:image>
-                        <a href="{{ route('page.services.banking') }}" class="image-link">
-                            <img src="{{ asset('assets/images/bankovanie.jpg') }}" alt="bankovanie">
-                        </a>
-                    </x-slot:image>
-                </x-pjcomponents::features.feature-306>
+                    <!-- Card 3: Fyzioterapia pri ochoreniach chrbtice -->
+                    <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                        <img src="{{ asset('assets/images/vertebrogenic-physiotherapy.jpg') }}" alt="Fyzioterapia pri ochoreniach chrbtice" class="w-full h-48 object-cover">
+                        <div class="p-6 text-center">
+                            <h3 class="font-bold text-lg mb-2">Fyzioterapia pri ochoreniach chrbtice</h3>
+                        </div>
+                    </div>
 
-                <x-pjcomponents::features.feature-306 text="Masáž je technika, ktorá zahŕňa manipuláciu s pokožkou, svalmi, šľachami a inými mäkkými tkanivami tela.">
-                    <x-slot:heading>
-                        <a href="{{ route('page.services.massages') }}">Masáže</a>
-                    </x-slot:heading>
+                    <!-- Card 4: Fyzioterapia pri neurologických ochoreniach -->
+                    <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                        <img src="{{ asset('assets/images/neurological-physiotherapy.jpg') }}" alt="Fyzioterapia pri neurologických ochoreniach" class="w-full h-48 object-cover">
+                        <div class="p-6 text-center">
+                            <h3 class="font-bold text-lg mb-2">Fyzioterapia pri neurologických ochoreniach</h3>
+                        </div>
+                    </div>
 
-                    <x-slot:image>
-                        <a href="{{ route('page.services.massages') }}" class="image-link">
-                            <img src="{{ asset('assets/images/massages-cover.jpg') }}" alt="masáže">
-                        </a>
-                    </x-slot:image>
-                </x-pjcomponents::features.feature-306>
-            </x-slot:features>
+                    <!-- Card 5: Fyzioterapia pri imobilných pacientoch -->
+                    <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                        <img src="{{ asset('assets/images/immobile-physiotherapy.jpg') }}" alt="Fyzioterapia pri imobilných pacientoch" class="w-full h-48 object-cover">
+                        <div class="p-6 text-center">
+                            <h3 class="font-bold text-lg mb-2">Fyzioterapia pri imobilných pacientoch</h3>
+                        </div>
+                    </div>
 
-            <x-slot:actions>
-                <x-pjcomponents::button type="secondary-arrow" :link="route('page.services.index')" label="Viac" :arrow="true" :border="false" />
-            </x-slot:actions>
-        </x-pjcomponents::features.layout-306>
+                    <!-- Card 6: Fyzioterapia pri poúrazových a pooperačných stavoch -->
+                    <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                        <img src="{{ asset('assets/images/postoperative-physiotherapy.jpg') }}" alt="Fyzioterapia pri poúrazových a pooperačných stavoch" class="w-full h-48 object-cover">
+                        <div class="p-6 text-center">
+                            <h3 class="font-bold text-lg mb-2">Fyzioterapia pri poúrazových a pooperačných stavoch</h3>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div>
+                <div class="text-center">
+                    <a href="{{ route('page.services.index') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity">
+                        Všetky služby, ktoré ponúkame
+                    </a>
+                </div>
+            </div>
+        </section>
 
-        <x-pjcomponents::benefits.layout-66
-            heading="Objavte výhody našich služieb"
-            text="Veríme, že každá terapia by mala byť prispôsobená konkrétnym potrebám jednotlivca. V našej firme sa pozeráme na pacienta ako na celok, nielen na konkrétny problém alebo symptóm."
-            :benefits="[
-                'fyzioterapeutické konzultácie',
-                'individuálne rehabilitačné programy',
-                'prevencia a poradenstvo v oblasti zdravého životného štýlu',
-                'pomoc pri akútnej či chronickej bolesti',
-            ]"
-        >
-            <x-slot:benefit-icon>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#0c5eb6" d="M96 352L96 96c0-35.3 28.7-64 64-64l256 0c35.3 0 64 28.7 64 64l0 197.5c0 17-6.7 33.3-18.7 45.3l-58.5 58.5c-12 12-28.3 18.7-45.3 18.7L160 416c-35.3 0-64-28.7-64-64zM272 128c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0zm24 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-160 0C60.9 512 0 451.1 0 376L0 152c0-13.3 10.7-24 24-24s24 10.7 24 24l0 224c0 48.6 39.4 88 88 88l160 0z"/></svg>
-            </x-slot:benefit-icon>
-        </x-pjcomponents::benefits.layout-66>
+        <!-- Náš tím Section -->
+        <section class="px-[5%] py-16 md:py-20 lg:py-24">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-black mb-6">Náš tím</h2>
+                <p class="text-lg md:text-xl mb-12 text-gray-700 max-w-3xl">
+                    Za našimi službami stojí odborne pripravený fyzioterapeut, ktorý pristupuje ku každému klientovi s individuálne, s rešpektom a plným nasadením. Vďaka odbornému vzdelaniu, praxi a ľudskému prístupu vytvárame bezpečné a podporujúce prostredie, v ktorom sa klienti môžu sústrediť na svoje zdravie.
+                </p>
 
-        <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div>
+                <div class="flex flex-col lg:flex-row gap-8 items-center bg-gray-50 rounded-3xl p-8">
+                    <!-- Circular Avatar -->
+                    <div class="flex-shrink-0">
+                        <img src="{{ asset('assets/images/vlado.jpg') }}" alt="Mgr. Vladimír Chovanec" class="w-48 h-48 lg:w-64 lg:h-64 rounded-full object-cover shadow-lg">
+                    </div>
 
-        <x-pjcomponents::ctas.cta-7
-            heading="Získajte svoju konzultáciu"
-            text="Sme tu, aby sme Vám pomohli na ceste k lepšiemu zdraviu a pohybu. Tešíme sa na Vás!"
-        >
-            <x-slot:actions>
-                <x-pjcomponents::button label="Objednať sa" :link="route('page.contact')" />
-                <x-pjcomponents::button type="secondary" label="Naše služby" :link="route('page.services.index')" />
-            </x-slot:actions>
-        </x-pjcomponents::ctas.cta-7>
-
-        <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div>
-
-        <x-pjcomponents::teams.team-17 heading="Náš tím">
-            <x-slot:tagline>
-                <span class="primary-color">Tím</span>
-            </x-slot:tagline>
-
-            <x-slot:team-members>
-                <x-pjcomponents::teams.member-17
-                    name="Mgr. Vladimír Chovanec"
-                    role="Fyzioterapeut"
-                >
-                    <x-slot:text>
-                        Bakalárske štúdium absolvoval na Slovenskej zdravotníckej univerzite v Bratislave. Počas štúdia nadobudol praktické skúsenosti a znalosti v rôznych nemocniciach a súkromných zdravotníckych zariadeniach. Magisterské štúdium ukončil na Univerzite sv. Cyrila a Metoda v Trnave, počas ktorého pracoval v súkromnom zariadení.
-                        <br>
-                        <br>
-                        Tvrdí, že pohyb je medicína a vďaka nemu sa ľudia dokážu vrátiť po zdravotných problémoch do bežného života rýchlejšie. Svoje znalosti naďalej rozvíja, učí sa novým veciam a teší sa ďalším výzvam.
-                    </x-slot:text>
-
-                    <x-slot:avatar>
-                        <img src="{{ asset('assets/images/vlado.jpg') }}" alt="avatar">
-                    </x-slot:avatar>
-                </x-pjcomponents::teams.member-17>
-            </x-slot:team-members>
-        </x-pjcomponents::teams.team-17>
+                    <!-- Bio Text -->
+                    <div class="flex-1">
+                        <h3 class="text-2xl lg:text-3xl font-bold mb-2">Mgr. Vladimír Chovanec</h3>
+                        <p class="text-primary-color font-semibold mb-4">Fyzioterapeut</p>
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            Bakalárske štúdium absolvoval na Slovenskej zdravotníckej univerzite v Bratislave. Počas štúdia nadobudol praktické skúsenosti a znalosti v rôznych nemocniciach a súkromných zdravotníckych zariadeniach. Magisterské štúdium ukončil na Univerzite sv. Cyrila a Metoda v Trnave, počas ktorého pracoval v súkromnom zariadení.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed">
+                            Tvrdí, že pohyb je medicína a vďaka nemu sa ľudia dokážu vrátiť po zdravotných problémoch do bežného života rýchlejšie. Svoje znalosti naďalej rozvíja, učí sa novým veciam a teší sa ďalším výzvam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <x-pjcomponents::testimonials.testimonial-3 heading="Recenzie">
             <x-slot:testimonials>
