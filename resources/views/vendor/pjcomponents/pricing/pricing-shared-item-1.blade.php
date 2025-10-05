@@ -1,26 +1,29 @@
-<div {{ $attributes->merge(['class' => 'pricing-18-item flex h-full flex-col justify-between border border-border-primary px-6 py-8 md:p-8']) }}>
-    <div>
-        <div class="rb-6 mb-6 text-center md:mb-8">
+<div {{ $attributes->merge(['class' => 'pricing-18-item flex h-full flex-col justify-start bg-white rounded-3xl px-8 py-8 md:px-10 md:py-10 shadow-sm relative overflow-hidden']) }}>
+    <!-- Blue gradient corner decoration -->
+    <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-blue-200 to-transparent rounded-bl-full opacity-40 pointer-events-none"></div>
+
+    <div class="relative z-10">
+        <div class="mb-6 md:mb-6">
             @isset($tagline)
-                <h6 class="text-md font-bold md:text-xl">{{ $tagline }}</h6>
+                <h3 class="text-xl font-black md:text-2xl text-[#2563A7] mb-6 text-left">{{ $tagline }}</h3>
             @endisset
 
             @isset($heading)
-                <h1 class="heading my-2 text-6xl font-bold md:text-7xl">{{ $heading }}</h1>
+                <h1 class="heading my-2 text-6xl font-bold md:text-7xl text-left">{{ $heading }}</h1>
             @endisset
 
             @isset($subheading)
-                <p>{{ $subheading }}</p>
+                <p class="text-left">{{ $subheading }}</p>
             @endisset
         </div>
         @isset($benefits)
-            <div class="mb-8 grid grid-cols-1 gap-4 py-2">
+            <div class="grid grid-cols-1 gap-2.5 text-left">
                 {{ $benefits }}
             </div>
         @endisset
     </div>
     @isset($actions)
-        <div class="actions">
+        <div class="actions relative z-10">
             {{ $actions }}
         </div>
     @endisset

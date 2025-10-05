@@ -81,85 +81,85 @@
 
             <x-pjcomponents::pricing.pricing-18c1 heading="Cenník" id="cennik" class="relative z-10">
             <x-slot:text>
-                <span class="primary-color font-bold">Vstupná konzultácia ZDARMA</span>
-                <br>
-                <br>
-                Dohodnite si stretnutie s našim fyzioterapeutom a vstupnú konzultáciu máte zdarma. Ak nemáte čas na stretnutie, konzultovať vieme aj telefonicky.
-                <br>
-                <br>
-                Využite náš výhodný balík mobilnej fyzioterapie priamo u Vás doma alebo balík ambulantnej fyzioterapie v priestoroch našej prevádzky.
+                <p>Dohodnite si stretnutie s našim fyzioterapeutom a vstupnú konzultáciu máte zdarma.<br>Ak nemáte čas na stretnutie, konzultovať vieme aj telefonicky.</p>
+                <p>Využite náš výhodný balík mobilnej fyzioterapie priamo u Vás doma alebo balík<br>ambulantnej fyzioterapie v priestoroch našej prevádzky.</p>
             </x-slot:text>
 
             <x-slot:prices>
                 <x-pjcomponents::pricing.pricing-shared-item-1 tagline="Mobilná fyzioterapia">
                     <x-slot:benefits>
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="25 min./ 35 €">
-                            <x-slot:icon><x-icons.tag /></x-slot:icon>
-                        </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
-
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="50 min./ 60 €">
-                            <x-slot:icon><x-icons.tag /></x-slot:icon>
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                            <x-slot:text>
+                                <span class="text-gray-700">25 min./ <span class="font-bold">35 €</span></span>
+                            </x-slot:text>
                         </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
 
                         <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
                             <x-slot:text>
-                                <span class="font-bold">Balík mobilnej fyzioterapie</span>
+                                <span class="text-gray-700">50 min./ <span class="font-bold">60 €</span></span>
                             </x-slot:text>
                         </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
 
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="10x 25 min./ 315 € (9+1)">
-                            <x-slot:icon><x-icons.tag /></x-slot:icon>
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                            <x-slot:text>
+                                <span class="font-bold text-primary-color">Balík mobilnej fyzioterapie</span>
+                            </x-slot:text>
+                            <x-slot:icon>
+                                <img src="{{ asset('assets/svg/Discount.svg') }}" alt="" class="w-5 h-5">
+                            </x-slot:icon>
                         </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
 
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="10x 50 min./ 480 € (8+2)">
-                            <x-slot:icon><x-icons.tag /></x-slot:icon>
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                            <x-slot:text>
+                                <span class="text-gray-700">10x 25 min./ <span class="font-bold">315 € (9+1)</span> </span>
+                            </x-slot:text>
+                        </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                            <x-slot:text>
+                                <span class="text-gray-700">10x 50 min./ <span class="font-bold">480 € (8+2)</span> </span>
+                            </x-slot:text>
                         </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
                     </x-slot:benefits>
                 </x-pjcomponents::pricing.pricing-shared-item-1>
 
                 <x-pjcomponents::pricing.pricing-shared-item-1 tagline="Ambulantná fyzioterapia">
                     <x-slot:benefits>
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="25 min./ 25 €">
-                            <x-slot:icon><x-icons.tag /></x-slot:icon>
-                        </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="25 min./ 25 €" />
 
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="50 min./ 45 €">
-                            <x-slot:icon><x-icons.tag /></x-slot:icon>
-                        </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="50 min./ 45 €" />
 
                         <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
                             <x-slot:text>
-                                <span class="font-bold">Balík ambulantnej fyzioterapie</span>
+                                <span class="font-bold text-primary-color">Balík ambulantnej fyzioterapie</span>
                             </x-slot:text>
                         </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
 
                         <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="10x 25 min./ 225 € (9+1)">
-                            <x-slot:icon><x-icons.tag /></x-slot:icon>
+                            <x-slot:icon>
+                                <img src="{{ asset('style_files/SVG prvky/Discount.svg') }}" alt="" class="w-5 h-5">
+                            </x-slot:icon>
                         </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
 
                         <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="10x 50 min./ 405 € (9+1)">
-                            <x-slot:icon><x-icons.tag /></x-slot:icon>
+                            <x-slot:icon>
+                                <img src="{{ asset('style_files/SVG prvky/Discount.svg') }}" alt="" class="w-5 h-5">
+                            </x-slot:icon>
                         </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
                     </x-slot:benefits>
                 </x-pjcomponents::pricing.pricing-shared-item-1>
 
                 <x-pjcomponents::pricing.pricing-shared-item-1 tagline="Bankovanie">
                     <x-slot:benefits>
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="25 min./ 25 €">
-                            <x-slot:icon><x-icons.tag /></x-slot:icon>
-                        </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="25 min./ 25 €" />
                     </x-slot:benefits>
                 </x-pjcomponents::pricing.pricing-shared-item-1>
 
                 <x-pjcomponents::pricing.pricing-shared-item-1 tagline="Masáže">
                     <x-slot:benefits>
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="25 min./ 30 €">
-                            <x-slot:icon><x-icons.tag /></x-slot:icon>
-                        </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="25 min./ 30 €" />
 
-                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="50 min./ 45 €">
-                            <x-slot:icon><x-icons.tag /></x-slot:icon>
-                        </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                        <x-pjcomponents::pricing.pricing-shared-plan-benefit-1 text="50 min./ 45 €" />
                     </x-slot:benefits>
                 </x-pjcomponents::pricing.pricing-shared-item-1>
             </x-slot:prices>
