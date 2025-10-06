@@ -1,5 +1,5 @@
 <!-- Contact & Footer Section - Blue Background -->
-<section class="bg-primary-color text-white px-[5%] py-16 md:py-20 lg:py-24">
+<section class="bg-primary-color text-white px-[5%] py-16 md:py-20 lg:py-24 mt-16 lg:mt-0">
     <div class="max-w-6xl mx-auto">
         <!-- Logo -->
         <div class="mb-12">
