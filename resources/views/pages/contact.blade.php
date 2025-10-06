@@ -9,7 +9,7 @@
 <x-layout>
 
     <div class="contact">
-           <!-- Gradient Circle - bottom right -->
+           
 
         <x-pjcomponents::contacts.contact-1
             heading="Kontaktný formulár"

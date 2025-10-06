@@ -1,19 +1,19 @@
-<section {{ $attributes->merge(['class' => 'faq-7 px-[5%] py-16 md:py-24 lg:py-28 relative overflow-hidden']) }}>
+<section {{ $attributes->merge(['class' => 'faq-7 px-[5%] py-0 lg:py-28 relative']) }}>
     <!-- Gradient Circle - bottom right near FAQ -->
-    <div class="absolute hidden lg:inline top-[30rem] lg:top-64 -right-56 lg:-right-96 w-[100%] lg:w-[52.5%] h-auto pointer-events-none">
+    <div class="absolute lg:inline -top-32 lg:-top-64 -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
         <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
     </div>
 
     <div class="container mx-auto w-full max-w-lg lg:max-w-6xl relative z-10">
         <!-- Gradient Half Circle - bottom right -->
-        <div class="hidden lg:flex absolute top-[155px] -left-[12%] w-40 h-40  pointer-events-none">
-            <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
+        <div class="lg:flex absolute top-[155px] -left-[12%] w-40 h-40  pointer-events-none">
+            <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-28 lg:w-full h-28 lg:h-full object-contain" />
         </div>
 
         <div class="rb-12 mb-12 text-left md:mb-18 lg:mb-20">
-            <h2 class="rb-5 mb-5 text-4xl font-black md:mb-6 md:text-6xl">{{ $heading }}</h2>
+            <h2 class="rb-5 mb-5 text-4xl font-black md:mb-6 md:text-6xl ml-12 lg:ml-0">{{ $heading }}</h2>
             @isset($text)
-                <p class="md:text-md">{{ $text }}</p>
+                <p class="md:text-md ml-12 lg:ml-0">{{ $text }}</p>
             @endisset
         </div>
         <div class="grid grid-cols-1 gap-x-12 gap-y-10 md:gap-y-12">
