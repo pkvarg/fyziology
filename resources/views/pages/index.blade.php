@@ -24,7 +24,7 @@
         </section>
 
         <!-- Why Choose Fyziology Section -->
-        <section class="px-[5%] py-16 lg:py-0 relative overflow-hidden">
+        <section class="px-[5%] lg:py-0 relative overflow-hidden">
          
 
             <div class="max-w-6xl mx-auto relative z-10">
@@ -61,7 +61,7 @@
         </section>
 
         <!-- Typy fyzioterapie Section -->
-        <section class="px-[5%] py-16 md:py-20 lg:py-24 bg-gray-50 relative">
+        <section class="px-[5%] py-12 md:py-20 lg:py-24 bg-gray-50 relative">
                 <!-- Gradient Circle - left side -->
             <div class="absolute hidden lg:inline -top-64 -right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
@@ -83,7 +83,7 @@
                 </div>
 
                 <!-- 6 Service Cards Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mb-8 mt-24">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 lg:gap-8 max-w-5xl mx-auto mb-8 mt-8 lg:mt-24">
                     <!-- Fyzioterapia pre seniorov -->
                     <a href="{{ route('page.services.senior-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
                         <div class="mb-6 overflow-hidden rounded-2xl relative">
@@ -193,14 +193,16 @@
       
 
         <!-- Recenzie Section -->
-        <section class="px-[5%] py-16 md:py-20 lg:py-24 bg-gray-50 relative overflow-hidden">
-            <!-- Gradient Half Circle - left -->
-            <div class="absolute hidden lg:inline top-[6rem] left-[10rem] w-32 h-32 lg:w-40 lg:h-40 pointer-events-none opacity-80">
+         <section class="px-[5%] py-16 md:py-20 lg:py-8 relative overflow-hidden">
+                        <!-- Gradient Half Circle - left -->
+            <div class="absolute hidden lg:inline top-[2rem] left-[10rem] w-32 h-32 lg:w-40 lg:h-40 pointer-events-none opacity-80">
                 <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
             </div>
+         
 
             <div class="max-w-6xl mx-auto relative z-10">
-                <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
+       
+                 <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
                     <div class="flex-1">
                         <h2 class="text-3xl md:text-4xl lg:text-2xl font-black mb-6">Recenzie od našich zákazníkov</h2>
                         <p class="text-lg md:text-xl text-gray-700">

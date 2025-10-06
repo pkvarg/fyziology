@@ -25,7 +25,64 @@
             </x-slot:text>
         </x-pjcomponents::long-form-contents.content-7>
 
-        <x-pjcomponents::features.layout-290>
+               <!-- 6 Service Cards Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto mb-8 mt-24">
+                    <!-- Fyzioterapia pre seniorov -->
+                    <a href="{{ route('page.services.senior-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
+                        <div class="mb-6 overflow-hidden rounded-2xl relative">
+                            <img src="{{ asset('assets/images/fyzio-pre-seniorov.jpg') }}" alt="Fyzioterapia pre seniorov" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pre seniorov</h3>
+                    </a>
+
+                    <!-- Fyzioterapia pre dospelých -->
+                    <a href="{{ route('page.services.adult-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
+                        <div class="mb-6 overflow-hidden rounded-2xl relative">
+                            <img src="{{ asset('assets/images/fyzio-pre-dospelych.jpg') }}" alt="Fyzioterapia pre dospelých" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pre dospelých</h3>
+                    </a>
+
+                    <!-- Fyzioterapia pri ochoreniach chrbtice -->
+                    <a href="{{ route('page.services.vertebrogenic-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
+                        <div class="mb-6 overflow-hidden rounded-2xl relative">
+                            <img src="{{ asset('assets/images/verte.jpg') }}" alt="Fyzioterapia pri ochoreniach chrbtice" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pri ochoreniach chrbtice</h3>
+                    </a>
+
+                    <!-- Fyzioterapia pri neurologických ochoreniach -->
+                    <a href="{{ route('page.services.neurological-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
+                        <div class="mb-6 overflow-hidden rounded-2xl relative">
+                            <img src="{{ asset('assets/images/neuro.jpg') }}" alt="Fyzioterapia pri neurologických ochoreniach" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pri neurologických ochoreniach</h3>
+                    </a>
+
+                    <!-- Fyzioterapia pri imobilných pacientoch -->
+                    <a href="{{ route('page.services.immobile-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
+                        <div class="mb-6 overflow-hidden rounded-2xl relative">
+                            <img src="{{ asset('assets/images/imobilny-pacienti.jpg') }}" alt="Fyzioterapia pri imobilných pacientoch" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pri imobilných pacientoch</h3>
+                    </a>
+
+                    <!-- Fyzioterapia pri poúrazových a pooperačných stavoch -->
+                    <a href="{{ route('page.services.postoperative-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
+                        <div class="mb-6 overflow-hidden rounded-2xl relative">
+                            <img src="{{ asset('assets/images/pooperacne.jpg') }}" alt="Fyzioterapia pri poúrazových a pooperačných stavoch" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pri poúrazových a pooperačných stavoch</h3>
+                    </a>
+                </div>
+
+        <!-- <x-pjcomponents::features.layout-290>
             <x-slot:features>
                 <x-pjcomponents::features.feature-290
                     heading="Fyzioterapia pre seniorov"
@@ -92,7 +149,7 @@
                     </x-slot:actions>
                 </x-pjcomponents::features.feature-290>
             </x-slot:features>
-        </x-pjcomponents::features.layout-290>
+        </x-pjcomponents::features.layout-290> -->
 
         <x-pjcomponents::galleries.gallery-3 heading="Fotogaléria">
             <x-slot:images>
