@@ -3,7 +3,7 @@
 <x-layout>
     <div class="senior-physiotherapy bg-gray-50">
         <!-- Hero Section with Gradient Circle -->
-        <section class="px-[5%] py-16 md:py-20 lg:py-16 relative overflow-hidden">
+        <section class="px-[5%] py-4 lg:py-4 relative overflow-hidden">
            <!-- Gradient Circle - left side -->
             <div class="absolute hidden lg:inline -top-32 -left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
@@ -35,7 +35,7 @@
         </section>
 
         <!-- Key Aspects Section with Gradient Circle -->
-        <section class="px-[5%] py-16 md:py-20 lg:py-24 relative">
+        <section class="px-[5%] py-8 lg:py-8 relative">
               <!-- Gradient Circle - right side -->
             <div class="absolute hidden lg:inline -top-[12rem] -right-[24rem] w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />

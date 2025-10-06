@@ -3,14 +3,14 @@
 <x-layout xmlns:x-slot="http://www.w3.org/1999/html">
 
     <div class="pricing relative overflow-hidden">
-        <div class="px-[5%] py-16 md:py-24 lg:py-28 text-center relative">
+        <div class="px-[5%] py-16 md:py-24 lg:py-8 text-center relative">
             <!-- Gradient Circle - top left -->
             <div class="absolute hidden lg:inline -top-[10rem] -left-[25rem] lg:-right-96 w-[100%] lg:w-[52.5%] h-auto pointer-events-none">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
             </div>
 
             <h1 class="text-4xl md:text-6xl font-black mb-5 md:mb-6 relative z-10">Cenník</h1>
-            <div class="max-w-3xl mx-auto md:text-lg relative z-10">
+            <div class="max-w-3xl mx-auto md:text-lg relative z-10 mt-12">
                 <p>Dohodnite si stretnutie s našim fyzioterapeutom a vstupnú konzultáciu máte zdarma.<br>Ak nemáte čas na stretnutie, konzultovať vieme aj telefonicky.</p>
                 <p class="mt-4">Využite náš výhodný balík mobilnej fyzioterapie priamo u Vás doma alebo balík<br>ambulantnej fyzioterapie v priestoroch našej prevádzky.</p>
             </div>
@@ -141,10 +141,13 @@
                 <p class="text-lg md:text-xl mb-8 md:mb-10 max-w-3xl text-gray-700">
                     Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
                 </p>
-                <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity">
+                <!-- <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity">
+                    Vstupná konzultácia ZDARMA
+                </a> -->
+            </div>
+                 <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity lg:ml-[10rem] mt-4">
                     Vstupná konzultácia ZDARMA
                 </a>
-            </div>
         </section>
 
         <x-footer />

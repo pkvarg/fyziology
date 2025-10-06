@@ -1,4 +1,4 @@
-<section {{ $attributes->merge(['class' => 'pricing-18c1 px-[5%] py-16 md:py-24 lg:py-28']) }}>
+<section {{ $attributes->merge(['class' => 'pricing-18c1 px-[5%] py-0 lg:py-0 -mt-12 lg:mt-0']) }}>
     <div class="mx-auto mb-12 max-w-4xl text-center md:mb-14 lg:mb-16">
         @isset($tagline)
             <p class="mb-3 font-semibold md:mb-4">{{ $tagline }}</p>
