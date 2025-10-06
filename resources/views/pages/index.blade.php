@@ -153,7 +153,7 @@
          <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
   <section class="px-[5%] py-16 md:py-20 lg:py-8 relative overflow-hidden">
             <!-- Gradient Half Circle - left -->
-            <div class="absolute top-8 left-[2rem] w-32 h-32 lg:w-40 lg:h-40 pointer-events-none opacity-80">
+            <div class="absolute hidden lg:inline top-8 left-[2rem] w-32 h-32 lg:w-40 lg:h-40 pointer-events-none opacity-80">
                 <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
             </div>
 
@@ -167,7 +167,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col lg:flex-row gap-8 items-center bg-gray-50 rounded-3xl p-8 mt-12">
+                <div class="flex flex-col lg:flex-row gap-8 items-center bg-gray-50 rounded-3xl lg:p-8 mt-12">
                     <!-- Circular Avatar with Gradient Overlay -->
                     <div class="flex-shrink-0 relative">
                         <img src="{{ asset('assets/images/vlado.jpg') }}" alt="Mgr. Vladimír Chovanec" class="w-48 h-48 lg:w-64 lg:h-64 rounded-full object-cover shadow-lg">
