@@ -44,7 +44,7 @@
 
                 <x-pjcomponents::navbars.simple-link text="Naši klienti" :link="route('page.clients')" />
 
-                <x-pjcomponents::navbars.simple-link text="Cenník" :link="route('page.services.index') . '#cennik'" />
+                <x-pjcomponents::navbars.simple-link text="Cenník" :link="route('page.pricing')" />
 
                 <x-pjcomponents::navbars.simple-link text="Kontakt" :link="route('page.contact')" />
             </x-slot:items>

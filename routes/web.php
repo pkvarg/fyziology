@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageController::class, 'index'])->name('page.index');
 Route::get('/nasi-klienti', [PageController::class, 'clients'])->name('page.clients');
+Route::get('/cennik', [PageController::class, 'pricing'])->name('page.pricing');
 Route::get('/kontakt', [PageController::class, 'contact'])->name('page.contact');
 Route::get('/vseobecne-obchodne-podmienky', [PageController::class, 'terms'])->name('page.terms');
 Route::get('/reklamacne-podmienky', [PageController::class, 'complaints'])->name('page.complaints');

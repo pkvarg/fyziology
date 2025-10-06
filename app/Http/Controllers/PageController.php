@@ -86,6 +86,11 @@ class PageController
         return view('pages.clients');
     }
 
+    public function pricing(): View
+    {
+        return view('pages.pricing');
+    }
+
     public function contact(): View
     {
         return view('pages.contact');
