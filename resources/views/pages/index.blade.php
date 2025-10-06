@@ -321,12 +321,10 @@
                         <!-- Email -->
                         <div class="flex items-start gap-4 mb-6">
                             <div class="w-12 h-12 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                                </svg>
+                                <img src="{{ asset('assets/svg/Email icon.svg') }}" alt="Email" class="w-8 h-8" />
                             </div>
                             <div>
-                                <p class="text-sm opacity-80 ">Email</p>
+                                <p class="text-sm opacity-80">Email</p>
                                 <a href="mailto:info@fyziology.sk" class="text-lg hover:text-cyan-300 transition-colors text-[#c5eaf4]">info@fyziology.sk</a>
                             </div>
                         </div>
@@ -334,12 +332,10 @@
                         <!-- Phone -->
                         <div class="flex items-start gap-4 mb-6">
                             <div class="w-12 h-12 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
-                                </svg>
+                                <img src="{{ asset('assets/svg/Phone icon.svg') }}" alt="Phone" class="w-8 h-8" />
                             </div>
                             <div>
-                                <p class="text-sm opacity-80 mb-1">Telefón</p>
+                                <p class="text-sm opacity-80">Telefón</p>
                                 <a href="tel:+421918378781" class="text-lg hover:text-cyan-300 transition-colors text-[#c5eaf4]">+421 918 378 781</a>
                             </div>
                         </div>
@@ -347,15 +343,19 @@
                         <!-- Address -->
                         <div class="flex items-start gap-4 mb-6">
                             <div class="w-12 h-12 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-                                </svg>
+                                <img src="{{ asset('assets/svg/Pin icon.svg') }}" alt="Location" class="w-8 h-8" />
                             </div>
                             <div>
-                                <p class="text-sm opacity-80 mb-1">Ambulancia</p>
-                                <a href="https://maps.app.goo.gl/Kc8RaixEGxa46mCq6" class="text-lg text-[#c5eaf4] hover:text-cyan-300 transition-colors">
-                                    Námestie Martina Benku 12,<br>
-                                    811 07 Bratislava, Staré Mesto<br>
+                                <p class="text-sm opacity-80 ">Ambulancia</p>
+                                <a href="https://maps.app.goo.gl/Kc8RaixEGxa46mCq6" class="text-lg text-[#c5eaf4] hover:text-cyan-300 transition-colors flex flex-col gap-0">
+                                    <span>
+ Námestie Martina Benku 12,
+                                    </span>
+                                   
+                                    <span>
+ 811 07 Bratislava, Staré Mesto
+                                    </span>
+                                   
                                     <span class="text-sm opacity-80">(obchodná pasáž, prízemie)</span>
                                 </a>
                             </div>
@@ -364,22 +364,22 @@
                         <!-- Company Info -->
                         <div class="flex items-start gap-4 mb-8">
                             <div class="w-12 h-12 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 576 512">
-                                    <path d="M512 80c8.8 0 16 7.2 16 16l0 320c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16L48 96c0-8.8 7.2-16 16-16l448 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM208 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm-32 32c-44.2 0-80 35.8-80 80c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80l-64 0zM376 144c-13.3 0-24 10.7-24 24s10.7 24 24 24l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0z"/>
-                                </svg>
+                                <img src="{{ asset('assets/svg/Card icon.svg') }}" alt="ID Card" class="w-8 h-8" />
                             </div>
                             <div>
-                                <p class="text-sm opacity-80 mb-1">Údaje</p>
-                                <p class="text-lg text-[#c5eaf4]">
-                                    IČO: 56641605<br>
-                                    DIČ: 1127841165
+                                <p class="text-sm opacity-80">Údaje</p>
+                                <p class="text-lg text-[#c5eaf4] flex flex-col gap-0">
+                                    <span>IČO: 56641605</span>
+                                    <span>DIČ: 1127841165</span>
+                                  
+                                   
                                 </p>
                             </div>
                         </div>
 
                         <!-- Opening Hours -->
                         <div class="pt-6 ">
-                            <h3 class="text-2xl font-bold mb-3">Otváracie hodiny</h3>
+                            <h3 class="text-2xl font-bold mb-1">Otváracie hodiny</h3>
                             <p class="text-lg text-[#c5eaf4]">Pon-Pia: 8:00 - 12:00 a 13:00 - 16:00</p>
                         </div>
                     </div>
@@ -402,7 +402,7 @@
 
                 <!-- Footer Links -->
                 <div class="mt-16 pt-8 border-t border-white/20">
-                    <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-80">
+                    <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[#c5eaf4]">
                         <p>©2025 Fyziology</p>
                         <div class="flex flex-wrap justify-center gap-6">
                             <a href="{{ route('page.terms') }}" class="hover:text-cyan-300 transition-colors">Všeobecné obchodné podmienky</a>
