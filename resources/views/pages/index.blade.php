@@ -139,7 +139,7 @@
                     </a>
                 </div>
 
-                <div class="text-center pt-16">
+                <div class="text-center pt-10 lg:pt-16">
                     <a href="{{ route('page.services.index') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity">
                         Všetky služby, ktoré ponúkame
                     </a>
@@ -193,7 +193,7 @@
       
 
         <!-- Recenzie Section -->
-         <section class="px-[5%] py-16 md:py-20 lg:py-8 relative overflow-hidden">
+         <section class="px-[5%] lg:py-16 md:py-20 lg:py-8 relative overflow-hidden">
                         <!-- Gradient Half Circle - left -->
             <div class="absolute hidden lg:inline top-[2rem] left-[10rem] w-32 h-32 lg:w-40 lg:h-40 pointer-events-none opacity-80">
                 <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
