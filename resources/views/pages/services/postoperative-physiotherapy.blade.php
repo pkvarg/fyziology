@@ -3,7 +3,7 @@
 <x-layout>
     <div class="postoperative-physiotherapy bg-gray-50">
         <!-- Hero Section with Gradient Circle -->
-        <section class="px-[5%] py-16 md:py-20 lg:py-16 relative overflow-hidden">
+        <section class="px-[5%] py-4 lg:py-4 relative overflow-hidden">
            <!-- Gradient Circle - left side -->
             <div class="absolute hidden lg:inline -top-32 -left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
@@ -32,7 +32,7 @@
         </section>
 
         <!-- Key Aspects Section with Gradient Circle -->
-        <section class="px-[5%] py-16 md:py-20 lg:py-24 relative">
+        <section class="px-[5%] py-8 lg:py-8 relative">
               <!-- Gradient Circle - right side -->
             <div class="absolute hidden lg:inline -top-[12rem] -right-[24rem] w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
@@ -81,11 +81,14 @@
                 <p class="text-lg md:text-lg mb-8 md:mb-10 max-w-3xl text-gray-700">
                     Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
                 </p>
-                <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity">
+           
+            </div>
+   <div class="flex lg:justify-start
+            justify-center">
+   <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity lg:ml-[15rem] mt-4">
                     Vstupná konzultácia ZDARMA
                 </a>
             </div>
-
         <x-footer />
     </div>
 </x-layout>

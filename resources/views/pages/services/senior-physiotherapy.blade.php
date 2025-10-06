@@ -91,10 +91,15 @@
                 <p class="text-lg md:text-lg mb-8 md:mb-10 max-w-3xl text-gray-700">
                     Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
                 </p>
-                <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity">
+             
+            </div>
+            <div class="flex lg:justify-start
+            justify-center">
+   <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity lg:ml-[15rem] mt-4">
                     Vstupná konzultácia ZDARMA
                 </a>
             </div>
+             
 
         <x-footer />
     </div>
