@@ -82,7 +82,7 @@
         </x-pjcomponents::faq.faq-7>
 
         <x-contact-info />
-        <x-footer />
+        {{-- <x-footer /> --}}
     </div>
 
 </x-layout>
