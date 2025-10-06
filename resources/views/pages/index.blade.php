@@ -192,24 +192,111 @@
          
       
 
-        <x-pjcomponents::testimonials.testimonial-3 heading="Recenzie">
-            <x-slot:testimonials>
-                <x-pjcomponents::testimonials.testimonial-3-item
-                    text="Fyzioterapiu som vyhľadala kvôli bolestiam v chrbtici a s prístupom a liečbou som bola veľmi spokojná. Terapeut bol profesionálny, dôkladne vyhodnotil môj stav a prispôsobil terapiu mojim potrebám. Bolesť sa výrazne zmiernila a zlepšila sa aj pohyblivosť."
-                    author="Sofia"
-                />
+        <!-- Recenzie Section -->
+        <section class="px-[5%] py-16 md:py-20 lg:py-24 bg-gray-50 relative overflow-hidden">
+            <!-- Gradient Half Circle - left -->
+            <div class="absolute hidden lg:inline top-[6rem] left-[10rem] w-32 h-32 lg:w-40 lg:h-40 pointer-events-none opacity-80">
+                <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
 
-                <x-pjcomponents::testimonials.testimonial-3-item
-                    text="Počas terapie som sa cítil príjemne, komunikáciu a prístup hodnotím kladne. Pán Vlado mi ukázal cvičenia, ktoré môžem vykonávať doma a nadobudnúť další pokrok. Celkovo hodnotím svoju skúsenosť pozitívne a odporúčam službu každému kto potrebuje pomoc pri rehabilitácii."
-                    author="Daniel"
-                />
+            <div class="max-w-6xl mx-auto relative z-10">
+                <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
+                    <div class="flex-1">
+                        <h2 class="text-3xl md:text-4xl lg:text-2xl font-black mb-6">Recenzie od našich zákazníkov</h2>
+                        <p class="text-lg md:text-xl text-gray-700">
+                            Spokojnosť našich klientov je pre nás najlepšou spätnou väzbou a zároveň motiváciou neustále sa zlepšovať. Každá pozitívna skúsenosť, ktorú s nami zdieľate, je dôkazom, že individuálny prístup, odborná starostlivosť a ľudský kontakt majú skutočný význam.
+                        </p>
+                    </div>
+                </div>
 
-                <x-pjcomponents::testimonials.testimonial-3-item
-                    text="Vo Fyziology som dostala termín do 24 hodín a vďaka službe mobilnej fyzioterapie prišiel terapeut priamo ku mne domov. Absolvovala som operáciu kolena a keďže som bola do určitej miery imobilná, tak tento typ služby bol pre mňa veľmi prínosný!"
-                    author="Martina"
-                />
-            </x-slot:testimonials>
-        </x-pjcomponents::testimonials.testimonial-3>
+                <!-- Reviews Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+                    <!-- Review 1: Sofia -->
+                    <div class="bg-white rounded-2xl p-6 shadow-md relative">
+                        <!-- Quote Icon -->
+                        <div class="absolute -top-4 right-6 w-12 h-12 ">
+                            <img src="{{ asset('assets/svg/Uvodzovky.svg') }}" alt="" class="w-full h-full object-contain" />
+                        </div>
+
+                        <!-- Avatar and Name -->
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center">
+                                <svg class="w-6 h-6 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Sofia</h4>
+                                <div class="flex gap-1 overflow-hidden">
+                                    <img src="{{ asset('assets/svg/Review.svg') }}" alt="star" class="w-36">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review Text -->
+                        <p class="text-gray-700 text-sm leading-relaxed">
+                            Fyzioterapiu som vyhľadala kvôli bolestiam v chrbtici a s prístupom a liečbou som bola veľmi spokojná. Terapeut bol profesionálny, dôkladne vyhodnotil môj stav a prispôsobil terapiu mojim potrebám. Bolesť sa výrazne zmiernila a zlepšila sa aj pohyblivosť.
+                        </p>
+                    </div>
+
+                    <!-- Review 2: Daniel -->
+                    <div class="bg-white rounded-2xl p-6 shadow-md relative">
+                        <!-- Quote Icon -->
+                         <div class="absolute -top-4 right-6 w-12 h-12 ">
+                            <img src="{{ asset('assets/svg/Uvodzovky.svg') }}" alt="" class="w-full h-full object-contain" />
+                        </div>
+
+                        <!-- Avatar and Name -->
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center">
+                                <svg class="w-6 h-6 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Daniel</h4>
+                                 <div class="flex gap-1 overflow-hidden">
+                                    <img src="{{ asset('assets/svg/Review.svg') }}" alt="star" class="w-36">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review Text -->
+                        <p class="text-gray-700 text-sm leading-relaxed">
+                            Počas terapie som sa cítil príjemne, komunikáciu a prístup hodnotím kladne. Pán Vlado mi ukázal cvičenia, ktoré môžem vykonávať doma a nadobudnúť další pokrok. Celkovo hodnotím svoju skúsenosť pozitívne a odporúčam službu každému kto potrebuje pomoc pri rehabilitácii.
+                        </p>
+                    </div>
+
+                    <!-- Review 3: Martina -->
+                    <div class="bg-white rounded-2xl p-6 shadow-md relative">
+                        <!-- Quote Icon -->
+                        <div class="absolute -top-4 right-6 w-12 h-12 ">
+                            <img src="{{ asset('assets/svg/Uvodzovky.svg') }}" alt="" class="w-full h-full object-contain" />
+                        </div>
+
+                        <!-- Avatar and Name -->
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center">
+                                <!-- <svg class="w-6 h-6 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"/>
+                                </svg> -->
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Martina</h4>
+                                 <div class="flex gap-1 overflow-hidden">
+                                    <img src="{{ asset('assets/svg/Review.svg') }}" alt="star" class="w-36">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review Text -->
+                        <p class="text-gray-700 text-sm leading-relaxed">
+                            Vo Fyziology som dostala termín do 24 hodín a vďaka službe mobilnej fyzioterapie prišiel terapeut priamo ku mne domov. Absolvovala som operáciu kolena a keďže som bola do určitej miery imobilná, tak tento typ služby bol pre mňa veľmi prínosný!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <x-contact-info />
         <x-footer />
