@@ -61,7 +61,11 @@
         </section>
 
         <!-- Typy fyzioterapie Section -->
-        <section class="px-[5%] py-16 md:py-20 lg:py-24 bg-gray-50 relative overflow-hidden">
+        <section class="px-[5%] py-16 md:py-20 lg:py-24 bg-gray-50 relative">
+                <!-- Gradient Circle - left side -->
+            <div class="absolute hidden lg:inline -top-64 -right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
          
 
             <div class="max-w-6xl mx-auto relative z-10">
@@ -79,57 +83,63 @@
                 </div>
 
                 <!-- 6 Service Cards Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-                    <!-- Card 1: Fyzioterapia pre seniorov -->
-                    <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
-                        <img src="{{ asset('assets/images/senior-physiotherapy.jpg') }}" alt="Fyzioterapia pre seniorov" class="w-full h-48 object-cover">
-                        <div class="p-6 text-center">
-                            <h3 class="font-bold text-lg mb-2">Fyzioterapia pre seniorov</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mb-8 mt-24">
+                    <!-- Fyzioterapia pre seniorov -->
+                    <a href="{{ route('page.services.senior-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
+                        <div class="mb-6 overflow-hidden rounded-2xl relative">
+                            <img src="{{ asset('assets/images/fyzio-pre-seniorov.jpg') }}" alt="Fyzioterapia pre seniorov" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
-                    </div>
+                        <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pre seniorov</h3>
+                    </a>
 
-                    <!-- Card 2: Fyzioterapia pre dospelých -->
-                    <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
-                        <img src="{{ asset('assets/images/adult-physiotherapy.jpg') }}" alt="Fyzioterapia pre dospelých" class="w-full h-48 object-cover">
-                        <div class="p-6 text-center">
-                            <h3 class="font-bold text-lg mb-2">Fyzioterapia pre dospelých</h3>
+                    <!-- Fyzioterapia pre dospelých -->
+                    <a href="{{ route('page.services.adult-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
+                        <div class="mb-6 overflow-hidden rounded-2xl relative">
+                            <img src="{{ asset('assets/images/fyzio-pre-dospelych.jpg') }}" alt="Fyzioterapia pre dospelých" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
-                    </div>
+                        <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pre dospelých</h3>
+                    </a>
 
-                    <!-- Card 3: Fyzioterapia pri ochoreniach chrbtice -->
-                    <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
-                        <img src="{{ asset('assets/images/vertebrogenic-physiotherapy.jpg') }}" alt="Fyzioterapia pri ochoreniach chrbtice" class="w-full h-48 object-cover">
-                        <div class="p-6 text-center">
-                            <h3 class="font-bold text-lg mb-2">Fyzioterapia pri ochoreniach chrbtice</h3>
+                    <!-- Fyzioterapia pri ochoreniach chrbtice -->
+                    <a href="{{ route('page.services.vertebrogenic-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
+                        <div class="mb-6 overflow-hidden rounded-2xl relative">
+                            <img src="{{ asset('assets/images/verte.jpg') }}" alt="Fyzioterapia pri ochoreniach chrbtice" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
-                    </div>
+                        <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pri ochoreniach chrbtice</h3>
+                    </a>
 
-                    <!-- Card 4: Fyzioterapia pri neurologických ochoreniach -->
-                    <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
-                        <img src="{{ asset('assets/images/neurological-physiotherapy.jpg') }}" alt="Fyzioterapia pri neurologických ochoreniach" class="w-full h-48 object-cover">
-                        <div class="p-6 text-center">
-                            <h3 class="font-bold text-lg mb-2">Fyzioterapia pri neurologických ochoreniach</h3>
+                    <!-- Fyzioterapia pri neurologických ochoreniach -->
+                    <a href="{{ route('page.services.neurological-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
+                        <div class="mb-6 overflow-hidden rounded-2xl relative">
+                            <img src="{{ asset('assets/images/neuro.jpg') }}" alt="Fyzioterapia pri neurologických ochoreniach" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
-                    </div>
+                        <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pri neurologických ochoreniach</h3>
+                    </a>
 
-                    <!-- Card 5: Fyzioterapia pri imobilných pacientoch -->
-                    <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
-                        <img src="{{ asset('assets/images/immobile-physiotherapy.jpg') }}" alt="Fyzioterapia pri imobilných pacientoch" class="w-full h-48 object-cover">
-                        <div class="p-6 text-center">
-                            <h3 class="font-bold text-lg mb-2">Fyzioterapia pri imobilných pacientoch</h3>
+                    <!-- Fyzioterapia pri imobilných pacientoch -->
+                    <a href="{{ route('page.services.immobile-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
+                        <div class="mb-6 overflow-hidden rounded-2xl relative">
+                            <img src="{{ asset('assets/images/imobilny-pacienti.jpg') }}" alt="Fyzioterapia pri imobilných pacientoch" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
-                    </div>
+                        <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pri imobilných pacientoch</h3>
+                    </a>
 
-                    <!-- Card 6: Fyzioterapia pri poúrazových a pooperačných stavoch -->
-                    <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
-                        <img src="{{ asset('assets/images/postoperative-physiotherapy.jpg') }}" alt="Fyzioterapia pri poúrazových a pooperačných stavoch" class="w-full h-48 object-cover">
-                        <div class="p-6 text-center">
-                            <h3 class="font-bold text-lg mb-2">Fyzioterapia pri poúrazových a pooperačných stavoch</h3>
+                    <!-- Fyzioterapia pri poúrazových a pooperačných stavoch -->
+                    <a href="{{ route('page.services.postoperative-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
+                        <div class="mb-6 overflow-hidden rounded-2xl relative">
+                            <img src="{{ asset('assets/images/pooperacne.jpg') }}" alt="Fyzioterapia pri poúrazových a pooperačných stavoch" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
-                    </div>
+                        <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pri poúrazových a pooperačných stavoch</h3>
+                    </a>
                 </div>
 
-                <div class="text-center">
+                <div class="text-center pt-16">
                     <a href="{{ route('page.services.index') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity">
                         Všetky služby, ktoré ponúkame
                     </a>
@@ -137,24 +147,37 @@
             </div>
         </section>
 
-        <!-- Náš tím Section -->
-        <section class="px-[5%] py-16 md:py-20 lg:py-24">
-            <div class="max-w-6xl mx-auto">
-                <h2 class="text-3xl md:text-4xl lg:text-5xl font-black mb-6">Náš tím</h2>
-                <p class="text-lg md:text-xl mb-12 text-gray-700 max-w-3xl">
-                    Za našimi službami stojí odborne pripravený fyzioterapeut, ktorý pristupuje ku každému klientovi s individuálne, s rešpektom a plným nasadením. Vďaka odbornému vzdelaniu, praxi a ľudskému prístupu vytvárame bezpečné a podporujúce prostredie, v ktorom sa klienti môžu sústrediť na svoje zdravie.
-                </p>
+        
 
-                <div class="flex flex-col lg:flex-row gap-8 items-center bg-gray-50 rounded-3xl p-8">
-                    <!-- Circular Avatar -->
-                    <div class="flex-shrink-0">
+        <!-- Náš tím Section -->
+         <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
+  <section class="px-[5%] py-16 md:py-20 lg:py-8 relative overflow-hidden">
+            <!-- Gradient Half Circle - left -->
+            <div class="absolute top-8 left-[2rem] w-32 h-32 lg:w-40 lg:h-40 pointer-events-none opacity-80">
+                <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
+
+            <div class="max-w-6xl mx-auto relative z-10">
+                <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
+                    <div class="flex-1">
+                        <h2 class="text-3xl md:text-4xl lg:text-2xl font-black mb-6">Náš tím</h2>
+                        <p class="text-lg md:text-xl text-gray-700">
+                            Za našimi službami stojí odborne pripravený fyzioterapeut, ktorý pristupuje ku každému klientovi s individuálne, s rešpektom a plným nasadením. Vďaka odbornému vzdelaniu, praxi a ľudskému prístupu vytvárame bezpečné a podporujúce prostredie, v ktorom sa klienti môžu sústrediť na svoje zdravie.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col lg:flex-row gap-8 items-center bg-gray-50 rounded-3xl p-8 mt-12">
+                    <!-- Circular Avatar with Gradient Overlay -->
+                    <div class="flex-shrink-0 relative">
                         <img src="{{ asset('assets/images/vlado.jpg') }}" alt="Mgr. Vladimír Chovanec" class="w-48 h-48 lg:w-64 lg:h-64 rounded-full object-cover shadow-lg">
+                        <div class="absolute inset-0 rounded-full bg-gradient-to-r from-transparent via-blue-500/20 to-cyan-400/30"></div>
                     </div>
 
                     <!-- Bio Text -->
                     <div class="flex-1">
                         <h3 class="text-2xl lg:text-3xl font-bold mb-2">Mgr. Vladimír Chovanec</h3>
-                        <p class="text-primary-color font-semibold mb-4">Fyzioterapeut</p>
+                        <p class="primary-color font-semibold mb-4">Fyzioterapeut</p>
                         <p class="text-gray-700 leading-relaxed mb-4">
                             Bakalárske štúdium absolvoval na Slovenskej zdravotníckej univerzite v Bratislave. Počas štúdia nadobudol praktické skúsenosti a znalosti v rôznych nemocniciach a súkromných zdravotníckych zariadeniach. Magisterské štúdium ukončil na Univerzite sv. Cyrila a Metoda v Trnave, počas ktorého pracoval v súkromnom zariadení.
                         </p>
@@ -165,6 +188,9 @@
                 </div>
             </div>
         </section>
+         </div>
+         
+      
 
         <x-pjcomponents::testimonials.testimonial-3 heading="Recenzie">
             <x-slot:testimonials>
