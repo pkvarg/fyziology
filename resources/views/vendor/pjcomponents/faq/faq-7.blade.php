@@ -6,7 +6,7 @@
 
     <div class="container mx-auto w-full max-w-lg lg:max-w-6xl relative z-10">
         <!-- Gradient Half Circle - bottom right -->
-        <div class="lg:flex absolute top-[155px] -left-[12%] w-40 h-40  pointer-events-none">
+        <div class="lg:flex absolute top-[10rem] lg:top-[155px] -left-[12%] w-40 h-40  pointer-events-none">
             <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-28 lg:w-full h-28 lg:h-full object-contain" />
         </div>
 
