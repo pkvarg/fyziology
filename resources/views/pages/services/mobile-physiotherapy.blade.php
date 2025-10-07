@@ -136,6 +136,8 @@
     </div>
         </section>
 
+     
+
         <!-- 6 Service Cards Section -->
         <section class="py-12 md:py-20 lg:py-4 relative overflow-hidden mx-4 lg:mx-0">
                      <!-- Gradient Circle - right side -->
@@ -220,6 +222,14 @@
                     <img src="{{ asset('assets/images/mobilna-1.jpg') }}" alt="photo 4" class="w-full h-64 object-cover rounded-3xl shadow-lg cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this.src)">
                     <img src="{{ asset('assets/images/mobilna-2.jpg') }}" alt="photo 5" class="w-full h-64 object-cover rounded-3xl shadow-lg cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this.src)">
                     <img src="{{ asset('assets/images/photo-1.jpg') }}" alt="photo 6" class="w-full h-64 object-cover rounded-3xl shadow-lg cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this.src)">
+                </div>
+                  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mt-8">
+                    <img src="{{ asset('assets/images/photo-3.jpg') }}" alt="photo 3" class="w-full h-64 object-cover rounded-3xl shadow-lg cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this.src)">
+                    <img src="{{ asset('assets/images/photo-4.jpg') }}" alt="photo 4" class="w-full h-64 object-cover rounded-3xl shadow-lg cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this.src)">
+                    <img src="{{ asset('assets/images/photo-7.jpg') }}" alt="photo 7" class="w-full h-64 object-cover rounded-3xl shadow-lg cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this.src)">
+                    <img src="{{ asset('assets/images/photo-8.jpg') }}" alt="photo 8" class="w-full h-64 object-cover rounded-3xl shadow-lg cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this.src)">
+                    <img src="{{ asset('assets/images/bankovanie-3.jpg') }}" alt="photo - 3 - bankovanie" class="w-full h-64 object-cover rounded-3xl shadow-lg cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this.src)">
+                    <img src="{{ asset('assets/images/amb-1.jpg') }}" alt="photo 1" class="w-full h-64 object-cover rounded-3xl shadow-lg cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this.src)">
                 </div>
             </div>
         </section>
