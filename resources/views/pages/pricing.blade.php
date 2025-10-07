@@ -4,10 +4,10 @@
 
     <div class="pricing relative overflow-hidden">
         <div class="px-[5%] py-16 md:py-24 lg:py-8 text-center relative">
-            <!-- Gradient Circle - top left -->
-            <div class="absolute hidden lg:inline -top-[10rem] -left-[25rem] lg:-right-96 w-[100%] lg:w-[52.5%] h-auto pointer-events-none">
-                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
-            </div>
+     <!-- Gradient Circle - top left -->
+    <div class="absolute md:hidden lg:inline -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+        <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+    </div>  
 
             <h1 class="text-4xl md:text-6xl font-black mb-5 md:mb-6 relative z-10">Cenník</h1>
             <div class="max-w-3xl mx-auto md:text-lg relative z-10 mt-12">
@@ -125,19 +125,22 @@
             </x-pjcomponents::pricing.pricing-18c1>
         </div>
 
+                           <!-- Gradient Circle -  bottom rightnear CTA -->
+         <div class="absolute md:hidden lg:inline top-[84rem] lg:top-[42rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+        <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+    </div>
+
         <section class="px-[5%] py-16 md:py-24 lg:py-16 relative">
-            <!-- Gradient Circle - near CTA -->
-            <div class="absolute hidden lg:inline lg:-top-[12.5rem] -right-56 lg:-right-[25rem] w-[100%] lg:w-[52.5%] h-auto pointer-events-none">
-                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
-            </div>
+    
 
             <div class="container mx-auto w-full max-w-4xl relative z-10">
-                <!-- Gradient Half Circle - left -->
-                <div class="hidden lg:inline absolute top-0 -left-32 w-40 h-40 pointer-events-none">
-                    <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
-                </div>
+     
+                       <!-- Gradient Half Circle - bottom right -->
+        <div class="lg:flex absolute top-[0rem] -left-[3rem] lg:top-0 lg:-left-[8rem] w-40 h-40  pointer-events-none">
+            <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-28 lg:w-full h-28 lg:h-full object-contain" />
+        </div>
 
-                <h2 class="text-4xl md:text-5xl lg:text-4xl font-black mb-6 md:mb-8">Získajte prvú konzultáciu zdarma</h2>
+                <h2 class="text-4xl md:text-5xl lg:text-4xl font-black mb-6 md:mb-8 ml-12 lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
                 <p class="text-lg md:text-xl mb-8 md:mb-10 max-w-3xl text-gray-700">
                     Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
                 </p>
