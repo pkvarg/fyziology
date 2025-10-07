@@ -14,15 +14,15 @@
 
         <div class="px-[5%] py-16 md:py-24 lg:py-28 text-center relative">
             <!-- Gradient Circle - top left -->
-            <div class="absolute hidden lg:inline -top-[10rem] -left-[25rem] lg:-right-96 w-[100%] lg:w-[52.5%] h-auto pointer-events-none">
-                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
-            </div>
+    <div class="absolute md:hidden lg:inline -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+        <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+    </div> 
 
             <h1 class="text-4xl md:text-6xl font-black mb-5 md:mb-6 relative z-10">Naše služby</h1>
             <p class="max-w-3xl mx-auto md:text-lg relative z-10">Vo Fyziology ponúkame na výber z viacerých  možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Našim cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok či zabezpečiť pohodu počas terapie.</p>
         </div>
 
-        <!-- <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div> -->
+       
 
         <div class="px-[5%] pb-16 md:pb-24 lg:pb-28">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -59,18 +59,20 @@
         </div>
 
         <section class="px-[5%] py-16 md:py-24 lg:py-16 relative">
-            <!-- Gradient Circle - near CTA -->
-            <div class="absolute hidden lg:inline lg:-top-[12.5rem] -right-56 lg:-right-[25rem] w-[100%] lg:w-[52.5%] h-auto pointer-events-none">
-                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
-            </div>
+              <!-- Gradient Circle -  bottom right near CTA -->
+         <div class="absolute md:hidden lg:inline -top-[4rem] lg:-top-[12rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+        <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+    </div>
 
             <div class="container mx-auto w-full max-w-4xl relative z-10">
-                <!-- Gradient Half Circle - left -->
-                <div class="hidden lg:inline absolute top-0 -left-32 w-40 h-40 pointer-events-none">
-                    <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
-                </div>
+          
 
-                <h2 class="text-4xl md:text-5xl lg:text-4xl font-black mb-6 md:mb-8">Získajte prvú konzultáciu zdarma</h2>
+      <!-- Gradient Half Circle - bottom leftt -->
+        <div class="lg:flex absolute top-[0rem] -left-[3rem] lg:top-0 lg:-left-[8rem] w-40 h-40  pointer-events-none">
+            <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-32 lg:w-full h-32 lg:h-full object-contain" />
+        </div>
+
+                <h2 class="text-4xl md:text-6xl lg:text-4xl font-black mb-6 md:mb-8 ml-14 lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
                 <p class="text-lg md:text-xl mb-8 md:mb-10 max-w-3xl text-gray-700">
                     Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
                 </p>
