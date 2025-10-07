@@ -1,75 +1,172 @@
 @section('title', 'Naši klienti')
 
 <x-layout>
+    <div class="clients bg-gray-50 mt-8">
+        <!-- Hero Section with Title -->
+        <section class="px-[5%] py-16 md:py-20 lg:py-16 relative">
+            <!-- Gradient Circle - top left -->
+            <div class="absolute md:hidden lg:inline -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
 
-    <div class="clients">
-        <x-pjcomponents::portfolio-headers.header-2
-            heading="Naši klienti"
-            text="Radi by sme Vám v krátkosti prerozprávali príbehy niektorých našich klientov."
-        >
-            <x-slot:image>
-                <img src="{{ asset('assets/images/klienti.jpg') }}" alt="klienti">
-            </x-slot:image>
-        </x-pjcomponents::portfolio-headers.header-2>
+            <div class="max-w-6xl mx-auto text-center relative z-10">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-black mb-0">
+                    Naši klienti
+                </h1>
+            </div>
+        </section>
 
-        <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div>
+        <!-- Introduction Section -->
+        <section class="px-[5%] py-4 lg:py-4 relative overflow-hidden">
+            <div class="max-w-6xl mx-auto relative z-10">
+                <!-- Hero Image -->
+                <div class="mb-12">
+                    <img src="{{ asset('assets/images/klienti.jpg') }}" alt="Naši klienti" class="w-full max-w-[65rem] mx-auto rounded-3xl shadow-lg object-cover" style="max-height: 400px;">
+                </div>
 
-        <x-pjcomponents::features.layout-134 heading="Parkinsonova choroba">
-            <x-slot:text>
-                Náš klient je dôchodca, ktorý trpí parkinsonovým ochorením a inými pridruženými ochoreniami ako neuropatia či reumatizmus. Celý príbeh začal, keď pán doma padol a bol prevezený do nemocnice, kde bol hospitalizovaný po dobu 2 mesiacov. Po návrate do domáceho prostredia sa začalo s fyzioterapiou a aktívnou domácou rehabilitáciou.
-                <br>
-                <br>
-                Ide o ležiaceho pacienta, ktorý na začiatku našej spolupráce bol imobilný a nedokázal takmer sedieť na posteli. Vďaka rehabilitácii po niekoľkých mesiacoch sme nadobudli progres v podobe domácich presunov, aktívnej samostatnej chôdzi o paličke, lepšej mobilite a pod.
-            </x-slot:text>
-        </x-pjcomponents::features.layout-134>
+                <!-- Introduction Text -->
+                <div class="max-w-4xl mx-auto space-y-6 text-lg text-gray-700 text-center mb-12">
+                    <p>
+                        Radi by sme sa s Vami podelili o inšpiratívne príbehy niektorých našich klientov, ktorí na vlastnej koži zažili pozitívne zmeny vďaka individuálne nastavenej fyzioterapii a našej spoločnej práci na zlepšení ich zdravia a pohybu.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-        <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div>
+        <!-- Client Story 1: Parkinsonova choroba -->
+        <section class="px-[5%] py-8 lg:py-12 relative overflow-hidden">
+            <div class="max-w-6xl mx-auto relative z-10">
+                <div class="lg:px-[10%] relative">
+                    <!-- Gradient Half Circle - left -->
+                    <div class="lg:flex absolute top-[0.2rem] -left-[2rem] lg:top-0 lg:-left-[1rem] w-40 h-40 pointer-events-none">
+                        <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+                    </div>
 
-        <x-pjcomponents::features.layout-134 heading="Skleróza multiplex">
-            <x-slot:text>
-                Náš klient Zdenko je mladý muž, ktorému v mladom veku bolo diagnostikované neurologické ochorenie SM (skleróza multiplex) s najvyšším  stupňom postihnutia. Touto diagnózou trpí niekoľko rokov, avšak minulý rok v jeho živote nastala veľká zmena, keď mu transplantovali kmeňové bunky a zastavilo to progresiu jeho ochorenia. Zdenko bol viac ako 6 rokov ležiacim pacientom, bol imobilný a nemal žiaden pohyb.
-                <br>
-                <br>
-                Pred niekoľkými mesiacmi sme začali s intenzívnou pravidelnou domácou rehabilitáciou, kedy sme začali s aktívno-asistovanými cvičeniami na posteli a postupne ho vertikalizovali do sedu či stoja. Neskôr sme začali s chôdzou pomocou G aparátu, krok za krokom. Po šiestich rokoch kedy nemal žiaden pohyb a bol ležiacim pacientom sme za pár mesiacov dokázali súvisle prejsť takmer 40 metrov, dosiahli zmiernenie trasu končatín či zvýšenie svalovej sily!
-            </x-slot:text>
-        </x-pjcomponents::features.layout-134>
+                    <h2 class="text-2xl md:text-3xl lg:text-3xl font-black mb-6 ml-8 lg:ml-0">Parkinsonova choroba</h2>
 
-        <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div>
+                    <div class="space-y-4 text-lg text-gray-700 ml-8 lg:ml-0">
+                        <p>
+                            Náš klient je dôchodca, ktorý trpí parkinsonovým ochorením a inými pridruženými ochoreniami ako neuropatia či reumatizmus. Celý príbeh začal, keď pán doma padol a bol prevezený do nemocnice, kde bol hospitalizovaný po dobu 2 mesiacov. Po návrate do domáceho prostredia sa začalo s fyzioterapiou a aktívnou domácou rehabilitáciou.
+                        </p>
+                        <p>
+                            Ide o ležiaceho pacienta, ktorý na začiatku našej spolupráce bol imobilný a nedokázal takmer sedieť na posteli. Vďaka rehabilitácii po niekoľkých mesiacoch sme nadobudli progres v podobe domácich presunov, aktívnej samostatnej chôdzi o paličke, lepšej mobilite a pod.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <x-pjcomponents::features.layout-134 heading="Periférna paréza hornej končatiny">
-            <x-slot:text>
-                Ide o čiastočnú stratu hybnosti hornej končatiny, konkrétne v našom prípade bol postihnutý jeden z nervov. Väčšia časť ľavej hornej končatiny bola motoricky slabšia oproti pravej, avšak najviac bola zasiahnutá oblasť zápästia a prsty ruky, ktoré boli doslova „mŕtve“ a nehybné. Najväčší problém bolo dvihnúť zápästie smerom nahor, problémy s jemnou motorikou či uchopenie predmetov. Naša klientka prekonala pľúcnu embóliu.
-                <br>
-                <br>
-                Okrem vyššie spomínaných problémov, pociťovala celkovú slabosť a vyčerpanie. Začali sme s každodennou rehabilitáciou a výsledky sa postupne dostavili. Návrat sme nevideli len v podobe cvičenia hornej končatiny, ale taktiež sme sa venovali komplexne „full body“ tréningu, čiže cvičeniu celého tela, kde sme začali s izolovanejšími a postupne prešli ku zložitejším cvikom. Po niekoľkých týždňoch sa začala pomaly obnovovať hybnosť zápästia, kedy pacientka začínala svojvoľne ovládať ruku a prsty. Behom niekoľkých mesiacov pravidelného cvičenia sme dokázali zabezpečiť samostatnosť, zlepšiť kvalitu život, zvýšiť svalovú silu a pomôcť pri návrate k bežnému životu.
-            </x-slot:text>
-        </x-pjcomponents::features.layout-134>
+        <!-- Client Story 2: Skleróza multiplex -->
+        <section class="px-[5%] py-8 lg:py-12 relative overflow-hidden">
+            <div class="max-w-6xl mx-auto relative z-10">
+                <div class="lg:px-[10%] relative">
+                    <!-- Gradient Half Circle - left -->
+                    <div class="lg:flex absolute top-[0.2rem] -left-[2rem] lg:top-0 lg:-left-[1rem] w-40 h-40 pointer-events-none">
+                        <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+                    </div>
 
-        <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div>
+                    <h2 class="text-2xl md:text-3xl lg:text-3xl font-black mb-6 ml-8 lg:ml-0">Skleróza multiplex</h2>
 
-        <x-pjcomponents::features.layout-134 heading="Operácia bedrového kĺbu">
-            <x-slot:text>
-                Rád by som Vám predstavil 93 ročnú pani Máriu, ktorá je dialyzovaný pacient a pred pár mesiacmi musela podstúpiť operáciu bedra. Pani navštevuje už niekoľko rokov 3x týždenne dialýzu a zvyšné dni sa snaží aktívne hýbať a cvičiť. Keď sme začali s terapiou, bola imobilná, ležiaca a veľmi vyčerpaná vzhľadom k okolnostiam, veku a jej zdravotnému stavu.
-                <br>
-                <br>
-                Začali sme s ľahkými cvičeniami na posteli na zväčšenie rozsahu v jednotlivých kĺboch, zvýšenie svalovej sily a ľahké kondičné cvičenia. Zamerali sme sa aj na včasnú vertikalizáciu do sedu a následne do stoja. Do terapie sme postupne pridali aj chôdzu s G aparátom. Po pár mesiacoch cvičenia sme dosiahli u pacientky samostatnosť, zlepšenie presunov po dome, aktívnu chôdzu, schopnosť prejsť hore a dole schodmi.
-            </x-slot:text>
-        </x-pjcomponents::features.layout-134>
+                    <div class="space-y-4 text-lg text-gray-700 ml-8 lg:ml-0">
+                        <p>
+                            Náš klient Zdenko je mladý muž, ktorému v mladom veku bolo diagnostikované neurologické ochorenie SM (skleróza multiplex) s najvyšším stupňom postihnutia. Touto diagnózou trpí niekoľko rokov, avšak minulý rok v jeho živote nastala veľká zmena, keď mu transplantovali kmeňové bunky a zastavilo to progresiu jeho ochorenia. Zdenko bol viac ako 6 rokov ležiacim pacientom, bol imobilný a nemal žiaden pohyb.
+                        </p>
+                        <p>
+                            Pred niekoľkými mesiacmi sme začali s intenzívnou pravidelnou domácou rehabilitáciou, kedy sme začali s aktívno-asistovanými cvičeniami na posteli a postupne ho vertikalizovali do sedu či stoja. Neskôr sme začali s chôdzou pomocou G aparátu, krok za krokom. Po šiestich rokoch kedy nemal žiaden pohyb a bol ležiacim pacientom sme za pár mesiacov dokázali súvisle prejsť takmer 40 metrov, dosiahnuť zmiernenie trasu končatín či zvýšenie svalovej sily!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div>
+        <!-- Client Story 3: Periférna paréza hornej končatiny -->
+        <section class="px-[5%] py-8 lg:py-12 relative overflow-hidden">
+            <div class="max-w-6xl mx-auto relative z-10">
+                <div class="lg:px-[10%] relative">
+                    <!-- Gradient Half Circle - left -->
+                    <div class="lg:flex absolute top-[0.2rem] -left-[2rem] lg:top-0 lg:-left-[1rem] w-40 h-40 pointer-events-none">
+                        <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+                    </div>
 
-        <x-pjcomponents::features.layout-134 heading="Protrúzia platničky">
-            <x-slot:text>
-                Ide o vyklenutie platničky mimo tela stavca, ktoré je v dnešnej spoločnosti veľmi časté a to kvôli sedavému spôsobu života, nadváhe, zlej životospráve a nízkej fyzickej aktivite. Júlia je 25 ročná pacientka, ktorú tento problém postihol už v pomerne mladom veku. Trápila ju hlavne ostrá bolesť, ktorá bola lokalizovaná v oblasti driekovej chrbtice, obmedzená schopnosť predklonu či zdvihnutie predmetov zo zeme.
-                <br>
-                <br>
-                Jej problémy sme dokázali pomerne rýchlo odstrániť a vrátiť ju k bežnému životu bez bolesti. Začali sme s uvoľňujúcimi cvičeniami, ktoré boli doplnené o posilňujúce cvičenia na aktiváciu chrbtových a okolitých svalov. Taktiež sme si ukázali pohyby, ktoré sú kontraindikované a môžu spôsobovať bolesť. Zlé vytvorené pohybové vzorce sme nahradili správnymi a ukázali pacientke ako sa správne hýbať. Začali sme od ľahších a postupne sa dostali ku zložitejším cvikom. Vysvetlili sme si dôkladne techniky jednotlivých cvikov + na ktoré svaly sa upriamiť a zamerať.
-            </x-slot:text>
-        </x-pjcomponents::features.layout-134>
+                    <h2 class="text-2xl md:text-3xl lg:text-3xl font-black mb-6 ml-8 lg:ml-0">Periférna paréza hornej končatiny</h2>
 
-        <p class="text-center font-bold primary-color">Trápi Vás podobný problém? Kontaktujte nás a my Vám radi pomôžeme!</p>
+                    <div class="space-y-4 text-lg text-gray-700 ml-8 lg:ml-0">
+                        <p>
+                            Ide o čiastočnú stratu hybnosti hornej končatiny, konkrétne v našom prípade bol postihnutý jeden z nervov. Väčšia časť ľavej hornej končatiny bola motoricky slabšia oproti pravej, avšak najviac bola zasiahnutá oblasť zápästia a prsty ruky, ktoré boli doslova „mŕtve" a nehybné. Najväčší problém bolo dvihnúť zápästie smerom nahor, problémy s jemnou motorikou či uchopenie predmetov. Naša klientka prekonala pľúcnu embóliu.
+                        </p>
+                        <p>
+                            Okrem vyššie spomínaných problémov, pociťovala celkovú slabosť a vyčerpanie. Začali sme s každodennou rehabilitáciou a výsledky sa postupne dostavili. Návrat sme nevideli len v podobe cvičenia hornej končatiny, ale taktiež sme sa venovali komplexne „full body" tréningu, čiže cvičeniu celého tela, kde sme začali s izolovanejšími a postupne prešli ku zložitejším cvikom. Po niekoľkých týždňoch sa začala pomaly obnovovať hybnosť zápästia, kedy pacientka začínala svojvoľne ovládať ruku a prsty. Behom niekoľkých mesiacov pravidelného cvičenia sme dokázali zabezpečiť samostatnosť, zlepšiť kvalitu život, zvýšiť svalovú silu a pomôcť pri návrate k bežnému životu.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client Story 4: Operácia bedrového kĺbu -->
+        <section class="px-[5%] py-8 lg:py-12 relative overflow-hidden">
+            <div class="max-w-6xl mx-auto relative z-10">
+                <div class="lg:px-[10%] relative">
+                    <!-- Gradient Half Circle - left -->
+                    <div class="lg:flex absolute top-[0.2rem] -left-[2rem] lg:top-0 lg:-left-[1rem] w-40 h-40 pointer-events-none">
+                        <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+                    </div>
+
+                    <h2 class="text-2xl md:text-3xl lg:text-3xl font-black mb-6 ml-8 lg:ml-0">Operácia bedrového kĺbu</h2>
+
+                    <div class="space-y-4 text-lg text-gray-700 ml-8 lg:ml-0">
+                        <p>
+                            Rád by som Vám predstavil 93 ročnú pani Máriu, ktorá je dialyzovaný pacient a pred pár mesiacmi musela podstúpiť operáciu bedra. Pani navštevuje už niekoľko rokov 3x týždenne dialýzu a zvyšné dni sa snaží aktívne hýbať a cvičiť. Keď sme začali s terapiou, bola imobilná, ležiaca a veľmi vyčerpaná vzhľadom k okolnostiam, veku a jej zdravotnému stavu.
+                        </p>
+                        <p>
+                            Začali sme s ľahkými cvičeniami na posteli na zväčšenie rozsahu v jednotlivých kĺboch, zvýšenie svalovej sily a ľahké kondičné cvičenia. Zamerali sme sa aj na včasnú vertikalizáciu do sedu a následne do stoja. Do terapie sme postupne pridali aj chôdzu s G aparátom. Po pár mesiacoch cvičenia sme dosiahli u pacientky samostatnosť, zlepšenie presunov po dome, aktívnu chôdzu, schopnosť prejsť hore a dole schodmi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client Story 5: Protrúzia platničky -->
+        <section class="px-[5%] py-8 lg:py-12 relative overflow-hidden">
+            <div class="max-w-6xl mx-auto relative z-10">
+                <div class="lg:px-[10%] relative">
+                    <!-- Gradient Half Circle - left -->
+                    <div class="lg:flex absolute top-[0.2rem] -left-[2rem] lg:top-0 lg:-left-[1rem] w-40 h-40 pointer-events-none">
+                        <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+                    </div>
+
+                    <h2 class="text-2xl md:text-3xl lg:text-3xl font-black mb-6 ml-8 lg:ml-0">Protrúzia platničky</h2>
+
+                    <div class="space-y-4 text-lg text-gray-700 ml-8 lg:ml-0">
+                        <p>
+                            Ide o vyklenutie platničky mimo tela stavca, ktoré je v dnešnej spoločnosti veľmi časté a to kvôli sedavému spôsobu života, nadváhe, zlej životospráve a nízkej fyzickej aktivite. Júlia je 25 ročná pacientka, ktorú tento problém postihol už v pomerne mladom veku. Trápila ju hlavne ostrá bolesť, ktorá bola lokalizovaná v oblasti driekovej chrbtice, obmedzená schopnosť predklonu či zdvihnutie predmetov zo zeme.
+                        </p>
+                        <p>
+                            Jej problémy sme dokázali pomerne rýchlo odstrániť a vrátiť ju k bežnému životu bez bolesti. Začali sme s uvoľňujúcimi cvičeniami, ktoré boli doplnené o posilňujúce cvičenia na aktiváciu chrbtových a okolitých svalov. Taktiež sme si ukázali pohyby, ktoré sú kontraindikované a môžu spôsobovať bolesť. Zlé vytvorené pohybové vzorce sme nahradili správnymi a ukázali pacientke ako sa správne hýbať. Začali sme od ľahších a postupne sa dostali ku zložitejším cvikom. Vysvetlili sme si dôkladne techniky jednotlivých cvikov + na ktoré svaly sa upriamiť a zamerať.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+  
+
+        <!-- CTA Section -->
+        <section class="px-[5%] py-16 relative">
+                       <!-- Gradient Circle - bottom right -->
+    
+  <div class="absolute md:hidden lg:inline -top-[10rem] lg:-top-[35rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+        <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+    </div>
+            <div class="max-w-6xl mx-auto text-center relative z-10">
+                <p class="text-xl md:text-2xl font-bold primary-color mb-8">
+                    Trápi Vás podobný problém? Kontaktujte nás a my Vám radi pomôžeme!
+                </p>
+                <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity">
+                    Kontaktujte nás
+                </a>
+            </div>
+        </section>
 
         <x-footer />
     </div>
-
 </x-layout>
