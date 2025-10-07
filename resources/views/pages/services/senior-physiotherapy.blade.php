@@ -1,7 +1,7 @@
 @section('title', 'Fyzioterapia pre seniorov')
 
 <x-layout>
-    <div class="senior-physiotherapy bg-gray-50">
+    <div class="senior-physiotherapy bg-gray-50 mt-8">
         <!-- Hero Section with Gradient Circle -->
         <section class="px-[5%] py-4 lg:py-4 relative overflow-hidden">
            <!-- Gradient Circle - top left -->
