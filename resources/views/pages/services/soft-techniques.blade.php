@@ -93,7 +93,7 @@
         </section>
 
         <!-- CTA Section -->
-        <div class="container mx-auto w-full max-w-6xl lg:max-w-4xl relative z-10 px-[5%] lg:px-0 py-16 overflow-hidden">
+        <div class="container mx-auto w-full max-w-6xl lg:max-w-4xl relative z-10 px-[5%] lg:px-0 py-16 overflow-hidden lg:overflow-visible">
             <!-- Gradient Circle - mobile only bottom right near CTA -->
             <div class="absolute md:hidden -top-[5rem] -right-48 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
