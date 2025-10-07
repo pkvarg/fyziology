@@ -77,10 +77,19 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Gradient Circle - desktop only bottom right -->
+            <div class="absolute hidden lg:inline lg:top-[20rem] lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
         </section>
 
         <!-- CTA Section -->
-        <div class="container mx-auto w-full max-w-6xl lg:max-w-4xl relative z-10 px-[5%] lg:px-0 py-16">
+        <div class="container mx-auto w-full max-w-6xl lg:max-w-4xl relative z-10 px-[5%] lg:px-0 py-16 overflow-hidden">
+            <!-- Gradient Circle - mobile only bottom right near CTA -->
+            <div class="absolute md:hidden -top-[5rem] -right-48 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
             <!-- Gradient Half Circle CTA - left -->
             <div class="lg:flex absolute top-[4rem] -left-[2rem] lg:top-[3.6rem] lg:-left-[8rem] w-40 h-40 pointer-events-none px-[5%]">
                 <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
