@@ -100,6 +100,23 @@ body {
     .burger-menu div {
         background-color: $primary;
     }
+
+    // Mobile menu roll-down effect
+    .items {
+        transform: scaleY(0);
+        transform-origin: top;
+        max-height: 0;
+        overflow: hidden;
+        transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1), max-height 1s ease;
+        background-color: #fafafa;
+        opacity: 0;
+    }
+
+    &.active .items {
+        transform: scaleY(1);
+        max-height: 2000px;
+        opacity: 1;
+    }
 }
 
 .index {
@@ -303,6 +320,11 @@ body {
 
         .items {
             gap: 2.5rem;
+            transform: none !important;
+            max-height: none !important;
+            overflow: visible !important;
+            transition: none !important;
+            opacity: 1 !important;
 
             a {
                 color: #6b7280;
