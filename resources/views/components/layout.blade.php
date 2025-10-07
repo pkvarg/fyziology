@@ -25,7 +25,7 @@
     <div class="page">
         <x-pjcomponents::navbars.navbar-1>
             <x-slot:logo>
-                <a href="{{ route('page.index') }}" class="flex justify-center items-center text-2xl uppercase shadow-md rounded-sm px-1 py-1">
+                <a href="{{ route('page.index') }}" class="flex justify-center items-center text-2xl uppercase shadow-sm rounded-sm px-1 py-1">
                     <img src="{{ asset('assets/images/logo.png') }}" alt="logo" class="mr-4" />
                     <span id="first">FYZIO</span><span id="second">logy</span>
                 </a>
