@@ -36,8 +36,7 @@
 
                 <x-pjcomponents::navbars.items-link text="Naše služby">
                     <x-pjcomponents::navbars.simple-link text="Naše služby" :link="route('page.services.index')" />
-                    <x-pjcomponents::navbars.simple-link text="Mobilná fyzioterapia" :link="route('page.services.mobile-physiotherapy')" />
-                    <x-pjcomponents::navbars.simple-link text="Ambulantná fyzioterapia" :link="route('page.services.ambulatory-physiotherapy')" />
+                    <x-pjcomponents::navbars.simple-link text="Mobilná a ambulantná fyzioterapia" :link="route('page.services.mobile-physiotherapy')" />
                     <x-pjcomponents::navbars.simple-link text="Bankovanie" :link="route('page.services.banking')" />
                     <x-pjcomponents::navbars.simple-link text="Masáže" :link="route('page.services.massages')" />
                 </x-pjcomponents::navbars.items-link>

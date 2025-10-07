@@ -21,10 +21,9 @@
          <div class="max-w-6xl mx-auto relative z-10">
 
 
-                <h2 class="text-3xl md:text-4xl lg:text-3xl font-black mb-8 text-center ">Mäkké techniky</h2>
 
                 <!-- Hero Image -->
-                <div class="mb-12 mt-16">
+                <div class="mb-12">
                     <img src="{{ asset('assets/images/masaze-3.jpg') }}" alt="Mäkké techniky" class="w-full max-w-[65rem] mx-auto rounded-3xl shadow-lg object-cover" style="max-height: 400px;">
                 </div>
 
