@@ -4,10 +4,10 @@
     <div class="index">
         <!-- Hero Section -->
         <section class="px-[5%] py-16 md:py-24 lg:py-16 relative overflow-hidden bg-gray-50">
-            <!-- Gradient Circle - left side -->
-            <div class="absolute hidden lg:inline -top-32 -left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
-                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
-            </div>
+             <!-- Gradient Circle - top left -->
+    <div class="absolute md:hidden lg:inline -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+        <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+    </div> 
 
             <div class="max-w-4xl mx-auto text-center relative z-10">
                 <h1 class="text-5xl md:text-6xl lg:text-7xl font-black mb-6">
@@ -28,19 +28,19 @@
          
 
             <div class="max-w-6xl mx-auto relative z-10">
-                   <!-- Gradient Half Circle - left -->
-            <div class="absolute hidden lg:inline top-0 -left-0 lg:w-36 lg:h-36 pointer-events-none opacity-80">
-                <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
-            </div>
+                   <!-- Gradient Half Circle - left Why choose -->
+           <div class="lg:flex absolute top-[4px] -left-[2rem] lg:top-1 lg:-left-[0rem] w-36 h-36  pointer-events-none">
+            <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+        </div>
                 <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
                     <!-- Content -->
                     <div class="flex-1">
-                        <h2 class="text-3xl md:text-4xl lg:text-2xl font-black mb-6">Prečo si vybrať Fyziology?</h2>
-                        <p class="text-lg md:text-xl mb-6 text-gray-700">
+                        <h2 class="text-3xl md:text-4xl lg:text-2xl font-black mb-6 ml-8 lg:ml-0">Prečo si vybrať Fyziology?</h2>
+                        <p class="text-lg md:text-xl mb-6 text-gray-700 md:ml-8 lg:ml-0">
                             Ponúkame fyzioterapiu priamo u Vás doma alebo v našej ambulancii, ktorú zabezpečuje náš tím s odrazom na profesionalitu, ľudský prístup a ochotu, pričom počas celej terapie poskytujeme neustálu podporu a motiváciu.
                         </p>
 
-                        <div class="flex flex-col lg:flex-row gap-8">
+                        <div class="flex flex-col lg:flex-row gap-8 md:ml-8 lg:">
                             <div class="flex flex-col items-start gap-0">
                                 <div class="primary-color font-black text-2xl">Mnoho</div>
                                 <div class="text-gray-700">spokojných zákazníkov</div>
@@ -61,22 +61,22 @@
         </section>
 
         <!-- Typy fyzioterapie Section -->
-        <section class="px-[5%] py-12 md:py-20 lg:py-24 bg-gray-50 relative">
-                <!-- Gradient Circle - left side -->
-            <div class="absolute hidden lg:inline -top-64 -right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
-                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
-            </div>
+        <section class="px-[5%] py-12 md:py-20 lg:py-24 bg-gray-50 relative overflow-hidden">
+            <!-- Gradient Circle - bottom right -->
+    <div class="absolute md:hidden lg:inline -top-[7rem] lg:-top-[11rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+        <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+    </div>
          
 
             <div class="max-w-6xl mx-auto relative z-10">
-                   <!-- Gradient Half Circle - left -->
-            <div class="absolute hidden lg:inline top-0 -left-0 lg:w-36 lg:h-36 pointer-events-none opacity-80">
-                <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
-            </div>
+           <!-- Gradient Half Circle - left Types of -->
+           <div class="lg:flex absolute top-[4px] -left-[2rem] lg:top-1 lg:-left-[0rem] w-36 h-36  pointer-events-none">
+            <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+        </div>
                  <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
                     <div class="flex-1">
-                        <h2 class="text-3xl md:text-4xl lg:text-2xl font-black mb-6">Typy fyzioterapie</h2>
-                        <p class="text-lg md:text-xl text-gray-700">
+                        <h2 class="text-3xl md:text-4xl lg:text-2xl font-black mb-6 ml-8 lg:ml-0">Typy fyzioterapie</h2>
+                        <p class="text-lg md:text-xl text-gray-700 ml-8 lg:ml-0">
                             Naše fyzioterapie sú určené predovšetkým starším ľuďom s problémami pohybového aparátu, pacientom po operáciách alebo úrazoch, osobám so zníženou mobilitou, pracujúcim s časovým obmedzením, ľuďom trpiacim chronickými bolesťami & neurologickým pacientom, ktorým chceme uľahčiť a individuálne prispôsobiť fyzioterapii.
                         </p>
                     </div>
@@ -152,16 +152,17 @@
         <!-- Náš tím Section -->
          <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
   <section class="px-[5%] py-16 md:py-20 lg:py-8 relative overflow-hidden">
-            <!-- Gradient Half Circle - left -->
-            <div class="absolute hidden lg:inline top-8 left-[2rem] w-32 h-32 lg:w-40 lg:h-40 pointer-events-none opacity-80">
-                <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
-            </div>
+     
 
             <div class="max-w-6xl mx-auto relative z-10">
                 <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
+        <!-- Gradient Half Circle - left Our team -->
+           <div class="lg:flex absolute top-[0.2rem] -left-[2rem] lg:top-[0rem] lg:-left-[0.5rem] w-36 h-36  pointer-events-none">
+            <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+        </div>
                     <div class="flex-1">
-                        <h2 class="text-3xl md:text-4xl lg:text-2xl font-black mb-6">Náš tím</h2>
-                        <p class="text-lg md:text-xl text-gray-700">
+                        <h2 class="text-3xl md:text-4xl lg:text-2xl font-black mb-6 ml-8 lg:ml-0">Náš tím</h2>
+                        <p class="text-lg md:text-xl text-gray-700 ml-8 lg:ml-0">
                             Za našimi službami stojí odborne pripravený fyzioterapeut, ktorý pristupuje ku každému klientovi s individuálne, s rešpektom a plným nasadením. Vďaka odbornému vzdelaniu, praxi a ľudskému prístupu vytvárame bezpečné a podporujúce prostredie, v ktorom sa klienti môžu sústrediť na svoje zdravie.
                         </p>
                     </div>
