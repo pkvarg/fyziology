@@ -1,76 +1,113 @@
 @section('title', 'Mäkké techniky')
 
 <x-layout>
+    <div class="soft-techniques bg-gray-50 mt-8">
+        <!-- Hero Section with Title -->
+        <section class="px-[5%] py-16 md:py-20 lg:py-16 relative">
+            <!-- Gradient Circle - top left -->
+            <div class="absolute md:hidden lg:inline -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
 
-    <div class="reflex-massage">
-        <x-pjcomponents::portfolio-headers.header-2 heading="Mäkké techniky">
-            <x-slot:image>
-                <img src="{{ asset('assets/images/masaze-3.jpg') }}" alt="Mäkké techniky">
-            </x-slot:image>
-        </x-pjcomponents::portfolio-headers.header-2>
+            <div class="max-w-6xl mx-auto text-center relative z-10">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-black mb-0">
+                    Mäkké techniky
+                </h1>
+            </div>
+        </section>
 
-        <div class="w-1/4 mx-auto my-8 h-[2px] bg-[#0c5eb6] md:my-10 lg:my-12 lg:w-1/12"></div>
+        <!-- Main Content Section -->
+        <section class="px-[5%] py-4 lg:py-4 relative overflow-hidden">
+         <div class="max-w-6xl mx-auto relative z-10">
 
-        <x-pjcomponents::long-form-contents.content-30>
-            <x-slot:content>
-                <p>
-                    Mäkké techniky sú manuálna terapia, pri ktorej najskôr uvoľňujeme kožu, podkožie a následne účinky prenikajú do hlbšie úložených štruktúr, a to fascie a svalu.
-                    <br>
-                    <br>
-                    <span class="font-bold primary-color">Cieľom</span> je obnoviť pohyblivosť mäkkých tkanív v mieste patologickej bariéry a v smere obmedzenia. Využívame ich pri stuhnutí svalstva a na odstránenie napätia v tkanivách a sú vhodné pre každého s bolesťami pohybového aparátu. Daný segment sa prekrví a dôjde ku uvoľneniu. Využívajú sa aj po operáciách v mieste jazvy pre skorú rekonvalescenciu.
-                </p>
-                <br>
-                <div class="lg:flex lg:justify-between">
-                    <div>
-                        <p class="primary-color font-bold">Účinky mäkkých techník:</p>
-                        <ul>
-                            <li>- Uvoľnenie kĺbových blokád</li>
-                            <li>- Uvoľnenie svalových spazmov</li>
-                            <li>- Tlmia bolesť</li>
-                            <li>- Optimalizujú krvný tlak a činnosť srdca</li>
-                            <li>- Posilňujú metabolizmus</li>
-                            <li>- Zlepšujú fyzický a psychický stav pacienta</li>
-                        </ul>
-                    </div>
-                    <br>
-                    <div>
-                        <p class="primary-color font-bold">Indikácie:</p>
-                        <ul>
-                            <li>- Problémy s krčnou, hrudnou chrbticou</li>
-                            <li>- Problémy s krížovou chrbticou</li>
-                            <li>- Sedavé zamestnanie</li>
-                            <li>- Nízka fyzická aktivita</li>
-                            <li>- Migrény</li>
-                            <li>- Zápal sedacieho svalu, nervu</li>
-                        </ul>
-                    </div>
-                    <br>
-                    <div>
-                        <p class="primary-color font-bold">Kontraindikácie:</p>
-                        <ul>
-                            <li>- Akútne zápaly</li>
-                            <li>- Horúčkovité a infekčné ochorenia</li>
-                            <li>- Nádorové ochorenia</li>
-                            <li>- Krvácavé stavy</li>
-                            <li>- Pri kŕčových žilách</li>
-                            <li>- Gravidita</li>
-                        </ul>
+
+                <h2 class="text-3xl md:text-4xl lg:text-3xl font-black mb-8 text-center ">Mäkké techniky</h2>
+
+                <!-- Hero Image -->
+                <div class="mb-12 mt-16">
+                    <img src="{{ asset('assets/images/masaze-3.jpg') }}" alt="Mäkké techniky" class="w-full max-w-[65rem] mx-auto rounded-3xl shadow-lg object-cover" style="max-height: 400px;">
+                </div>
+
+
+                <!-- Introduction Text -->
+                <div class="max-w-4xl mx-auto space-y-6 text-lg text-gray-700 text-center mb-12">
+                    <p>
+                        Mäkké techniky sú manuálna terapia, pri ktorej najskôr uvoľňujeme kožu, podkožie a následne účinky prenikajú do hlbšie úložených štruktúr, a to fascie a svalu.
+                    </p>
+                    <p>
+                        <span class="font-bold primary-color">Cieľom</span> je obnoviť pohyblivosť mäkkých tkanív v mieste patologickej bariéry a v smere obmedzenia. Využívame ich pri stuhnutí svalstva a na odstránenie napätia v tkanivách a sú vhodné pre každého s bolesťami pohybového aparátu. Daný segment sa prekrví a dôjde ku uvoľneniu. Využívajú sa aj po operáciách v mieste jazvy pre skorú rekonvalescenciu.
+                    </p>
+                </div>
+
+                <!-- Content -->
+                <div class="text-left space-y-4 mb-8 lg:px-[10%] relative">
+                         <!-- Gradient Half Circle - left -->
+                <div class="lg:flex absolute top-[0.2rem] -left-[2rem] -lg:top-[40rem] lg:-left-[1rem] w-40 h-40 pointer-events-none">
+                    <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+                </div>
+                    <h3 class="text-2xl md:text-3xl font-black mb-6 ml-8 lg:ml-0 ">Účinky, indikácie a kontraindikácie</h3>
+
+                    <div class="mt-64 lg:mt-0 lg:flex lg:justify-between lg:gap-8">
+                        <div class="mb-8 lg:mb-0">
+                            <p class="primary-color font-bold mb-4">Účinky mäkkých techník:</p>
+                            <ul class="list-none space-y-2">
+                                <li>- Uvoľnenie kĺbových blokád</li>
+                                <li>- Uvoľnenie svalových spazmov</li>
+                                <li>- Tlmia bolesť</li>
+                                <li>- Optimalizujú krvný tlak a činnosť srdca</li>
+                                <li>- Posilňujú metabolizmus</li>
+                                <li>- Zlepšujú fyzický a psychický stav pacienta</li>
+                            </ul>
+                        </div>
+
+                        <div class="mb-8 lg:mb-0">
+                            <p class="primary-color font-bold mb-4">Indikácie:</p>
+                            <ul class="list-none space-y-2">
+                                <li>- Problémy s krčnou, hrudnou chrbticou</li>
+                                <li>- Problémy s krížovou chrbticou</li>
+                                <li>- Sedavé zamestnanie</li>
+                                <li>- Nízka fyzická aktivita</li>
+                                <li>- Migrény</li>
+                                <li>- Zápal sedacieho svalu, nervu</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <p class="primary-color font-bold mb-4">Kontraindikácie:</p>
+                            <ul class="list-none space-y-2">
+                                <li>- Akútne zápaly</li>
+                                <li>- Horúčkovité a infekčné ochorenia</li>
+                                <li>- Nádorové ochorenia</li>
+                                <li>- Krvácavé stavy</li>
+                                <li>- Pri kŕčových žilách</li>
+                                <li>- Gravidita</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </x-slot:content>
-        </x-pjcomponents::long-form-contents.content-30>
+            </div>
+        </section>
 
-        <x-pjcomponents::ctas.cta-7
-            heading="Získajte svoju konzultáciu"
-            text="Sme tu, aby sme Vám pomohli na ceste k lepšiemu zdraviu a pohybu. Tešíme sa na Vás!"
-        >
-            <x-slot:actions>
-                <x-pjcomponents::button label="Objednať sa" :link="route('page.contact')" />
-                <x-pjcomponents::button type="secondary" label="Naše služby" :link="route('page.services.index')" />
-            </x-slot:actions>
-        </x-pjcomponents::ctas.cta-7>
+        <!-- CTA Section -->
+        <div class="container mx-auto w-full max-w-6xl lg:max-w-4xl relative z-10 px-[5%] lg:px-0 py-16">
+            <!-- Gradient Half Circle CTA - left -->
+            <div class="lg:flex absolute top-[4rem] -left-[2rem] lg:top-[3.6rem] lg:-left-[8rem] w-40 h-40 pointer-events-none px-[5%]">
+                <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+            </div>
+
+            <h2 class="text-3xl md:text-3xl lg:text-3xl font-black mb-6 md:mb-8 ml-8 lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
+            <p class="text-lg md:text-lg mb-8 md:mb-10 max-w-3xl text-gray-700">
+                Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
+            </p>
+            <div class="flex lg:justify-start justify-center">
+            <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity lg:-ml-16 mt-4">
+                Vstupná konzultácia ZDARMA
+            </a>
+        </div>
+        </div>
+
+
 
         <x-footer />
     </div>
-
 </x-layout>

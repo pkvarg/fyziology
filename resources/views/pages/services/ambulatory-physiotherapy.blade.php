@@ -1,32 +1,98 @@
 @section('title', 'Ambulantná fyzioterapia')
 
 <x-layout>
+    <div class="ambulatory-physiotherapy bg-gray-50 mt-8">
+        <!-- Hero Section with Title -->
+        <section class="px-[5%] py-16 md:py-20 lg:py-16 relative">
+            <!-- Gradient Circle - top left -->
+            <div class="absolute md:hidden lg:inline -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
 
-    <div class="ambulatory-physiotherapy">
-        <x-pjcomponents::portfolio-headers.header-2
-            heading="Ambulantná fyzioterapia"
-            text="Je typ fyzioterapie, ktorý prebieha v rámci zdravotníckeho zariadenia, napríklad v ambulanciách alebo fyzioterapeutických klinikách, kde pacient dochádza na jednotlivé terapie. Liečba zvyčajne prebieha v intervaloch niekoľkých dní alebo týždňov, v závislosti od problému pacienta."
-        >
-            <x-slot:image>
-                <img src="{{ asset('assets/images/ambulance.jpg') }}" alt="ambulantna fyzioterapia">
-            </x-slot:image>
+            <div class="max-w-6xl mx-auto text-center relative z-10">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-black mb-0">
+                    Ambulantná fyzioterapia
+                </h1>
+            </div>
+        </section>
 
-            <x-slot:tags>
-                <x-pjcomponents::tag label="25 min./ 25 €" class="bg-primary-color rounded" />
-                <x-pjcomponents::tag label="50 min./ 45 €" class="bg-primary-color rounded" />
-            </x-slot:tags>
-        </x-pjcomponents::portfolio-headers.header-2>
+        <!-- Main Content Section -->
+        <section class="px-[5%] py-4 lg:py-4 relative overflow-hidden">
+         <div class="max-w-6xl mx-auto relative z-10">
 
-        <x-pjcomponents::long-form-contents.content-7>
-            <x-slot:text>
-                <p><span class="font-bold primary-color">Cieľom ambulantnej fyzioterapie</span> je zlepšiť alebo obnoviť pohybové schopnosti, zmierniť bolesť, podporiť regeneráciu a zvýšiť kvalitu života. Využívajú sa rôzne metódy ako manuálna terapia, cvičenia, masáže.</p>
-                <br>
-                <p>Tento typ fyzioterapie je určený pre pacientov, ktorí nepotrebujú každodennú starostlivosť, ale majú zdravotné ťažkosti, ktoré si vyžadujú odbornú pomoc. Môže ísť o problémy, ako sú bolesti v oblasti chrbta, úrazy pohybového aparátu, neurologické poruchy alebo rehabilitácia po chirurgických zákrokoch.</p>
-            </x-slot:text>
-        </x-pjcomponents::long-form-contents.content-7>
+
+                <h2 class="text-3xl md:text-4xl lg:text-3xl font-black mb-8 text-center ">Ambulantná fyzioterapia</h2>
+
+                <!-- Hero Image -->
+                <div class="mb-12 mt-16">
+                    <img src="{{ asset('assets/images/ambulance.jpg') }}" alt="Ambulantná fyzioterapia" class="w-full max-w-[65rem] mx-auto rounded-3xl shadow-lg object-cover" style="max-height: 400px;">
+                </div>
+
+
+                <!-- Introduction Text -->
+                <div class="max-w-4xl mx-auto space-y-6 text-lg text-gray-700 text-center mb-12">
+                    <p>
+                        Je typ fyzioterapie, ktorý prebieha v rámci zdravotníckeho zariadenia, napríklad v ambulanciách alebo fyzioterapeutických klinikách, kde pacient dochádza na jednotlivé terapie. Liečba zvyčajne prebieha v intervaloch niekoľkých dní alebo týždňov, v závislosti od problému pacienta.
+                    </p>
+                </div>
+
+                <!-- Content -->
+                <div class="text-left space-y-4 mb-8 lg:px-[10%] relative">
+                         <!-- Gradient Half Circle - left -->
+                <div class="lg:flex absolute top-[0.2rem] -left-[2rem] -lg:top-[40rem] lg:-left-[1rem] w-40 h-40 pointer-events-none">
+                    <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+                </div>
+                    <h3 class="text-2xl md:text-3xl font-black mb-6 ml-8 lg:ml-0 ">Cieľ ambulantnej fyzioterapie</h3>
+
+                    <p class="mt-64 lg:mt-0">
+                        <span class="font-bold primary-color">Cieľom ambulantnej fyzioterapie</span> je zlepšiť alebo obnoviť pohybové schopnosti, zmierniť bolesť, podporiť regeneráciu a zvýšiť kvalitu života. Využívajú sa rôzne metódy ako manuálna terapia, cvičenia, masáže.
+                    </p>
+
+                    <p>
+                        Tento typ fyzioterapie je určený pre pacientov, ktorí nepotrebujú každodennú starostlivosť, ale majú zdravotné ťažkosti, ktoré si vyžadujú odbornú pomoc. Môže ísť o problémy, ako sú bolesti v oblasti chrbta, úrazy pohybového aparátu, neurologické poruchy alebo rehabilitácia po chirurgických zákrokoch.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Typy fyzioterapie Section -->
+        <section class="px-[5%] py-8 lg:py-16 relative overflow-hidden">
+            <div class="max-w-6xl mx-auto relative z-10 lg:px-[10%]">
+
+                  <div class="max-w-6xl mx-auto relative z-10">
+                <!-- Gradient Half Circle - left -->
+                <div class="lg:flex absolute top-[0.2rem] -left-[2rem] lg:top-0 lg:-left-[8rem] w-40 h-40 pointer-events-none">
+                    <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+                </div>
+
+
+                <div class="flex flex-col gap-8 items-start mt-16">
+           <div class="flex-1">
+                        <h2 class="text-3xl md:text-4xl lg:text-3xl font-black mb-6 ml-8 lg:ml-0">Typy fyzioterapie</h2>
+                        <p class="text-lg md:text-xl text-gray-700 ml-8 lg:ml-0">
+                            Naše fyzioterapie sú určené predovšetkým starším ľuďom s problémami pohybového aparátu, pacientom po operáciách alebo úrazoch, osobám so zníženou mobilitou, pracujúcim s časovým obmedzením, ľuďom trpiacim chronickými bolesťami & neurologickým pacientom, ktorým chceme uľahčiť a individuálne prispôsobiť fyzioterapiu.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+     <!-- Gradient Circle - mobile only right side -->
+           <div class="absolute md:hidden top-[61rem] lg:-top-[10rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+        <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+    </div>
+        </section>
+
+        <!-- 6 Service Cards Section -->
+        <section class="py-12 md:py-20 lg:py-4 relative overflow-hidden mx-4 lg:mx-0">
+                     <!-- Gradient Circle - right side -->
+           <div class="absolute hidden lg:inline top-[0rem] lg:-top-[10rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+        <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+    </div>
 
                <!-- 6 Service Cards Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto mb-8 mt-24">
+                <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-8 max-w-5xl mx-auto">
                     <!-- Fyzioterapia pre seniorov -->
                     <a href="{{ route('page.services.senior-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
                         <div class="mb-6 overflow-hidden rounded-2xl relative">
@@ -82,109 +148,35 @@
                     </a>
                 </div>
 
-        <!-- <x-pjcomponents::features.layout-290>
-            <x-slot:features>
-                <x-pjcomponents::features.feature-290
-                    heading="Fyzioterapia pre seniorov"
-                    text="Áno, venujeme sa aj starším vekovým skupinám, ktorí aj v pokročilejšom veku vďaka pohybu, chcú udržiavať svoje telo aktívne a v dobrej fyzickej kondícii."
-                >
-                    <x-slot:image>
-                        <img src="{{ asset('assets/images/fyzio-pre-seniorov.jpg') }}" alt="fyzioterapia pre seniorov">
-                    </x-slot:image>
-
-                    <x-slot:actions>
-                        <x-pjcomponents::button label="Detail" type="primary" :link="route('page.services.senior-physiotherapy')" />
-                    </x-slot:actions>
-                </x-pjcomponents::features.feature-290>
-
-                <x-pjcomponents::features.feature-290
-                    heading="Fyzioterapia pre dospelých"
-                    text="Zameriava sa na liečbu a prevenciu rôznych pohybových porúch, bolesti a funkčných obmedzení."
-                >
-                    <x-slot:image>
-                        <img src="{{ asset('assets/images/fyzio-pre-dospelych.jpg') }}" alt="fyzioterapia pre dospelych">
-                    </x-slot:image>
-
-                    <x-slot:actions>
-                        <x-pjcomponents::button label="Detail" type="primary" :link="route('page.services.adult-physiotherapy')" />
-                    </x-slot:actions>
-                </x-pjcomponents::features.feature-290>
-
-                <x-pjcomponents::features.feature-290
-                    heading="Fyzioterapia pri ochoreniach chrbtice"
-                    text="Ide o pacienta s charakteristickým príznakom- bolesťami chrbtice, obmedzenou hybnosťou, ktoré môžu byť doplnené o neurologické symptómy a majú rôznu príčinu."
-                >
-                    <x-slot:image>
-                        <img src="{{ asset('assets/images/verte.jpg') }}" alt="chrbat">
-                    </x-slot:image>
-
-                    <x-slot:actions>
-                        <x-pjcomponents::button label="Detail" type="primary" :link="route('page.services.vertebrogenic-physiotherapy')" />
-                    </x-slot:actions>
-                </x-pjcomponents::features.feature-290>
-
-                <x-pjcomponents::features.feature-290
-                    heading="Fyzioterapia pri neurologických ochoreniach"
-                    text="V rámci fyzioterapie sa sústreďujeme na Parkinsonov syndróm, skleróza multiplex ale aj na spinálne problémy."
-                >
-                    <x-slot:image>
-                        <img src="{{ asset('assets/images/neuro.jpg') }}" alt="neurologicke ochorenia">
-                    </x-slot:image>
-
-                    <x-slot:actions>
-                        <x-pjcomponents::button label="Detail" type="primary" :link="route('page.services.neurological-physiotherapy')" />
-                    </x-slot:actions>
-                </x-pjcomponents::features.feature-290>
-
-                <x-pjcomponents::features.feature-290
-                    heading="Fyzioterapia pri poúrazových a pooperačných stavoch"
-                    text="Fyzioterapia je veľmi dôležitou súčasťou liečebného procesu pred a po operácii, a preto je rozdelená na predoperačnú a pooperačnú."
-                >
-                    <x-slot:image>
-                        <img src="{{ asset('assets/images/pooperacne.jpg') }}" alt="po operacii">
-                    </x-slot:image>
-
-                    <x-slot:actions>
-                        <x-pjcomponents::button label="Detail" type="primary" :link="route('page.services.postoperative-physiotherapy')" />
-                    </x-slot:actions>
-                </x-pjcomponents::features.feature-290>
-            </x-slot:features>
-        </x-pjcomponents::features.layout-290> -->
-
-        <x-pjcomponents::galleries.gallery-3 heading="Fotogaléria">
-            <x-slot:images>
-                <img src="{{ asset('assets/images/photo-3.jpg') }}" alt="photo 3">
-                <img src="{{ asset('assets/images/photo-4.jpg') }}" alt="photo 4">
-                <img src="{{ asset('assets/images/photo-7.jpg') }}" alt="photo 7">
-                <img src="{{ asset('assets/images/photo-8.jpg') }}" alt="photo 8">
-                <img src="{{ asset('assets/images/bankovanie-3.jpg') }}" alt="photo - 3 - bankovanie">
-                <img src="{{ asset('assets/images/amb-1.jpg') }}" alt="photo 1">
-            </x-slot:images>
-        </x-pjcomponents::galleries.gallery-3>
-
-             <section class="px-[5%] py-16 md:py-24 lg:py-16 relative">
-                <!-- Gradient Circle - near CTA -->
-            <div class="absolute hidden lg:inline lg:-top-[12.5rem] -right-56 lg:-right-[25rem] w-[100%] lg:w-[52.5%] h-auto pointer-events-none">
-                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
-            </div>
-         
-            <div class="container mx-auto w-full max-w-4xl relative z-10">
-                <!-- Gradient Half Circle - left -->
-                <div class="hidden lg:inline absolute top-0 -left-32 w-40 h-40 pointer-events-none">
-                    <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
+                <div class="text-center pt-10 lg:pt-16">
+                    <a href="{{ route('page.services.index') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity">
+                        Všetky služby, ktoré ponúkame
+                    </a>
                 </div>
-
-                <h2 class="text-4xl md:text-5xl lg:text-4xl font-black mb-6 md:mb-8">Získajte prvú konzultáciu zdarma</h2>
-                <p class="text-lg md:text-xl mb-8 md:mb-10 max-w-3xl text-gray-700">
-                    Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
-                </p>
-                <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity">
-                    Vstupná konzultácia ZDARMA
-                </a>
             </div>
+
         </section>
+
+        <!-- CTA Section -->
+        <div class="container mx-auto w-full max-w-6xl lg:max-w-4xl relative z-10 px-[5%] lg:px-0 py-16">
+            <!-- Gradient Half Circle CTA - left -->
+            <div class="lg:flex absolute top-[4rem] -left-[2rem] lg:top-[3.6rem] lg:-left-[8rem] w-40 h-40 pointer-events-none px-[5%]">
+                <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+            </div>
+
+            <h2 class="text-3xl md:text-3xl lg:text-3xl font-black mb-6 md:mb-8 ml-8 lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
+            <p class="text-lg md:text-lg mb-8 md:mb-10 max-w-3xl text-gray-700">
+                Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
+            </p>
+            <div class="flex lg:justify-start justify-center">
+            <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity lg:-ml-16 mt-4">
+                Vstupná konzultácia ZDARMA
+            </a>
+        </div>
+        </div>
+
+
 
         <x-footer />
     </div>
-
 </x-layout>
