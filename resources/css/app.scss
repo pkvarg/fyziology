@@ -101,21 +101,100 @@ body {
         background-color: $primary;
     }
 
-    // Mobile menu roll-down effect
-    .items {
-        transform: scaleY(0);
-        transform-origin: top;
-        max-height: 0;
-        overflow: hidden;
-        transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1), max-height 1s ease;
-        background-color: #fafafa;
-        opacity: 0;
+    // Burger menu animation (only on mobile/tablet)
+    @media (max-width: 1023px) {
+        .burger-menu {
+            transition: transform 0.3s ease;
+
+            div {
+                transition: transform 0.3s ease, opacity 0.3s ease;
+            }
+        }
+
+        &.active .burger-menu {
+            div:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+
+            div:nth-child(2) {
+                opacity: 0;
+            }
+
+            div:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+        }
     }
 
-    &.active .items {
-        transform: scaleY(1);
-        max-height: 2000px;
-        opacity: 1;
+    // Mobile menu roll-down effect (only on mobile/tablet, before lg breakpoint)
+    @media (max-width: 1023px) {
+        .items {
+            transform: scaleY(0);
+            transform-origin: top;
+            max-height: 0;
+            overflow: hidden;
+            transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55),
+                        max-height 0.5s ease,
+                        opacity 0.4s ease;
+            background-color: #fafafa;
+            opacity: 0;
+
+            a {
+                color: #6b7280;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: $primary;
+                }
+
+                &.active {
+                    color: $primary;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        &.active .items {
+            transform: scaleY(1);
+            max-height: 2000px;
+            opacity: 1;
+            transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1),
+                        max-height 0.6s ease,
+                        opacity 0.5s ease 0.1s;
+        }
+
+        .items-link {
+            > a {
+                color: #6b7280;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: $primary;
+                }
+            }
+
+            &.active > a,
+            &.current-page > a {
+                color: $primary;
+                font-weight: 600;
+            }
+        }
+
+        .sub-items {
+            a {
+                color: #6b7280;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: $primary;
+                }
+
+                &.active {
+                    color: $primary;
+                    font-weight: 600;
+                }
+            }
+        }
     }
 }
 
@@ -355,7 +434,8 @@ body {
                 }
             }
 
-            &.active > a {
+            &.active > a,
+            &.current-page > a {
                 color: $primary;
                 font-weight: 600;
             }

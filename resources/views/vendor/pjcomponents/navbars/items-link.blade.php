@@ -1,4 +1,9 @@
-<div class="items-link">
+@php
+    // Check if current URL contains /sluzby to mark parent as current-page (not active for dropdown state)
+    $isCurrentPage = str_contains(request()->path(), 'sluzby');
+@endphp
+
+<div class="items-link {{ $isCurrentPage ? 'current-page' : '' }}">
     <a class="roller">
         {{ $text }}
         <svg
