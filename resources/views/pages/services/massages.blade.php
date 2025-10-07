@@ -1,7 +1,7 @@
 @section('title', 'Masáže')
 
 <x-layout>
-    <div class="massages bg-gray-50 mt-8">
+    <div class="massages bg-gray-50 mt-8 overflow-hidden">
         <!-- Hero Section with Title -->
         <section class="px-[5%] py-16 md:py-20 lg:py-16 relative">
             <!-- Gradient Circle - top left -->
@@ -20,10 +20,7 @@
         <section class="px-[5%] py-4 lg:py-4 relative overflow-hidden">
          <div class="max-w-6xl mx-auto relative z-10">
 
-
-            
-
-                <!-- Hero Image -->
+ <!-- Hero Image -->
                 <div class="mb-12">
                     <img src="{{ asset('assets/images/massages-cover.jpg') }}" alt="Masáže" class="w-full max-w-[65rem] mx-auto rounded-3xl shadow-lg object-cover" style="max-height: 400px;">
                 </div>
@@ -65,14 +62,15 @@
     </div>
         </section>
 
-        <!-- 3 Massage Cards Section -->
-        <section class="py-12 md:py-20 lg:py-4 relative overflow-hidden mx-4 lg:mx-0">
-                     <!-- Gradient Circle - right side -->
-           <div class="absolute hidden lg:inline top-[0rem] lg:-top-[10rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+                            <!-- Gradient Circle - bottom right near 3 massages -->
+    
+  <div class="absolute md:hidden lg:inline top-[150rem] lg:top-[90rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
         <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
     </div>
 
-               <!-- 3 Massage Cards Grid -->
+        <!-- 3 Massage Cards Section -->
+        <section class="py-12 md:py-20 lg:py-4 relative overflow-hidden mx-4 lg:mx-0">
+   <!-- 3 Massage Cards Grid -->
                 <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-8 max-w-5xl mx-auto">
                     <!-- Klasická masáž -->
                     <a href="{{ route('page.services.classic-massage') }}" class="text-center flex flex-col group cursor-pointer">
