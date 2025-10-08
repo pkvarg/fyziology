@@ -20,7 +20,6 @@ services:
       - "host.docker.internal:host-gateway"
     volumes:
       - ".:/var/www"
-      - "../packages/web-components:/var/packages/web-components"
     networks:
       - shared
     depends_on:

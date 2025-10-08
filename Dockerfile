@@ -61,12 +61,9 @@ EOF
 WORKDIR /var/www/html
 
 # Copy composer files first for better caching
-COPY composer.json composer.lock auth.json ./
+COPY composer.json composer.lock ./
 
-# Copy auth.json for GitHub authentication
-RUN mkdir -p /root/.composer && cp auth.json /root/.composer/auth.json
-
-# Install dependencies (downloads packages)
+# Install dependencies (no auth needed - packages are vendored in repo)
 RUN composer install --no-scripts --no-autoloader --no-dev
 
 # Copy rest of application files
