@@ -23,9 +23,18 @@
     },
     "repositories": [
         {
-            "type": "github",
-            "name": "patrikjak/web-components",
-            "url": "https://github.com/patrikjak/web-components"
+            "type": "path",
+            "url": "./vendor/patrikjak/web-components",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "./vendor/patrikjak/utils",
+            "options": {
+                "symlink": false
+            }
         }
     ],
     "autoload": {

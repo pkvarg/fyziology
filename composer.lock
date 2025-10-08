@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a852040f34390b94d01a2bf0d8ce8189",
+    "content-hash": "a1443b52378dd6de18867e47037c16ba",
     "packages": [
         {
             "name": "brick/math",
@@ -2113,12 +2113,12 @@
             "version": "3.8.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/briannesbitt/Carbon.git",
+                "url": "https://github.com/CarbonPHP/carbon.git",
                 "reference": "129700ed449b1f02d70272d2ac802357c8c30c58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/129700ed449b1f02d70272d2ac802357c8c30c58",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/129700ed449b1f02d70272d2ac802357c8c30c58",
                 "reference": "129700ed449b1f02d70272d2ac802357c8c30c58",
                 "shasum": ""
             },
@@ -2510,16 +2510,10 @@
         {
             "name": "patrikjak/utils",
             "version": "1.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/patrikjak/utils.git",
-                "reference": "77ee935ad2655bff88994cb65d34a73f2b85f0b7"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/patrikjak/utils/zipball/77ee935ad2655bff88994cb65d34a73f2b85f0b7",
-                "reference": "77ee935ad2655bff88994cb65d34a73f2b85f0b7",
-                "shasum": ""
+                "type": "path",
+                "url": "./vendor/patrikjak/utils",
+                "reference": "d7c5e19a252a74e59db2c22278c2afa1b5cfccb2"
             },
             "require": {
                 "laravel/framework": "^11.31.0",
@@ -2539,7 +2533,6 @@
                     "Patrikjak\\Utils\\Tests\\": "tests/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2555,25 +2548,18 @@
                 "utility",
                 "utils"
             ],
-            "support": {
-                "issues": "https://github.com/patrikjak/utils/issues",
-                "source": "https://github.com/patrikjak/utils/tree/v1.4.2"
-            },
-            "time": "2025-01-12T18:06:54+00:00"
+            "transport-options": {
+                "symlink": false,
+                "relative": true
+            }
         },
         {
             "name": "patrikjak/web-components",
             "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:patrikjak/web-components.git",
-                "reference": "f82052364bf0c76d47487a1123073bf2385e9aba"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/patrikjak/web-components/zipball/f82052364bf0c76d47487a1123073bf2385e9aba",
-                "reference": "f82052364bf0c76d47487a1123073bf2385e9aba",
-                "shasum": ""
+                "type": "path",
+                "url": "./vendor/patrikjak/web-components",
+                "reference": "a3ab1f09768d52ddde7ec1ae84f18f53010e2786"
             },
             "require": {
                 "laravel/framework": "^11.31.0",
@@ -2603,11 +2589,10 @@
                 }
             ],
             "description": "Simple web components package for laravel apps",
-            "support": {
-                "source": "https://github.com/patrikjak/web-components/tree/v1.2.0",
-                "issues": "https://github.com/patrikjak/web-components/issues"
-            },
-            "time": "2025-01-17T20:32:57+00:00"
+            "transport-options": {
+                "symlink": false,
+                "relative": true
+            }
         },
         {
             "name": "phpoption/phpoption",
