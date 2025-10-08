@@ -157,16 +157,17 @@
   <div class="absolute md:hidden lg:inline -top-[10rem] lg:-top-[35rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
         <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
     </div>
-            <div class="max-w-6xl mx-auto text-center relative z-10">
+            <!-- <div class="max-w-6xl mx-auto text-center relative z-10">
                 <p class="text-xl md:text-2xl font-bold primary-color mb-8">
                     Trápi Vás podobný problém? Kontaktujte nás a my Vám radi pomôžeme!
                 </p>
                 <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity">
                     Kontaktujte nás
                 </a>
-            </div>
+            </div> -->
         </section>
 
         <x-footer />
+         
     </div>
 </x-layout>
