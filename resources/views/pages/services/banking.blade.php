@@ -35,10 +35,10 @@
                 <!-- Content -->
                 <div class="text-left space-y-4 mb-8 lg:px-[10%] relative">
                          <!-- Gradient Half Circle - left -->
-                <div class="lg:flex absolute top-[0.2rem] -left-[2rem] -lg:top-[40rem] lg:-left-[1rem] w-40 h-40 pointer-events-none">
-                    <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+                <div class="lg:flex absolute top-[0.2rem] -left-[2rem] -lg:top-[40rem] lg:left-[3rem] w-40 h-40 pointer-events-none">
+                    <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
                 </div>
-                    <h3 class="text-2xl md:text-3xl font-black mb-6 ml-8 lg:ml-0">Ako funguje bankovanie?</h3>
+                    <h3 class="text-2xl font-black mb-6 ml-8 lg:ml-0">Ako funguje bankovanie?</h3>
 
                     <p class="!mt-6 lg:mt-0 ml-8 lg:ml-0">
                         Pri bankovaní sa na pokožku umiestnia špeciálne sklenené alebo plastové "banky", ktoré sa nasajú na pokožku pomocou tepla alebo vákuovej pumpy. Tento proces vytvára podtlak, ktorý má niekoľko účinkov:
