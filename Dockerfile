@@ -60,10 +60,11 @@ EOF
 # Set working directory
 WORKDIR /var/www/html
 
-# Copy composer files first for better caching
+# Copy composer files and vendored packages
 COPY composer.json composer.lock ./
+COPY vendor/patrikjak ./vendor/patrikjak
 
-# Install dependencies (no auth needed - packages are vendored in repo)
+# Install dependencies (patrikjak packages already vendored)
 RUN composer install --no-scripts --no-autoloader --no-dev
 
 # Copy rest of application files
