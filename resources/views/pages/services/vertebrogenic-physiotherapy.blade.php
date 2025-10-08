@@ -15,7 +15,7 @@
                 </h1>
 
                 <!-- Hero Image -->
-                <div class="mb-12 mt-16">
+                <div class="mb-12 mt-8">
                     <img src="{{ asset('assets/images/verte.jpg') }}" alt="Fyzioterapia pri ochoreniach chrbtice" class="w-full max-w-[65rem] mx-auto rounded-3xl shadow-lg object-cover" style="max-height: 400px;">
                 </div>
 
@@ -39,14 +39,14 @@
 
             <div class="max-w-4xl mx-auto relative z-10">
                 <!-- Gradient Half Circle - Fyzio for Vertebrogenic -->
-        <div class="lg:flex absolute top-[0.2rem] -left-[2rem] lg:top-0 lg:-left-[8rem] w-40 h-40  pointer-events-none">
-            <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+        <div class="lg:flex absolute top-[0.2rem] -left-[2rem] lg:top-[0.3rem] lg:-left-[4rem] w-40 h-40  pointer-events-none">
+            <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
         </div>
-                <h2 class="text-3xl md:text-4xl lg:text-3xl font-black mb-4 ml-8 lg:ml-0">Fyzioterapia pri ochoreniach chrbtice</h2>
+                <h2 class="text-2xl font-black mb-4 ml-8 lg:ml-0">Fyzioterapia pri ochoreniach chrbtice</h2>
 
-                <div class="space-y-4 text-lg text-gray-700">
+                <div class="py-[0.5rem] lg:py-[0.75rem] text-lg text-gray-700 ml-8 lg:ml-0">
                     <p>
-                        <span class="font-bold primary-color">Funkčné poruchy:</span> pri svalovej dysbalancii, zmene pohybových stereotypov, SI blokáde, SI posune, pri zošikmení panvy, hypermobilnom syndróme.
+                        <span class="font-bold primary-color -mt-8">Funkčné poruchy:</span> pri svalovej dysbalancii, zmene pohybových stereotypov, SI blokáde, SI posune, pri zošikmení panvy, hypermobilnom syndróme.
                     </p>
 
                     <p>
@@ -68,24 +68,26 @@
             </div>
         </section>
 
-         <div class="container mx-auto w-full max-w-6xl lg:max-w-4xl relative z-10 px-[5%] lg:px-0">
-                <!-- Gradient Half Circle CTA - left -->
-             <div class="lg:flex absolute top-[0.2rem] -left-[2rem] lg:top-0 lg:-left-[8rem] w-40 h-40  pointer-events-none px-[5%]">
-            <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+
+
+
+             <!-- CTA Section -->
+        <div class="container mx-auto w-full max-w-6xl lg:max-w-4xl relative z-10 px-[5%] lg:px-0 py-16">
+            <!-- Gradient Half Circle CTA - left -->
+            <div class="lg:flex absolute top-[4.3rem] -left-[2rem] lg:top-[4.25rem] lg:-left-[6.5rem] w-40 h-40 pointer-events-none px-[5%]">
+                <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
+            </div>
+
+            <h2 class="text-[22px] md:text-xl font-black mb-6 md:mb-8 ml-8 lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
+            <p class="text-md md:text-md mb-8 md:mb-10 max-w-3xl text-gray-700 ml-8 lg:ml-0">
+                Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
+            </p>
+            <div class="flex lg:justify-start justify-center">
+            <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity lg:-ml-16 mt-4">
+                Vstupná konzultácia ZDARMA
+            </a>
         </div>
-
-                <h2 class="text-3xl md:text-3xl lg:text-3xl font-black mb-6 md:mb-8 ml-8  lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
-                <p class="text-lg md:text-lg mb-8 md:mb-10 max-w-3xl text-gray-700">
-                    Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
-                </p>
-
-            </div>
-            <div class="flex lg:justify-start
-            justify-center">
-   <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity lg:ml-[15rem] mt-4">
-                    Vstupná konzultácia ZDARMA
-                </a>
-            </div>
+        </div>
 
 
         <x-footer />
