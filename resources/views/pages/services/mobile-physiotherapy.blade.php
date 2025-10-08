@@ -257,6 +257,6 @@
 
      
 
-        <x-simple-footer />
+        <x-footer />
     </div>
 </x-layout>
