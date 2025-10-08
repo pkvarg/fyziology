@@ -96,18 +96,26 @@
                     </a>
                 </div>
             </div>
+         <!-- Gradient Circle - desktop only bottom right -->
+            <div class="absolute hidden lg:inline lg:top-[40rem] lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
 
-    <!-- Gradient Circle - desktop only bottom right near Gallery -->
-    <div class="absolute hidden lg:inline  lg:top-[90rem]  lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
-        <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
-    </div>
+
 
         </section>
+
+       
+   
+        
+
+   
 
 
   <!-- CTA Section -->
            
         <div class="container mx-auto w-full max-w-6xl lg:max-w-4xl relative z-10 px-[5%] lg:px-0 py-16">
+    
             <!-- Gradient Half Circle CTA - left -->
             <div class="lg:flex absolute top-[4.3rem] -left-[2rem] lg:top-[4.25rem] lg:-left-[6.5rem] w-40 h-40 pointer-events-none px-[5%]">
                 <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />

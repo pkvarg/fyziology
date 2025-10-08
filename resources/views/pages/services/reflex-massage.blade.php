@@ -3,7 +3,7 @@
 <x-layout>
     <div class="reflex-massage bg-gray-50 mt-8">
         <!-- Hero Section with Title -->
-        <section class="px-[5%] py-16 md:py-20 lg:py-16 relative">
+        <section class="px-[5%] pt-16 pb-8 relative">
             <!-- Gradient Circle - top left -->
             <div class="absolute md:hidden lg:inline -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
@@ -41,16 +41,16 @@
                 <!-- Content -->
                 <div class="text-left space-y-4 mb-8 lg:px-[10%] relative">
                          <!-- Gradient Half Circle - left -->
-                <div class="lg:flex absolute top-[0.2rem] -left-[2rem] -lg:top-[40rem] lg:-left-[1rem] w-40 h-40 pointer-events-none">
-                    <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+                <div class="lg:flex absolute top-[0.2rem] -left-[2rem] -lg:top-[40rem] lg:left-[3rem] w-40 h-40 pointer-events-none">
+                    <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
                 </div>
-                    <h3 class="text-2xl md:text-3xl font-black mb-6 ml-8 lg:ml-0 ">Cieľ masáže</h3>
+                    <h3 class="text-2xl font-black mb-6 ml-8 lg:ml-0 ">Cieľ masáže</h3>
 
-                    <p class="mt-64 lg:mt-0">
+                    <p class="!mt-[1.5rem] ml-8 lg:ml-0">
                         <span class="primary-color font-bold">Cieľom masáže</span> je vyhmatať a masírovať zmeny na koži, podkoží, fascii, svaloch, perioste a určiť miesta so zmenenou kožnou citlivosťou. Reflexnou cestou dosiahneme liečivé účinky t.j. odstránime ťažkosti vyvolané ochorením.
                     </p>
 
-                    <div class="lg:flex lg:justify-between lg:gap-8 mt-8">
+                    <div class="lg:flex lg:justify-between lg:gap-8 mt-8 ml-8 lg:ml-0">
                         <div class="mb-8 lg:mb-0">
                             <p class="primary-color font-bold mb-4">Indikácie:</p>
                             <ul class="list-none space-y-2">
@@ -84,19 +84,17 @@
             </div>
         </section>
 
-        <!-- CTA Section -->
-        <div class="container mx-auto w-full max-w-6xl lg:max-w-4xl relative z-10 px-[5%] lg:px-0 py-16 overflow-hidden lg:overflow-visible">
-            <!-- Gradient Circle - mobile only bottom right near CTA -->
-            <div class="absolute md:hidden -top-[5rem] -right-48 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
-                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
-            </div>
+    
+         <!-- CTA Section -->
+           
+        <div class="container mx-auto w-full max-w-6xl lg:max-w-4xl relative z-10 px-[5%] lg:px-0 py-16">
             <!-- Gradient Half Circle CTA - left -->
-            <div class="lg:flex absolute top-[4rem] -left-[2rem] lg:top-[3.6rem] lg:-left-[8rem] w-40 h-40 pointer-events-none px-[5%]">
-                <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
+            <div class="lg:flex absolute top-[4.3rem] -left-[2rem] lg:top-[4.25rem] lg:-left-[6.5rem] w-40 h-40 pointer-events-none px-[5%]">
+                <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
             </div>
 
-            <h2 class="text-3xl md:text-3xl lg:text-3xl font-black mb-6 md:mb-8 ml-8 lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
-            <p class="text-lg md:text-lg mb-8 md:mb-10 max-w-3xl text-gray-700">
+            <h2 class="text-[22px] md:text-xl font-black mb-6 md:mb-8 ml-8 lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
+            <p class="text-md md:text-md mb-8 md:mb-10 max-w-3xl text-gray-700 ml-8 lg:ml-0">
                 Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
             </p>
             <div class="flex lg:justify-start justify-center">
