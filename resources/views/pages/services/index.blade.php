@@ -24,7 +24,7 @@
 
        
 
-        <div class="px-[5%] pb-16 md:pb-24 lg:pb-28">
+        <div class="px-[5%] pb-16 lg:pb-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <!-- Mobilná a ambulantná fyzioterapia -->
                 <div class="text-center flex flex-col">
@@ -58,34 +58,34 @@
             </div>
         </div>
 
-        <section class="px-[5%] py-16 md:py-24 lg:py-16 relative">
+    <section class="px-[5%] py-16 md:py-24 lg:py-16 relative">
               <!-- Gradient Circle -  bottom right near CTA -->
          <div class="absolute md:hidden lg:inline -top-[4rem] lg:-top-[12rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
         <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
-    </div>
-
-            <div class="container mx-auto w-full max-w-4xl relative z-10">
-          
-
-      <!-- Gradient Half Circle - bottom leftt -->
-        <div class="lg:flex absolute top-[0rem] -left-[3rem] lg:top-0 lg:-left-[8rem] w-40 h-40  pointer-events-none">
-            <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-32 lg:w-full h-32 lg:h-full object-contain" />
         </div>
 
-                <h2 class="text-4xl md:text-6xl lg:text-4xl font-black mb-6 md:mb-8 ml-14 lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
-                <p class="text-lg md:text-xl mb-8 md:mb-10 max-w-3xl text-gray-700">
-                    Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
-                </p>
+         <div class="container mx-auto w-full max-w-4xl relative z-10">
+          
+
+        <!-- Gradient Half Circle - bottom leftt -->
+                 <div class="lg:flex absolute top-[0.25rem] -left-[3.5rem] lg:top-[0.26rem] lg:-left-[6.5rem] w-40 h-40 pointer-events-none px-[5%]">
+                <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
+            </div>
+
+            <h2 class="text-[22px] md:text-xl font-black mb-6 md:mb-8 ml-8 lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
+            <p class="text-md md:text-md mb-8 md:mb-10 max-w-3xl text-gray-700 ml-8 lg:ml-0">
+                Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
+            </p>
+            <div class="flex lg:justify-start justify-center">
+            <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity lg:-ml-16 mt-4">
+                Vstupná konzultácia ZDARMA
+            </a>
+        </div>
             
             </div>
           
-        </section>
-  <div class="flex lg:justify-start
-            justify-center">
-   <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity lg:ml-[15rem] -mt-8">
-                    Vstupná konzultácia ZDARMA
-                </a>
-            </div>
+    </section>
+ 
 
         
         <x-footer />
