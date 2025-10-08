@@ -35,12 +35,12 @@
                 <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
                     <!-- Content -->
                     <div class="flex-1">
-                        <h2 class="text-3xl md:text-4xl lg:text-2xl font-black mb-6 ml-8 lg:ml-0">Prečo si vybrať Fyziology?</h2>
-                        <p class="text-lg md:text-xl mb-6 text-gray-700 md:ml-8 lg:ml-0">
+                        <h2 class="text-2xl md:text-4xl lg:text-2xl font-black mb-6 ml-8 lg:ml-0">Prečo si vybrať Fyziology?</h2>
+                        <p class="text-lg md:text-xl mb-6 text-gray-700 md:ml-8 lg:ml-0 ml-8">
                             Ponúkame fyzioterapiu priamo u Vás doma alebo v našej ambulancii, ktorú zabezpečuje náš tím s odrazom na profesionalitu, ľudský prístup a ochotu, pričom počas celej terapie poskytujeme neustálu podporu a motiváciu.
                         </p>
 
-                        <div class="flex flex-col lg:flex-row gap-8 md:ml-8 lg:">
+                        <div class="flex flex-col lg:flex-row gap-8 ml-8 md:ml-8">
                             <div class="flex flex-col items-start gap-0">
                                 <div class="primary-color font-black text-2xl">Mnoho</div>
                                 <div class="text-gray-700">spokojných zákazníkov</div>
@@ -75,7 +75,7 @@
         </div>
                  <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
                     <div class="flex-1">
-                        <h2 class="text-3xl md:text-4xl lg:text-2xl font-black mb-6 ml-8 lg:ml-0">Typy fyzioterapie</h2>
+                        <h2 class="text-2xl md:text-4xl lg:text-2xl font-black mb-6 ml-8 lg:ml-0">Typy fyzioterapie</h2>
                         <p class="text-lg md:text-xl text-gray-700 ml-8 lg:ml-0">
                             Naše fyzioterapie sú určené predovšetkým starším ľuďom s problémami pohybového aparátu, pacientom po operáciách alebo úrazoch, osobám so zníženou mobilitou, pracujúcim s časovým obmedzením, ľuďom trpiacim chronickými bolesťami & neurologickým pacientom, ktorým chceme uľahčiť a individuálne prispôsobiť fyzioterapii.
                         </p>
@@ -161,7 +161,7 @@
             <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
         </div>
                     <div class="flex-1">
-                        <h2 class="text-3xl md:text-4xl lg:text-2xl font-black mb-6 ml-8 lg:ml-0">Náš tím</h2>
+                        <h2 class="text-2xl md:text-4xl lg:text-2xl font-black mb-6 ml-8 lg:ml-0">Náš tím</h2>
                         <p class="text-lg md:text-xl text-gray-700 ml-8 lg:ml-0">
                             Za našimi službami stojí odborne pripravený fyzioterapeut, ktorý pristupuje ku každému klientovi s individuálne, s rešpektom a plným nasadením. Vďaka odbornému vzdelaniu, praxi a ľudskému prístupu vytvárame bezpečné a podporujúce prostredie, v ktorom sa klienti môžu sústrediť na svoje zdravie.
                         </p>
@@ -196,8 +196,8 @@
         <!-- Recenzie Section -->
          <section class="px-[5%] lg:py-16 md:py-20 py-8 relative overflow-hidden">
                         <!-- Gradient Half Circle - left -->
-            <div class="absolute hidden lg:inline top-[4rem] left-[10rem] w-32 h-32 lg:w-40 lg:h-40 pointer-events-none opacity-80">
-                <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            <div class="absolute top-[2.25rem] lg:top-[4rem] -left-[0.5rem] lg:left-[10rem] w-32 h-32 lg:w-40 lg:h-40 pointer-events-none opacity-80">
+                <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-full h-20 lg:h-full object-contain" />
             </div>
          
 
@@ -205,8 +205,8 @@
        
                  <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
                     <div class="flex-1">
-                        <h2 class="text-3xl md:text-4xl lg:text-2xl font-black mb-6">Recenzie od našich zákazníkov</h2>
-                        <p class="text-lg md:text-xl text-gray-700">
+                        <h2 class="text-[1.45rem] md:text-4xl lg:text-2xl font-black mb-6 ml-8 lg:ml-0">Recenzie od našich zákazníkov</h2>
+                        <p class="text-lg md:text-xl text-gray-700 ml-8 lg:ml-0">
                             Spokojnosť našich klientov je pre nás najlepšou spätnou väzbou a zároveň motiváciou neustále sa zlepšovať. Každá pozitívna skúsenosť, ktorú s nami zdieľate, je dôkazom, že individuálny prístup, odborná starostlivosť a ľudský kontakt majú skutočný význam.
                         </p>
                     </div>
