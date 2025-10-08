@@ -106,53 +106,12 @@
             <div class="max-w-5xl mx-auto">
                 <h2 class="text-3xl md:text-4xl lg:text-3xl font-black mb-8 text-center">Fotogaléria</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-                    <img src="{{ asset('assets/images/bankovanie-1.jpg') }}" alt="photo 1" class="w-full h-64 object-cover rounded-3xl shadow-lg cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this.src)">
-                    <img src="{{ asset('assets/images/bankovanie-8.jpg') }}" alt="photo 8" class="w-full h-64 object-cover rounded-3xl shadow-lg cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this.src)">
-                    <img src="{{ asset('assets/images/bankovanie-7.jpg') }}" alt="photo 7" class="w-full h-64 object-cover rounded-3xl shadow-lg cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this.src)">
+                    <img src="{{ asset('assets/images/bankovanie-1.jpg') }}" alt="photo 1" class="w-full h-auto rounded-3xl shadow-lg">
+                    <img src="{{ asset('assets/images/bankovanie-8.jpg') }}" alt="photo 8" class="w-full h-auto rounded-3xl shadow-lg">
+                    <img src="{{ asset('assets/images/bankovanie-7.jpg') }}" alt="photo 7" class="w-full h-auto rounded-3xl shadow-lg">
                 </div>
             </div>
         </section>
-
-        <!-- Lightbox Modal -->
-        <!-- <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 hidden items-center justify-center p-4" style="z-index: 9999;">
-            <button id="close-btn" class="absolute top-4 right-4 md:top-8 md:right-8 text-white font-bold hover:text-gray-300 transition-colors w-16 h-16 md:w-20 md:h-20 flex items-center justify-center leading-none cursor-pointer bg-red-600 hover:bg-red-700 rounded-full" style="z-index: 10000; font-size: 3rem;">×</button>
-            <img id="lightbox-img" src="" alt="Full size" class="max-w-full max-h-full object-contain rounded-lg">
-        </div>
-
-        <script>
-            function openLightbox(src) {
-                const lightbox = document.getElementById('lightbox');
-                lightbox.style.display = 'flex';
-                document.getElementById('lightbox-img').src = src;
-                document.body.style.overflow = 'hidden';
-            }
-
-            function closeLightbox() {
-                const lightbox = document.getElementById('lightbox');
-                lightbox.style.display = 'none';
-                document.body.style.overflow = 'auto';
-            }
-
-            // Close on X button click
-            document.getElementById('close-btn').addEventListener('click', function(e) {
-                e.stopPropagation();
-                closeLightbox();
-            });
-
-            // Close on background click
-            document.getElementById('lightbox').addEventListener('click', function(e) {
-                if (e.target === this) {
-                    closeLightbox();
-                }
-            });
-
-            // Close lightbox on ESC key
-            document.addEventListener('keydown', function(e) {
-                if (e.key === 'Escape') {
-                    closeLightbox();
-                }
-            });
-        </script> -->
 
         <!-- CTA Section -->
             <!-- CTA Section -->
