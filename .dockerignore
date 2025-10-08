@@ -1,5 +1,6 @@
 node_modules
-vendor
+vendor/*
+!vendor/patrikjak
 .git
 .env
 storage/logs/*
