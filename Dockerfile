@@ -66,9 +66,8 @@ COPY --chown=www-data:www-data . /var/www/html
 # Verify patrikjak packages are present
 RUN ls -la vendor/patrikjak/
 
-# Install dependencies - Composer will see patrikjak packages already exist
-# and skip downloading them. Use --no-audit to skip security checks that might fail.
-RUN COMPOSER_ALLOW_SUPERUSER=1 composer install --no-dev --no-audit --no-interaction
+# Install dependencies - Composer will use local path repositories
+RUN COMPOSER_ALLOW_SUPERUSER=1 composer install --no-dev --no-interaction --optimize-autoloader
 
 # Build assets
 RUN npm install && npm run build && rm -rf node_modules && \
