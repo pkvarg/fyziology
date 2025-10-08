@@ -1,0 +1,20 @@
+<?php
+
+declare(strict_types = 1);
+
+namespace Patrikjak\WebComponents\View\HeroHeaders;
+
+use Illuminate\Contracts\View\View;
+use Illuminate\View\Component;
+
+class Header9 extends Component
+{
+    public function __construct(public ?string $heading = null, public ?string $text = null)
+    {
+    }
+
+    public function render(): View
+    {
+        return $this->view('pjcomponents::hero-headers.header-9');
+    }
+}
