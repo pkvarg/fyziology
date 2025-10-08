@@ -114,7 +114,7 @@
         </section>
 
         <!-- CTA Section -->
-            <!-- CTA Section -->
+           
         <div class="container mx-auto w-full max-w-6xl lg:max-w-4xl relative z-10 px-[5%] lg:px-0 py-16">
             <!-- Gradient Half Circle CTA - left -->
             <div class="lg:flex absolute top-[4.3rem] -left-[2rem] lg:top-[4.25rem] lg:-left-[6.5rem] w-40 h-40 pointer-events-none px-[5%]">
