@@ -10,10 +10,10 @@
     </div> 
 
             <div class="max-w-4xl mx-auto text-center relative z-10">
-                <h1 class="text-5xl md:text-6xl lg:text-7xl font-black mb-6">
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-black mb-6 tracking-wider">
                     Vitajte vo <span class="primary-color">Fyziology</span>!
                 </h1>
-                <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8 text-gray-700">
+                <p class="text-lg md:text-xl max-w-6xl mx-auto mb-8 text-gray-700">
                     Fyziology je moderná a dynamická firma zameraná na poskytovanie kvalitných fyzioterapeutických služieb a rehabilitácie v Bratislave a okolí. Našim cieľom je pomáhať klientom dosiahnuť ich maximálny potenciál v oblasti pohybu a zdravia, a to pomocou mobilnej fyzioterapie v domácom prostredí klientov.
                 </p>
 
@@ -29,10 +29,10 @@
 
             <div class="max-w-6xl mx-auto relative z-10">
         <!-- Gradient Half Circle - left Why choose -->
-           <div class="lg:flex absolute top-[4px] -left-[2rem] lg:top-1 lg:left-[3rem] w-36 h-36  pointer-events-none">
+           <div class="lg:flex absolute top-[4px] -left-[2rem] lg:top-1 lg:left-[6.5rem] w-36 h-36  pointer-events-none">
             <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
         </div>
-                <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
+                <div class="flex flex-col gap-8 items-start lg:mx-[15%]">
                     <!-- Content -->
                     <div class="flex-1">
                         <h2 class="text-2xl font-black mb-6 ml-8 lg:ml-0">Prečo si vybrať Fyziology?</h2>
@@ -63,17 +63,17 @@
         <!-- Typy fyzioterapie Section -->
         <section class="px-[5%] py-12 md:py-20 lg:py-24 bg-gray-50 relative overflow-hidden">
             <!-- Gradient Circle - bottom right -->
-    <div class="absolute md:hidden lg:inline -top-[7rem] lg:-top-[11rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
-        <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
-    </div>
+            <div class="absolute md:hidden lg:inline -top-[7rem] lg:-top-[11rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+                <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
+            </div>
          
 
             <div class="max-w-6xl mx-auto relative z-10">
            <!-- Gradient Half Circle - left Types of -->
-           <div class="lg:flex absolute top-[4px] -left-[2rem] lg:top-1 lg:left-[3rem] w-36 h-36  pointer-events-none">
+           <div class="lg:flex absolute top-[4px] -left-[2rem] lg:top-1 lg:left-[6.5rem] w-36 h-36  pointer-events-none">
             <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
         </div>
-                 <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
+                 <div class="flex flex-col gap-8 items-start lg:mx-[15%]">
                     <div class="flex-1">
                         <h2 class="text-2xl font-black mb-6 ml-8 lg:ml-0">Typy fyzioterapie</h2>
                         <p class="text-lg md:text-xl text-gray-700 ml-8 lg:ml-0">
@@ -155,9 +155,9 @@
      
 
             <div class="max-w-6xl mx-auto relative z-10">
-                <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
+                <div class="flex flex-col gap-8 items-start lg:mx-[12.5%]">
         <!-- Gradient Half Circle - left Our team -->
-           <div class="lg:flex absolute top-[0.2rem] -left-[2rem] lg:top-[0.2rem] lg:left-[2.5rem] w-36 h-36  pointer-events-none">
+           <div class="lg:flex absolute top-[0.2rem] -left-[2rem] lg:top-[0.2rem] lg:left-[4.25rem] w-36 h-36  pointer-events-none">
             <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
         </div>
                     <div class="flex-1">
@@ -168,7 +168,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col lg:flex-row gap-8 items-center bg-gray-50 rounded-3xl lg:p-8 mt-12">
+                <div class="flex flex-col lg:flex-row gap-8 items-center bg-gray-50 rounded-3xl lg:p-8 mt-12 lg:mx-[5%]">
                     <!-- Circular Avatar with Gradient Overlay -->
                     <div class="flex-shrink-0 relative">
                         <img src="{{ asset('assets/images/vlado.jpg') }}" alt="Mgr. Vladimír Chovanec" class="w-48 h-48 lg:w-64 lg:h-64 rounded-full object-cover shadow-lg">
@@ -177,12 +177,12 @@
 
                     <!-- Bio Text -->
                     <div class="flex-1">
-                        <h3 class="text-2xl lg:text-3xl font-bold mb-2">Mgr. Vladimír Chovanec</h3>
-                        <p class="primary-color font-semibold mb-4">Fyzioterapeut</p>
-                        <p class="text-gray-700 leading-relaxed mb-4">
+                        <h3 class="text-2xl lg:text-3xl font-bold mb-2 text-center lg:text-justify">Mgr. Vladimír Chovanec</h3>
+                        <p class="primary-color font-semibold mb-4 text-center lg:text-justify">Fyzioterapeut</p>
+                        <p class="text-gray-700 leading-relaxed mb-4 text-center lg:text-justify">
                             Bakalárske štúdium absolvoval na Slovenskej zdravotníckej univerzite v Bratislave. Počas štúdia nadobudol praktické skúsenosti a znalosti v rôznych nemocniciach a súkromných zdravotníckych zariadeniach. Magisterské štúdium ukončil na Univerzite sv. Cyrila a Metoda v Trnave, počas ktorého pracoval v súkromnom zariadení.
                         </p>
-                        <p class="text-gray-700 leading-relaxed">
+                        <p class="text-gray-700 leading-relaxed text-center lg:text-justify">
                             Tvrdí, že pohyb je medicína a vďaka nemu sa ľudia dokážu vrátiť po zdravotných problémoch do bežného života rýchlejšie. Svoje znalosti naďalej rozvíja, učí sa novým veciam a teší sa ďalším výzvam.
                         </p>
                     </div>
@@ -198,11 +198,11 @@
        
          
 
-            <div class="max-w-6xl mx-auto relative z-10">
+            <div class="max-w-5xl mx-auto relative z-10">
        
                  <div class="flex flex-col gap-8 items-start lg:mx-[10%]">
              <!-- Gradient Half Circle - left -->
-            <div class="absolute top-[0.3rem] lg:top-[0.2rem] -left-[2rem] lg:left-[3rem] w-32 h-32 lg:w-40 lg:h-40 pointer-events-none opacity-80">
+            <div class="absolute top-[0.3rem] lg:top-[0.2rem] -left-[2rem] lg:left-[2.25rem] w-32 h-32 lg:w-40 lg:h-40 pointer-events-none opacity-80">
                 <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
             </div>
                     <div class="flex-1">
