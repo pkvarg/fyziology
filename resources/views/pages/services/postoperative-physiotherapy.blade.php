@@ -42,12 +42,12 @@
 
             <div class="max-w-4xl mx-auto relative z-10">
                 <!-- Gradient Half Circle - Fyzio for Postoperative -->
-        <div class="lg:flex absolute top-[0.2rem] -left-[2rem] lg:top-[0.3rem] lg:-left-[4rem] w-40 h-40  pointer-events-none">
+        <div class="lg:flex absolute top-[0rem] -left-[2rem] lg:top-[0.3rem] lg:-left-[4rem] w-40 h-40  pointer-events-none">
             <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
         </div>
-                <h2 class="text-2xl font-black mb-4 ml-8 lg:ml-0">Fyzioterapia pri poúrazových a pooperačných stavoch</h2>
+                <h2 class="text-[1.5rem] lg:text-2xl font-black mb-4 ml-8 lg:ml-0 leading-6 lg:leading-normal">Fyzioterapia pri poúrazových a pooperačných stavoch</h2>
 
-                <div class="py-[0.5rem] lg:py-[0.75rem] text-lg text-gray-700 ml-8 lg:ml-0">
+                <div class="py-[0.5rem] lg:py-[0.75rem] text-lg text-gray-700 ml-8 lg:ml-0 -mt-[1.25rem] lg:-mt-[0.25rem]">
                     <p>
                         <span class="font-bold primary-color">Cieľom predoperačnej fyzioterapie</span> je pripraviť pacienta na operačný zákrok, edukovať pacienta o význame a potrebe fyzioterapie v pooperačnej fáze.
                     </p>
@@ -56,7 +56,7 @@
                         Cvičebná jednotka zahŕňa starostlivosť o dýchacie cesty, správny stereotyp dýchania, respiračnú fyzioterapiu, nácvik kašľania a vykašliavania, výdych proti odporu, kondičné cvičenie horných a dolných končatín či korekčné cvičenia.
                     </p>
 
-                    <p>
+                    <p class="mt-4 lg:mt-0">
                         Pri <span class="font-bold primary-color">pooperačnej fáze,</span> ktorá začína na lôžku, využívame respiračnú fyzioterapiu, kde sa optimalizuje činnosť svalov hrudníka a funkcie dýchania. Cieľom je odstrániť hlien z dýchacích ciest. Využiť môžeme aj polohové drenáže, pri ktorých sa využíva vplyv gravitácie na usmernenie toku hlienu za účelom odstránenia.
                     </p>
 
@@ -64,7 +64,7 @@
                         Súčasťou je taktiež starostlivosť o jazvu a jej mobilizácia či nácviku posturálnych funkcií ako je stoj, chôdza, korekčné cvičenia na ovplyvnenie držania tela.
                     </p>
 
-                    <p class="font-bold primary-color">Venujeme sa:</p>
+                    <p class="font-bold primary-color mt-4 lg:mt-0">Venujeme sa:</p>
                     <p>1. Zlomeninám a úrazom horných končatín (ramenný kĺb, lakťový kĺb, zápästný kĺb, ruka)</p>
                     <p>2. Zlomeninám a úrazom dolných končatín (bedrový kĺb, kolenný kĺb, členkový kĺb, noha)</p>
                     <p>3. Poraneniam mäkkých štruktúr (svaly, väzy, šľachy, menisky)</p>
@@ -80,8 +80,8 @@
                 <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
             </div>
 
-            <h2 class="text-[22px] md:text-xl font-black mb-6 md:mb-8 ml-8 lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
-            <p class="text-md md:text-md mb-8 md:mb-10 max-w-3xl text-gray-700 ml-8 lg:ml-0">
+            <h2 class="text-[1.35rem] lg:text-2xl md:text-xl font-black mb-6 md:mb-8 ml-8 lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
+            <p class="text-md md:text-md mb-8 md:mb-10 max-w-3xl text-gray-700 ml-8 lg:ml-0 lg:-mt-[0.2rem]">
                 Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
             </p>
             <div class="flex lg:justify-start justify-center">

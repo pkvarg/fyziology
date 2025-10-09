@@ -48,26 +48,26 @@
         <div class="lg:flex absolute top-[0.2rem] -left-[2rem] lg:top-[0.3rem] lg:-left-[4rem] w-40 h-40  pointer-events-none">
             <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
         </div>
-                <h2 class="text-2xl font-black mb-4 ml-8 lg:ml-0">Fyzioterapia pri neurologických ochoreniach</h2>
+                <h2 class="text-[1rem] lg:text-[22px] font-black mb-4 ml-8 lg:ml-0">Fyzioterapia pri neurologických ochoreniach</h2>
 
-                <div class="py-[0.5rem] lg:py-[0.75rem] text-lg text-gray-700 ml-8 lg:ml-0">
+                <div class="py-[0.5rem] lg:py-[0.75rem] text-[1rem] text-lg text-gray-700 ml-8 lg:ml-0 mt-[1.4rem] lg:-mt-[0.25rem]">
                     <p>
                         <span class="font-bold primary-color -mt-8">1. Liečebný plán:</span> Vypracovanie individuálneho liečebného plánu v závislosti od diagnózy.
                     </p>
 
-                    <p>
+                       <p class="mt-4 lg:mt-0">
                         <span class="font-bold primary-color">2. Vzdelávanie a podpora rodiny:</span> Vzdelávanie rodiny o stave pacienta a poskytovanie emocionálnej podpory, aby sa im pomohlo lepšie pochopiť a zvládať situáciu.
                     </p>
 
-                    <p>
+                  <p class="mt-4 lg:mt-0">
                         <span class="font-bold primary-color">3. Psychologická podpora:</span> Zabezpečenie psychologickej podpory a poradenstva, keďže neurologické ochorenia môžu mať značný vplyv na psychické zdravie.
                     </p>
 
-                    <p>
+                 <p class="mt-4 lg:mt-0">
                         Včasná a pravidelná rehabilitácia je kľúčová a môže výrazne prispieť k obnoveniu funkcií a prevencii komplikácií. Fyzioterapeut pri práci s neurologickými pacientmi potrebuje detailne hodnotiť stav pacienta, prispôsobiť terapiu jeho individuálnym potrebám a cieľom, a neustále monitorovať pokrok počas liečby.
                     </p>
 
-                    <p>
+                    <p class="mt-4 lg:mt-0">
                         Našim hlavným cieľom je postaviť Vás opäť na nohy, zlepšiť každodenné činnosti (presuny, chôdza, obliekanie, hygiena..), motivovať pacienta a pomôcť k návratu do bežného života čo najskôr!
                     </p>
                 </div>
@@ -84,8 +84,8 @@
                 <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
             </div>
 
-            <h2 class="text-[22px] md:text-xl font-black mb-6 md:mb-8 ml-8 lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
-            <p class="text-md md:text-md mb-8 md:mb-10 max-w-3xl text-gray-700 ml-8 lg:ml-0">
+            <h2 class="text-[1.2rem] lg:text-[22px] md:text-xl font-black mb-6 md:mb-8 ml-8 lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
+            <p class="text-md md:text-md mb-8 md:mb-10 max-w-3xl text-gray-700 ml-8 lg:ml-0 mt-[1.9rem] lg:mt-0">
                 Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
             </p>
             <div class="flex lg:justify-start justify-center">

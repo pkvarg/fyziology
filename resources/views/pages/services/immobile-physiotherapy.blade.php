@@ -42,49 +42,48 @@
 
             <div class="max-w-4xl mx-auto relative z-10">
                 <!-- Gradient Half Circle - Fyzio for Immobile -->
-        <div class="lg:flex absolute top-[0.2rem] -left-[2rem] lg:top-[0.3rem] lg:-left-[4rem] w-40 h-40  pointer-events-none">
+        <div class="lg:flex absolute top-[0.25rem] -left-[2rem] lg:top-[0.3rem] lg:-left-[4rem] w-40 h-40  pointer-events-none">
             <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
         </div>
-                <h2 class="text-2xl font-black mb-4 ml-8 lg:ml-0">Fyzioterapia pri imobilných pacientoch</h2>
+                <h2 class="text-[1.15rem] lg:text-2xl font-black mb-4 ml-8 lg:ml-0">Fyzioterapia pri imobilných pacientoch</h2>
 
-                <div class="py-[0.5rem] lg:py-[0.75rem] text-lg text-gray-700 ml-8 lg:ml-0">
+                <div class="py-[0.5rem] lg:py-[0.75rem] text-[1rem] lg:text-lg text-gray-700 ml-8 lg:ml-0 mt-[1.3rem] lg:-mt-[0.25rem]">
                     <p>
                         <span class="font-bold primary-color -mt-8">Prevencia dekubitov a svalovej atrofie:</span> Pravidelné cvičenia na zvýšenie prekrvenia a udržiavanie svalovej hmoty, aj keď pacient nemôže vykonávať intenzívnu pohybovú aktivitu.
                     </p>
 
-                    <p>
+                    <p class="mt-4 lg:mt-0">
                         <span class="font-bold primary-color">Zlepšenie dýchacích funkcií:</span> Pacienti, ktorí sú dlhodobo imobilní, môžu mať problémy s dýchaním. Fyzioterapia zahŕňa techniky, ako je respiračná fyzioterapia a posilňovanie dýchacích svalov.
                     </p>
 
-                    <p>
+                     <p class="mt-4 lg:mt-0">
                         <span class="font-bold primary-color">Úľava od bolesti:</span> Fyzioterapeut môže pomôcť pri polohovaní pacienta a zmiernení bolesti.
                     </p>
 
-                    <p>
+                      <p class="mt-4 lg:mt-0">
                         <span class="font-bold primary-color">Zlepšenie nezávislosti:</span> Pomoc pri učení sa základných pohybových vzorcov a adaptácií na udržiavanie mobility alebo sebaobsluhy.
                     </p>
 
-                    <p>
+                      <p class="mt-4 lg:mt-0">
                         Naši fyzioterapeuti Vám pomôžu pri:
                     </p>
 
-                    <p>
+                      <p class="mt-4 lg:mt-0">
                         <span class="font-bold primary-color">Pasívne pohybové cvičenia:</span> Fyzioterapeut vykonáva pohyby za pacienta, aby udržal pohyblivosť kĺbov a zabraňoval kontraktúram (skráteniu svalov).
                     </p>
 
-                    <p>
+                      <p class="mt-4 lg:mt-0">
                         <span class="font-bold primary-color">Aktívne asistované cvičenia:</span> Pacient vykonáva cvičenia s pomocou terapeuta, čo umožňuje postupne zlepšovať silu a rozsah pohybu.
                     </p>
 
-                    <p>
+                      <p class="mt-4 lg:mt-0">
                         <span class="font-bold primary-color">Posilňovanie dýchacích svalov:</span> Techniky ako hlboké dýchanie alebo iné špecifické cvičenia pomáhajú zlepšiť funkciu pľúc a prevenciu respiračných problémov.
                     </p>
 
-                    <p>
+                      <p class="mt-4 lg:mt-0">
                         <span class="font-bold primary-color">Cvičenia na stabilizáciu trupu:</span> Tieto cvičenia môžu pomôcť pacientom, ktorí majú obmedzenú mobilitu, udržať stabilitu a znížiť riziko pádov alebo zranení pri pokuse o pohyb.
                     </p>
-
-                    <p>
+   <p class="mt-4 lg:mt-0">
                         <span class="font-bold primary-color">Terapia v sede alebo na lôžku</span>
                     </p>
                 </div>
@@ -102,7 +101,7 @@
             </div>
 
             <h2 class="text-[22px] md:text-xl font-black mb-6 md:mb-8 ml-8 lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
-            <p class="text-md md:text-md mb-8 md:mb-10 max-w-3xl text-gray-700 ml-8 lg:ml-0">
+            <p class="text-md md:text-md mb-8 md:mb-10 max-w-3xl text-gray-700 ml-8 lg:ml-0 lg:-mt-[0.2rem]">
                 Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
             </p>
             <div class="flex lg:justify-start justify-center">
