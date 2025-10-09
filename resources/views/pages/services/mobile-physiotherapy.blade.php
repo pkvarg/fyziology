@@ -226,7 +226,9 @@
                     <img src="{{ asset('assets/images/mobilna-2.jpg') }}" alt="photo 5" class="w-full h-full rounded-3xl shadow-lg">
                     <img src="{{ asset('assets/images/photo-1.jpg') }}" alt="photo 6" class="w-full h-full rounded-3xl shadow-lg">
                 </div>
+                 <h2 class="text-3xl md:text-4xl lg:text-3xl font-black pt-8 text-center">Naše priestory</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mt-8">
+                       
                     <img src="{{ asset('assets/images/photo-3.jpg') }}" alt="photo 3" class="w-full h-full rounded-3xl shadow-lg">
                     <img src="{{ asset('assets/images/photo-4.jpg') }}" alt="photo 4" class="w-full h-full rounded-3xl shadow-lg">
                     <img src="{{ asset('assets/images/photo-7.jpg') }}" alt="photo 7" class="w-full h-full rounded-3xl shadow-lg">
@@ -245,7 +247,7 @@
             </div>
 
             <h2 class="text-[22px] md:text-xl font-black mb-6 md:mb-8 ml-8 lg:ml-0">Získajte prvú konzultáciu zdarma</h2>
-            <p class="text-md md:text-md mb-8 md:mb-10 max-w-3xl text-gray-700 ml-8 lg:ml-0">
+            <p class="text-md md:text-md mb-8 md:mb-10 max-w-3xl text-gray-700 ml-8 lg:ml-0 lg:-mt-[0.2rem]">
                 Sme tu pre Vás, pripravení sprevádzať Vás na ceste k lepšiemu zdraviu, väčšej pohyblivosti a celkovej pohode. Veríme, že každý krok smerom k uzdraveniu má zmysel – a tešíme sa, že môžeme byť jeho súčasťou.
             </p>
             <div class="flex lg:justify-start justify-center">
