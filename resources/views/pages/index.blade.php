@@ -5,7 +5,7 @@
         <!-- Hero Section -->
         <section class="px-[5%] py-16 md:py-24 lg:py-16 relative overflow-hidden bg-gray-50">
              <!-- Gradient Circle - top left -->
-    <div class="absolute md:hidden lg:inline -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+    <div class="absolute -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60 md:hidden lg:inline 2xl:hidden">
         <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
     </div> 
 
@@ -63,7 +63,7 @@
         <!-- Typy fyzioterapie Section -->
         <section class="px-[5%] py-12 md:py-20 lg:py-24 bg-gray-50 relative overflow-hidden">
             <!-- Gradient Circle - bottom right -->
-            <div class="absolute md:hidden lg:inline -top-[7rem] lg:-top-[11rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+            <div class="absolute -top-[7rem] lg:-top-[11rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60 md:hidden lg:inline 2xl:hidden">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
             </div>
          

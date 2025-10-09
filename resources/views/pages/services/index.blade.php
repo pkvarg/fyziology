@@ -14,7 +14,7 @@
 
         <div class="px-[5%] py-16 md:py-24 lg:py-28 text-center relative">
             <!-- Gradient Circle - top left -->
-    <div class="absolute md:hidden lg:inline -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+    <div class="absolute md:hidden lg:inline 2xl:hidden -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
         <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
     </div> 
 
@@ -60,7 +60,7 @@
 
     <section class="px-[5%] py-16 md:py-24 lg:py-16 relative">
               <!-- Gradient Circle -  bottom right near CTA -->
-         <div class="absolute md:hidden lg:inline -top-[4rem] lg:-top-[12rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+         <div class="absolute md:hidden lg:inline 2xl:hidden -top-[4rem] lg:-top-[12rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
         <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
         </div>
 

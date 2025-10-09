@@ -5,7 +5,7 @@
         <!-- Hero Section with Title -->
         <section class="px-[5%] pt-16 pb-8 relative">
             <!-- Gradient Circle - top left -->
-            <div class="absolute md:hidden lg:inline -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+            <div class="absolute -top-[8rem] lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60 md:hidden lg:inline 2xl:hidden">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
             </div>
 
@@ -85,7 +85,7 @@
             </div>
 
             <!-- Gradient Circle - desktop only bottom right -->
-            <div class="absolute hidden lg:inline lg:top-[20rem] lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+            <div class="absolute top-[70rem] lg:top-[20rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60 md:hidden lg:inline 2xl:hidden">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
             </div>
         </section>

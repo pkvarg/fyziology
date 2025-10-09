@@ -1,11 +1,11 @@
 @section('title', 'Masáže')
 
 <x-layout>
-    <div class="massages bg-gray-50 mt-8 overflow-hidden">
+    <div class="massages bg-gray-50 mt-8 overflow-x-hidden">
         <!-- Hero Section with Title -->
         <section class="px-[5%] !pb-8 md:py-20 !pt-16 relative">
             <!-- Gradient Circle - top left -->
-            <div class="absolute md:hidden lg:inline -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+            <div class="absolute md:hidden lg:inline 2xl:hidden -top-[6rem] lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
             </div>
 
@@ -59,10 +59,12 @@
 
         </section>
 
+       
+
   
 
         <!-- 3 Massage Cards Section -->
-        <section class="py-12 md:py-20 lg:py-4 relative overflow-hidden mx-4 lg:mx-0">
+        <section class="py-12 md:py-20 lg:py-4 relative mx-4 lg:mx-0">
    <!-- 3 Massage Cards Grid -->
                 <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-8 max-w-5xl mx-auto">
                     <!-- Klasická masáž -->
@@ -95,15 +97,16 @@
                         <p class="text-gray-600 text-sm px-4">Mäkké techniky sú manuálna terapia, pri ktorej najskôr uvoľňujeme kožu, podkožie a následne účinky prenikajú do hlbšie úložených štruktúr, a to fascie a svalu.</p>
                     </a>
                 </div>
-            </div>
-         <!-- Gradient Circle - desktop only bottom right -->
-            <div class="absolute hidden lg:inline lg:top-[40rem] lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+                     <!-- Gradient Circle - bottom right -->
+       
+            <div class="absolute top-[70rem] lg:top-[10rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60 md:hidden lg:inline 2xl:hidden">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
             </div>
 
-
-
         </section>
+
+   
+    
 
        
    

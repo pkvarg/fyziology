@@ -5,7 +5,7 @@
         <!-- Hero Section with Title -->
         <section class="px-[5%] pt-16 pb-8 md:py-20 lg:pt-16 lg:pb-8 relative">
             <!-- Gradient Circle - top left -->
-            <div class="absolute md:hidden lg:inline -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+            <div class="absolute md:hidden lg:inline 2xl:hidden -top-32 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
             </div>
 
@@ -100,7 +100,7 @@
         <!-- Fotogaléria Section -->
         <section class="px-[5%] py-12 md:py-20 lg:py-16 relative overflow-x-hidden">
                 <!-- Gradient Circle - desktop only bottom right near Gallery -->
-    <div class="absolute hidden lg:inline -top-[5rem] lg:-top-[6rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+    <div class="absolute md:hidden lg:inline 2xl:hidden -top-[6rem] lg:-top-[6rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
         <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
     </div>
             <div class="max-w-5xl mx-auto">

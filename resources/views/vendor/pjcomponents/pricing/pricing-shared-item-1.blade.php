@@ -1,6 +1,6 @@
 <div {{ $attributes->merge(['class' => 'pricing-18-item flex h-full flex-col justify-start bg-white rounded-3xl px-8 py-8 md:px-10 md:py-10 shadow-sm relative overflow-hidden transition-all duration-300 hover:shadow-md hover:-translate-y-2']) }}>
     <!-- Blue gradient corner decoration -->
-    <div class="absolute -top-[25rem] -right-[25rem] w-[50rem] h-[50rem] pointer-events-none opacity-50">
+    <div class="absolute -top-[25rem] -right-[25rem] w-[50rem] h-[50rem] pointer-events-none opacity-50 md:hidden lg:inline 2xl:hidden">
         <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain">
     </div>
 

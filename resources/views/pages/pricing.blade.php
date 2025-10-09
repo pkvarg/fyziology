@@ -5,7 +5,7 @@
     <div class="pricing relative overflow-hidden">
         <div class="px-[5%] py-16 md:py-24 lg:py-8 text-center relative">
      <!-- Gradient Circle - top left -->
-    <div class="absolute md:hidden lg:inline -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+    <div class="absolute md:hidden lg:inline 2xl:hidden -top-24 lg:-top-[12rem] -left-48 lg:-left-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
         <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
     </div>  
 
@@ -127,7 +127,7 @@
         </div>
 
         <!-- Gradient Circle -  bottom right near CTA -->
-         <div class="absolute md:hidden lg:inline top-[84rem] lg:top-[42rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+         <div class="absolute md:hidden lg:inline 2xl:hidden top-[84rem] lg:top-[42rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
         <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
         </div>
 

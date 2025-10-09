@@ -1,7 +1,7 @@
 <section {{ $attributes->merge(['class' => 'faq-7 px-[5%] pt-8 pb-4 lg:pt-0 lg:pb-16 relative overflow-hidden']) }}>
     <!-- Gradient Circle - bottom right near FAQ -->
-    
-  <div class="absolute md:hidden lg:inline 2xl:hidden top-[16rem] lg:top-[5rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
+
+  <div class="absolute top-[16rem] lg:top-[5rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60 md:hidden lg:inline 2xl:hidden">
         <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
     </div>
     
