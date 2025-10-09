@@ -47,7 +47,7 @@
         </div>
                 <h2 class="text-[1.5rem] lg:text-2xl font-black mb-4 ml-8 lg:ml-0 leading-6 lg:leading-normal">Fyzioterapia pri poúrazových a pooperačných stavoch</h2>
 
-                <div class="py-[0.5rem] lg:py-[0.75rem] text-lg text-gray-700 ml-8 lg:ml-0 -mt-[1.25rem] lg:-mt-[0.25rem]">
+                <div class="py-[0.5rem] lg:py-[0.75rem] text-lg text-gray-700 ml-8 lg:ml-0 -mt-[0.5rem] lg:-mt-[0.25rem]">
                     <p>
                         <span class="font-bold primary-color">Cieľom predoperačnej fyzioterapie</span> je pripraviť pacienta na operačný zákrok, edukovať pacienta o význame a potrebe fyzioterapie v pooperačnej fáze.
                     </p>
