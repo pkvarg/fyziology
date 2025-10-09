@@ -73,8 +73,8 @@
                             <img src="{{ asset('assets/images/masaze-1.jpg') }}" alt="Klasická masáž" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
                             <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
-                        <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Klasická masáž</h3>
-                        <p class="text-gray-600 text-sm px-4">Klasická masáž je terapeutická metóda, ktorá sa zameriava na zlepšenie zdravia prostredníctvom rôznych techník manipuláciou s mäkkými tkanivami ako sú svaly, väzy a šľachy.</p>
+                        <h3 class="text-xl font-bold lg:mb-4 min-h-[3.5rem]">Klasická masáž</h3>
+                        <p class="hidden lg:flex text-gray-600 text-sm px-4">Klasická masáž je terapeutická metóda, ktorá sa zameriava na zlepšenie zdravia prostredníctvom rôznych techník manipuláciou s mäkkými tkanivami ako sú svaly, väzy a šľachy.</p>
                     </a>
 
                     <!-- Reflexná masáž -->
@@ -83,8 +83,8 @@
                             <img src="{{ asset('assets/images/masaze-2.jpg') }}" alt="Reflexná masáž" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
                             <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
-                        <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Reflexná masáž</h3>
-                        <p class="text-gray-600 text-sm px-4">Reflexnú masáž zaradzujeme do skupiny liečebných metód s cieľom odstrániť chorobné zmeny na koži a v tkanivách.</p>
+                        <h3 class="text-xl font-bold lg:mb-4 min-h-[3.5rem]">Reflexná masáž</h3>
+                        <p class="hidden lg:flex text-gray-600 text-sm px-4">Reflexnú masáž zaradzujeme do skupiny liečebných metód s cieľom odstrániť chorobné zmeny na koži a v tkanivách.</p>
                     </a>
 
                     <!-- Mäkké techniky -->
@@ -93,13 +93,13 @@
                             <img src="{{ asset('assets/images/masaze-3.jpg') }}" alt="Mäkké techniky" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
                             <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
-                        <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Mäkké techniky</h3>
-                        <p class="text-gray-600 text-sm px-4">Mäkké techniky sú manuálna terapia, pri ktorej najskôr uvoľňujeme kožu, podkožie a následne účinky prenikajú do hlbšie úložených štruktúr, a to fascie a svalu.</p>
+                        <h3 class="text-xl font-bold lg:mb-4 min-h-[3.5rem]">Mäkké techniky</h3>
+                        <p class="hidden lg:flex text-gray-600 text-sm px-4">Mäkké techniky sú manuálna terapia, pri ktorej najskôr uvoľňujeme kožu, podkožie a následne účinky prenikajú do hlbšie úložených štruktúr, a to fascie a svalu.</p>
                     </a>
                 </div>
                      <!-- Gradient Circle - bottom right -->
        
-            <div class="absolute top-[70rem] lg:top-[10rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60 md:hidden lg:inline 2xl:hidden">
+            <div class="absolute top-[55rem] lg:top-[10rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60 md:hidden lg:inline 2xl:hidden">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
             </div>
 

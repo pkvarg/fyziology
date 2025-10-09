@@ -20,8 +20,10 @@ Route::prefix('sluzby')
         Route::get('/', [PageController::class, 'services'])->name('index');
         Route::get('/mobilna-fyzioterapia', [PageController::class, 'mobilePhysiotherapy'])
             ->name('mobile-physiotherapy');
-        Route::get('/ambulantna-fyzioterapia', [PageController::class, 'ambulatoryPhysiotherapy'])
-            ->name('ambulatory-physiotherapy');
+
+        // 301 redirect from old ambulantna-fyzioterapia to mobilna-fyzioterapia
+        Route::redirect('/ambulantna-fyzioterapia', '/sluzby/mobilna-fyzioterapia', 301);
+
         Route::get('/bankovanie', [PageController::class, 'banking'])->name('banking');
         Route::get('/masaze', [PageController::class, 'massages'])->name('massages');
 

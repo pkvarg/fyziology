@@ -21,11 +21,6 @@ class PageController
         return view('pages.services.mobile-physiotherapy');
     }
 
-    public function ambulatoryPhysiotherapy(): View
-    {
-        return view('pages.services.ambulatory-physiotherapy');
-    }
-
     public function seniorPhysiotherapy(): View
     {
         return view('pages.services.senior-physiotherapy');
