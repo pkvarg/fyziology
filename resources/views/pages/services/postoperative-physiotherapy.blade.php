@@ -56,7 +56,7 @@
                         Cvičebná jednotka zahŕňa starostlivosť o dýchacie cesty, správny stereotyp dýchania, respiračnú fyzioterapiu, nácvik kašľania a vykašliavania, výdych proti odporu, kondičné cvičenie horných a dolných končatín či korekčné cvičenia.
                     </p>
 
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         Pri <span class="font-bold primary-color">pooperačnej fáze,</span> ktorá začína na lôžku, využívame respiračnú fyzioterapiu, kde sa optimalizuje činnosť svalov hrudníka a funkcie dýchania. Cieľom je odstrániť hlien z dýchacích ciest. Využiť môžeme aj polohové drenáže, pri ktorých sa využíva vplyv gravitácie na usmernenie toku hlienu za účelom odstránenia.
                     </p>
 
@@ -64,7 +64,7 @@
                         Súčasťou je taktiež starostlivosť o jazvu a jej mobilizácia či nácviku posturálnych funkcií ako je stoj, chôdza, korekčné cvičenia na ovplyvnenie držania tela.
                     </p>
 
-                    <p class="font-bold primary-color mt-4 lg:mt-0">Venujeme sa:</p>
+                    <p class="font-bold primary-color mt-4">Venujeme sa:</p>
                     <p>1. Zlomeninám a úrazom horných končatín (ramenný kĺb, lakťový kĺb, zápästný kĺb, ruka)</p>
                     <p>2. Zlomeninám a úrazom dolných končatín (bedrový kĺb, kolenný kĺb, členkový kĺb, noha)</p>
                     <p>3. Poraneniam mäkkých štruktúr (svaly, väzy, šľachy, menisky)</p>

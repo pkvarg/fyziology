@@ -50,21 +50,21 @@
                     </p>
 
                 
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         <span class="font-bold primary-color">Ortopedické ochorenia:</span> vývojové chyby chrbtice, panvy a dolných končatín, degenaratívne zmeny či spondylolistézy.
                     </p>
 
                  
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         <span class="font-bold primary-color">Neurologické ochorenia:</span> protrúzia, extrúzia, sekvestrácia, hernia disku, segmentový syndróm, radikulárny syndróm, pseudoradikulárny syndróm či spinálna stenóza.
                     </p>
 
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         V rámci konzervatívnej liečby Vám poradíme ako nahradiť zlé pohybové programy správnymi, ukážeme a vysvetlíme relaxačné polohy pre Váš chrbát, vypracujeme individuálny rehabilitačný plán pre aktiváciu a budovanie chrbtových svalov a okolitých svalových skupín.
                     </p>
 
                   
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         Ak chceme predchádzať bolestiam chrbtice, prevencia je najlepšou obranou. Začať môžeme zlepšením životosprávy, znížením telesnej hmotnosti, zvýšením aktívneho pohybu ako je chôdza a podobne.
                     </p>
                 </div>

@@ -52,38 +52,38 @@
                         <span class="font-bold primary-color -mt-8">Prevencia dekubitov a svalovej atrofie:</span> Pravidelné cvičenia na zvýšenie prekrvenia a udržiavanie svalovej hmoty, aj keď pacient nemôže vykonávať intenzívnu pohybovú aktivitu.
                     </p>
 
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         <span class="font-bold primary-color">Zlepšenie dýchacích funkcií:</span> Pacienti, ktorí sú dlhodobo imobilní, môžu mať problémy s dýchaním. Fyzioterapia zahŕňa techniky, ako je respiračná fyzioterapia a posilňovanie dýchacích svalov.
                     </p>
 
-                     <p class="mt-4 lg:mt-0">
+                     <p class="mt-4">
                         <span class="font-bold primary-color">Úľava od bolesti:</span> Fyzioterapeut môže pomôcť pri polohovaní pacienta a zmiernení bolesti.
                     </p>
 
-                      <p class="mt-4 lg:mt-0">
+                      <p class="mt-4">
                         <span class="font-bold primary-color">Zlepšenie nezávislosti:</span> Pomoc pri učení sa základných pohybových vzorcov a adaptácií na udržiavanie mobility alebo sebaobsluhy.
                     </p>
 
-                      <p class="mt-4 lg:mt-0">
+                      <p class="mt-4">
                         Naši fyzioterapeuti Vám pomôžu pri:
                     </p>
 
-                      <p class="mt-4 lg:mt-0">
+                      <p class="mt-4">
                         <span class="font-bold primary-color">Pasívne pohybové cvičenia:</span> Fyzioterapeut vykonáva pohyby za pacienta, aby udržal pohyblivosť kĺbov a zabraňoval kontraktúram (skráteniu svalov).
                     </p>
 
-                      <p class="mt-4 lg:mt-0">
+                      <p class="mt-4">
                         <span class="font-bold primary-color">Aktívne asistované cvičenia:</span> Pacient vykonáva cvičenia s pomocou terapeuta, čo umožňuje postupne zlepšovať silu a rozsah pohybu.
                     </p>
 
-                      <p class="mt-4 lg:mt-0">
+                      <p class="mt-4">
                         <span class="font-bold primary-color">Posilňovanie dýchacích svalov:</span> Techniky ako hlboké dýchanie alebo iné špecifické cvičenia pomáhajú zlepšiť funkciu pľúc a prevenciu respiračných problémov.
                     </p>
 
-                      <p class="mt-4 lg:mt-0">
+                      <p class="mt-4">
                         <span class="font-bold primary-color">Cvičenia na stabilizáciu trupu:</span> Tieto cvičenia môžu pomôcť pacientom, ktorí majú obmedzenú mobilitu, udržať stabilitu a znížiť riziko pádov alebo zranení pri pokuse o pohyb.
                     </p>
-   <p class="mt-4 lg:mt-0">
+   <p class="mt-4">
                         <span class="font-bold primary-color">Terapia v sede alebo na lôžku</span>
                     </p>
                 </div>

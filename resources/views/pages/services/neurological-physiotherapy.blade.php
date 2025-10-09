@@ -55,15 +55,15 @@
                         <span class="font-bold primary-color -mt-8">1. Liečebný plán:</span> Vypracovanie individuálneho liečebného plánu v závislosti od diagnózy.
                     </p>
 
-                       <p class="mt-4 lg:mt-0">
+                       <p class="mt-4">
                         <span class="font-bold primary-color">2. Vzdelávanie a podpora rodiny:</span> Vzdelávanie rodiny o stave pacienta a poskytovanie emocionálnej podpory, aby sa im pomohlo lepšie pochopiť a zvládať situáciu.
                     </p>
 
-                  <p class="mt-4 lg:mt-0">
+                  <p class="mt-4">
                         <span class="font-bold primary-color">3. Psychologická podpora:</span> Zabezpečenie psychologickej podpory a poradenstva, keďže neurologické ochorenia môžu mať značný vplyv na psychické zdravie.
                     </p>
 
-                 <p class="mt-4 lg:mt-0">
+                 <p class="mt-4">
                         Včasná a pravidelná rehabilitácia je kľúčová a môže výrazne prispieť k obnoveniu funkcií a prevencii komplikácií. 
                      
                     </p>
@@ -73,7 +73,7 @@
 
                         </p>
 
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         Našim hlavným cieľom je postaviť Vás opäť na nohy, zlepšiť každodenné činnosti (presuny, chôdza, obliekanie, hygiena..), motivovať pacienta a pomôcť k návratu do bežného života čo najskôr!
                     </p>
                 </div>

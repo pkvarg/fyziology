@@ -55,32 +55,32 @@
                         <span class="font-bold primary-color -mt-8">Individuálny prístup:</span> Každý dôchodca má svoje špecifické potreby a zdravotné problémy, preto je dôležité prispôsobiť fyzioterapeutické cvičenia.
                     </p>
 
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         <span class="font-bold primary-color">Cvičenia na zlepšenie rovnováhy a koordinácie:</span> Pomáhajú predchádzať pádom a zraneniam.
                     </p>
 
                   
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         <span class="font-bold primary-color">Posilňovanie svalov:</span> Cvičenia na posilnenie svalov, najmä v oblasti jadra a dolných končatín, podporujú mobilitu a samostatnosť.
                     </p>
 
                  
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         <span class="font-bold primary-color">Flexibilita a rozsah pohybu:</span> Na zlepšenie flexibility a udržanie pohyblivosti kĺbov sú dôležité strečingové cvičenia.
                     </p>
 
                  
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         <span class="font-bold primary-color">Kardiovaskulárne zdravie:</span> Ľahké aeróbne cvičenia, ako je chôdza alebo plávanie, sú prospešné pre srdce a pľúca.
                     </p>
 
                   
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         <span class="font-bold primary-color">Rehabilitácia po úrazoch alebo operáciách:</span> Fyzioterapia pomáha pri zotavovaní sa z rôznych zranení alebo chirurgických zákrokov.
                     </p>
 
                     
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         <span class="font-bold primary-color">Bolesť a chronické ochorenia:</span> Fyzioterapeuti môžu pomôcť pri zmierňovaní bolesti ako sú artritída alebo neuropatia.
                     </p>
                 </div>

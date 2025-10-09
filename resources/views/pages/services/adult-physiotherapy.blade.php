@@ -50,27 +50,27 @@
                     </p>
 
                  
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         <span class="font-bold primary-color">Rehabilitácia po operáciách:</span> Postupné zlepšovanie rozsahu pohyblivosti a sily po operáciách, ako sú výmeny kĺbov alebo operácie chrbtice.
                     </p>
 
                 
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         <span class="font-bold primary-color">Chronické bolesti:</span> Riešenie problémov ako sú bolesti chrbtice alebo kĺbov. Fyzioterapeuti používajú rôzne techniky na zmiernenie bolesti a zlepšenie pohyblivosti.
                     </p>
 
                   
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         <span class="font-bold primary-color">Zlepšenie funkčnosti:</span> Pomoc pacientom pri obnove pohybových schopností a funkčnosti, čo je obzvlášť dôležité pre starších dospelých alebo ľudí s chronickými ochoreniami.
                     </p>
 
               
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         <span class="font-bold primary-color">Prevencia:</span> Vzdelávanie o správnej ergonómii, cvičeniach a životnom štýle na prevenciu zranení a ochorení.
                     </p>
 
               
-                    <p class="mt-4 lg:mt-0">
+                    <p class="mt-4">
                         Fyzioterapia sa môže vykonávať rôznymi spôsobmi, vrátane manuálnych techník, cvičení, elektroterapie alebo použitia terapeutických pomôcok.
                     </p>
                 </div>
