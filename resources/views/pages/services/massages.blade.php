@@ -74,7 +74,7 @@
                             <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
                         <h3 class="text-xl font-bold lg:mb-4 min-h-[3.5rem]">Klasická masáž</h3>
-                        <p class="hidden lg:flex text-gray-600 text-sm px-4">Klasická masáž je terapeutická metóda, ktorá sa zameriava na zlepšenie zdravia prostredníctvom rôznych techník manipuláciou s mäkkými tkanivami ako sú svaly, väzy a šľachy.</p>
+                        <p class="hidden lg:flex text-gray-600 text-md px-4">Klasická masáž je terapeutická metóda, ktorá sa zameriava na zlepšenie zdravia prostredníctvom rôznych techník manipuláciou s mäkkými tkanivami ako sú svaly, väzy a šľachy.</p>
                     </a>
 
                     <!-- Reflexná masáž -->
@@ -84,7 +84,7 @@
                             <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
                         <h3 class="text-xl font-bold lg:mb-4 min-h-[3.5rem]">Reflexná masáž</h3>
-                        <p class="hidden lg:flex text-gray-600 text-sm px-4">Reflexnú masáž zaradzujeme do skupiny liečebných metód s cieľom odstrániť chorobné zmeny na koži a v tkanivách.</p>
+                        <p class="hidden lg:flex text-gray-600 text-md px-4">Reflexnú masáž zaradzujeme do skupiny liečebných metód s cieľom odstrániť chorobné zmeny na koži a v tkanivách.</p>
                     </a>
 
                     <!-- Mäkké techniky -->
@@ -94,7 +94,7 @@
                             <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
                         <h3 class="text-xl font-bold lg:mb-4 min-h-[3.5rem]">Mäkké techniky</h3>
-                        <p class="hidden lg:flex text-gray-600 text-sm px-4">Mäkké techniky sú manuálna terapia, pri ktorej najskôr uvoľňujeme kožu, podkožie a následne účinky prenikajú do hlbšie úložených štruktúr, a to fascie a svalu.</p>
+                        <p class="hidden lg:flex text-gray-600 text-md px-4">Mäkké techniky sú manuálna terapia, pri ktorej najskôr uvoľňujeme kožu, podkožie a následne účinky prenikajú do hlbšie úložených štruktúr, a to fascie a svalu.</p>
                     </a>
                 </div>
                      <!-- Gradient Circle - bottom right -->
