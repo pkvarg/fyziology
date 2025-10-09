@@ -64,8 +64,14 @@
                     </p>
 
                  <p class="mt-4 lg:mt-0">
-                        Včasná a pravidelná rehabilitácia je kľúčová a môže výrazne prispieť k obnoveniu funkcií a prevencii komplikácií. Fyzioterapeut pri práci s neurologickými pacientmi potrebuje detailne hodnotiť stav pacienta, prispôsobiť terapiu jeho individuálnym potrebám a cieľom, a neustále monitorovať pokrok počas liečby.
+                        Včasná a pravidelná rehabilitácia je kľúčová a môže výrazne prispieť k obnoveniu funkcií a prevencii komplikácií. 
+                     
                     </p>
+
+                       <p class="pt-4 lg:pt-0">
+                        Fyzioterapeut pri práci s neurologickými pacientmi potrebuje detailne hodnotiť stav pacienta, prispôsobiť terapiu jeho individuálnym potrebám a cieľom, a neustále monitorovať pokrok počas liečby.
+
+                        </p>
 
                     <p class="mt-4 lg:mt-0">
                         Našim hlavným cieľom je postaviť Vás opäť na nohy, zlepšiť každodenné činnosti (presuny, chôdza, obliekanie, hygiena..), motivovať pacienta a pomôcť k návratu do bežného života čo najskôr!
