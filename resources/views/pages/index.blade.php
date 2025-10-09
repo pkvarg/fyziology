@@ -40,7 +40,7 @@
                             Ponúkame fyzioterapiu priamo u Vás doma alebo v našej ambulancii, ktorú zabezpečuje náš tím s odrazom na profesionalitu, ľudský prístup a ochotu, pričom počas celej terapie poskytujeme neustálu podporu a motiváciu.
                         </p>
 
-                        <div class="flex flex-col lg:flex-row gap-8 ml-8 md:ml-8">
+                        <div class="flex flex-col lg:flex-row gap-8 ml-8 md:ml-0">
                             <div class="flex flex-col items-start gap-0">
                                 <div class="primary-color font-black text-2xl">Mnoho</div>
                                 <div class="text-gray-700">spokojných zákazníkov</div>
