@@ -99,7 +99,7 @@
                 </div>
                      <!-- Gradient Circle - bottom right -->
        
-            <div class="absolute top-[55rem] lg:top-[10rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60 md:hidden lg:inline 2xl:hidden">
+            <div class="absolute top-[52rem] lg:top-[10rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60 md:hidden lg:inline 2xl:hidden">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
             </div>
 
@@ -116,11 +116,12 @@
 
 
   <!-- CTA Section -->
+   
            
-        <div class="container mx-auto w-full max-w-6xl lg:max-w-4xl relative z-10 px-[5%] lg:px-0 py-16">
+        <div class="container mx-auto w-full max-w-6xl lg:max-w-4xl relative z-10 px-[5%] lg:px-0 -mt-0 lg:mt-0 pt-0 pb-16 lg:py-16">
     
             <!-- Gradient Half Circle CTA - left -->
-            <div class="lg:flex absolute top-[4.3rem] -left-[2rem] lg:top-[4.25rem] lg:-left-[6.5rem] w-40 h-40 pointer-events-none px-[5%]">
+            <div class="lg:flex absolute top-[0.25rem] -left-[2rem] lg:top-[4.25rem] lg:-left-[6.5rem] w-40 h-40 pointer-events-none px-[5%]">
                 <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
             </div>
 
