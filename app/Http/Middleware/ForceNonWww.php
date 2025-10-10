@@ -15,10 +15,12 @@ class ForceNonWww
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if (str_starts_with($request->header('host'), 'www.')) {
-            $request->headers->set('host', str_replace('www.', '', $request->header('host')));
+        if (str_starts_with($request->getHost(), 'www.')) {
+            $newUrl = $request->getScheme() . '://' .
+                      str_replace('www.', '', $request->getHost()) .
+                      $request->getRequestUri();
 
-            return redirect()->to($request->fullUrl(), 301);
+            return redirect()->to($newUrl, 301);
         }
 
         return $next($request);
