@@ -33,32 +33,32 @@
                         <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                     </a>
                     <h3 class="text-xl font-bold lg:mb-4 lg:min-h-[3.5rem]">Mobilná a ambulantná<br>fyzioterapia</h3>
-                    <a href="{{ route('page.services.mobile-physiotherapy') }}" class="hidden lg:inline bg-primary-color text-white px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity mx-auto">Viac info</a>
+                    <a href="{{ route('page.services.mobile-physiotherapy') }}" class="bg-primary-color text-white px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity mx-auto mt-6 lg:mt-0">Viac info</a>
                 </div>
 
                 <!-- Bankovanie -->
-                <div class="text-center flex flex-col -mt-2 lg:-mt-0">
+                <div class="text-center flex flex-col -mt-0 lg:-mt-0">
                     <a href="{{ route('page.services.banking') }}" class="mb-6 overflow-hidden rounded-2xl group relative block">
                         <img src="{{ asset('assets/images/bankovanie.jpg') }}" alt="Bankovanie" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
                         <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                     </a>
                     <h3 class="text-xl font-bold lg:mb-4 lg:min-h-[3.5rem]">Bankovanie</h3>
-                    <a href="{{ route('page.services.banking') }}" class="hidden lg:inline bg-primary-color text-white px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity mx-auto">Viac info</a>
+                    <a href="{{ route('page.services.banking') }}" class="bg-primary-color text-white px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity mx-auto mt-6 lg:mt-0">Viac info</a>
                 </div>
 
                 <!-- Masáže -->
-                <div class="text-center flex flex-col -mt-2 lg:-mt-0">
+                <div class="text-center flex flex-col -mt-0 lg:-mt-0">
                     <a href="{{ route('page.services.massages') }}" class="mb-6 overflow-hidden rounded-2xl group relative block">
                         <img src="{{ asset('assets/images/massages-cover.jpg') }}" alt="Masáže" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
                         <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                     </a>
-                    <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Masáže</h3>
-                    <a href="{{ route('page.services.massages') }}" class="hidden lg:inline bg-primary-color text-white px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity mx-auto">Viac info</a>
+                    <h3 class="text-xl font-bold lg:mb-4 min-h-[3.5rem]">Masáže</h3>
+                    <a href="{{ route('page.services.massages') }}" class="bg-primary-color text-white px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity mx-auto -mt-2 lg:mt-0">Viac info</a>
                 </div>
             </div>
         </div>
 
-    <section class="px-[5%] -mt-8 lg:mt-0 pt-0 pb-16 md:py-24 lg:py-16 relative">
+    <section class="px-[5%] -mt-0 lg:mt-0 pt-0 pb-16 md:py-24 lg:py-16 relative">
               <!-- Gradient Circle -  bottom right near CTA -->
          <div class="absolute md:hidden lg:inline 2xl:hidden -top-[6rem] lg:-top-[14rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60">
         <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
