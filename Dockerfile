@@ -24,12 +24,6 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 COPY <<EOF /etc/nginx/http.d/default.conf
 server {
     listen 7003;
-    server_name www.fyziology.sk;
-    return 301 https://fyziology.sk\$request_uri;
-}
-
-server {
-    listen 7003;
     server_name _;
     root /var/www/html/public;
     index index.php;
