@@ -1,5 +1,9 @@
 @section('title', 'Fyzioterapia pri ochoreniach chrbtice')
 
+@push('meta')
+    <meta name="description" content="Ide o pacienta s charakteristickým príznakom- bolesťami chrbtice, obmedzenou hybnosťou, ktoré môžu byť doplnené o neurologické symptómy a majú rôznu príčinu.">
+@endpush
+
 <x-layout>
     <div class="vertebrogenic-physiotherapy bg-gray-50 mt-8">
         <!-- Hero Section with Gradient Circle -->

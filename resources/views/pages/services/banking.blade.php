@@ -1,5 +1,9 @@
 @section('title', 'Bankovanie')
 
+@push('meta')
+    <meta name="description" content="Bankovanie je terapeutická technika, ktorá sa používa na zlepšenie prietoku krvi, uvoľnenie svalového napätia a zmiernenie bolesti. V súvislosti s fyzioterapiou sa bankovanie často používa ako doplnková metóda pri liečbe rôznych muskuloskeletálnych problémov.">
+@endpush
+
 <x-layout>
     <div class="banking bg-gray-50 mt-8">
         <!-- Hero Section with Title -->

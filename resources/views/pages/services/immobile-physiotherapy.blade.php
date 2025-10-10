@@ -1,5 +1,9 @@
 @section('title', 'Fyzioterapia pri imobilných pacientoch')
 
+@push('meta')
+    <meta name="description" content="Fyzioterapia pre imobilných pacientov sa zameriava na zlepšenie fyzickej funkcie, pohyblivosti a kvality života pacientov, ktorí sú obmedzení v pohybe kvôli rôznym zdravotným problémom, ako sú ochrnutia, neurodegeneratívne ochorenia alebo po operáciách.">
+@endpush
+
 <x-layout>
     <div class="immobile-physiotherapy bg-gray-50 mt-8">
         <!-- Hero Section with Gradient Circle -->

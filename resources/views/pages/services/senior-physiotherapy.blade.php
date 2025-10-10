@@ -1,5 +1,9 @@
 @section('title', 'Fyzioterapia pre seniorov')
 
+@push('meta')
+    <meta name="description" content="Venujeme sa starším vekovým skupinám, ktorí aj v pokročilejšom veku vďaka pohybu, chcú udržiavať svoje telo aktívne a v dobrej fyzickej kondícii. Fyzioterapia pre dôchodcov je veľmi dôležitá, pretože pomáha udržiavať a zlepšovať fyzickú kondíciu.">
+@endpush
+
 <x-layout>
     <div class="senior-physiotherapy bg-gray-50 mt-8">
         <!-- Hero Section with Gradient Circle -->

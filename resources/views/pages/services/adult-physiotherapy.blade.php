@@ -1,5 +1,9 @@
 @section('title', 'Fyzioterapia pre dospelých')
 
+@push('meta')
+    <meta name="description" content="Je dôležitou súčasťou rehabilitácie a podpory zdravia. Zameriava sa na liečbu a prevenciu rôznych pohybových porúch, bolesti a funkčných obmedzení.">
+@endpush
+
 <x-layout>
     <div class="adult-physiotherapy bg-gray-50 mt-8">
         <!-- Hero Section with Gradient Circle -->

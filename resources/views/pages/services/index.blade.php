@@ -1,5 +1,9 @@
 @section('title', 'Služby')
 
+@push('meta')
+    <meta name="description" content="Vo Fyziology ponúkame na výber z viacerých možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Našim cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok či zabezpečiť pohodu počas terapie.">
+@endpush
+
 <x-layout xmlns:x-slot="http://www.w3.org/1999/html">
 
     <div class="services relative overflow-hidden">
