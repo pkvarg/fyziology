@@ -23,11 +23,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://fyziology.sk/sluzby/ambulantna-fyzioterapia</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://fyziology.sk/sluzby/bankovanie</loc>
   <lastmod>2025-02-26T19:27:50+00:00</lastmod>
   <priority>0.80</priority>
@@ -39,6 +34,11 @@
 </url>
 <url>
   <loc>https://fyziology.sk/nasi-klienti</loc>
+  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fyziology.sk/cennik</loc>
   <lastmod>2025-02-26T19:27:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
