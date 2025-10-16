@@ -1,7 +1,7 @@
 @section('title', 'Klasická masáž')
 
 @push('meta')
-    <meta name="description" content="Klasická masáž je terapeutická metóda, ktorá sa zameriava na zlepšenie zdravia prostredníctvom rôznych techník manipuláciou s mäkkými tkanivami ako sú svaly, väzy a šľachy. Tento typ masáže je obľúbený vďaka schopnosti uvoľniť napätie, zlepšiť prekrvenie a podporiť regeneráciu.">
+    <meta name="description" content="Klasická masáž je terapeutická metóda, ktorá sa zameriava na zlepšenie zdravia prostredníctvom rôznych techník manipulácie s mäkkými tkanivami ako sú svaly, väzy a šľachy. Tento typ masáže je obľúbený vďaka schopnosti uvoľniť napätie, zlepšiť prekrvenie a podporiť regeneráciu.">
 @endpush
 
 <x-layout>
@@ -32,7 +32,7 @@
                 <!-- Introduction Text -->
                 <div class="max-w-4xl mx-auto space-y-6 text-lg text-gray-700 text-center mb-12">
                     <p>
-                        Klasická masáž je terapeutická metóda, ktorá sa zameriava na zlepšenie zdravia prostredníctvom rôznych techník manipuláciou s mäkkými tkanivami ako sú svaly, väzy a šľachy. Tento typ masáže je obľúbený vďaka schopnosti uvoľniť napätie v danom segmente, zlepšiť prekrvenie a podporiť regeneráciu svalov.
+                        Klasická masáž je terapeutická metóda, ktorá sa zameriava na zlepšenie zdravia prostredníctvom rôznych techník manipulácie s mäkkými tkanivami ako sú svaly, väzy a šľachy. Tento typ masáže je obľúbený vďaka schopnosti uvoľniť napätie v danom segmente, zlepšiť prekrvenie a podporiť regeneráciu svalov.
                     </p>
                 </div>
 

@@ -1,7 +1,7 @@
 @section('title', 'Fyzioterapia pre seniorov')
 
 @push('meta')
-    <meta name="description" content="Venujeme sa starším vekovým skupinám, ktorí aj v pokročilejšom veku vďaka pohybu, chcú udržiavať svoje telo aktívne a v dobrej fyzickej kondícii. Fyzioterapia pre dôchodcov je veľmi dôležitá, pretože pomáha udržiavať a zlepšovať fyzickú kondíciu.">
+    <meta name="description" content="Venujeme sa starším vekovým skupinám, ktoré aj v pokročilejšom veku vďaka pohybu chcú udržiavať svoje telo aktívne a v dobrej fyzickej kondícii. Fyzioterapia pre dôchodcov je veľmi dôležitá, pretože pomáha udržiavať a zlepšovať fyzickú kondíciu.">
 @endpush
 
 <x-layout>
@@ -26,7 +26,7 @@
                 <!-- Introduction Text -->
                 <div class="max-w-4xl mx-auto space-y-6 text-lg md:text-xl text-gray-700 text-center">
                     <p>
-                        Áno, venujeme sa aj starším vekovým skupinám, ktorí aj v pokročilejšom veku vďaka pohybu, chcú udržiavať svoje telo aktívne a v dobrej fyzickej kondícii.
+                        Áno, venujeme sa aj starším vekovým skupinám, ktoré aj v pokročilejšom veku vďaka pohybu chcú udržiavať svoje telo aktívne a v dobrej fyzickej kondícii.
                     </p>
                     <p>
                         Vek nehrá žiadnu rolu a keďže chápeme, že nie každý môže využívať ambulantnú fyzioterapiu, tak pre imobilnejších pacientov ponúkame možnosť fyzioterapie priamo u Vás doma!

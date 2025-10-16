@@ -11,7 +11,7 @@
 
             <h1 class="text-4xl md:text-6xl font-black mb-5 md:mb-6 relative z-10">Cenník</h1>
             <div class="max-w-3xl mx-auto md:text-lg relative z-10 mt-12">
-                <p>Dohodnite si stretnutie s našim fyzioterapeutom a vstupnú konzultáciu máte zdarma.<br>Ak nemáte čas na stretnutie, konzultovať vieme aj telefonicky.</p>
+                <p>Dohodnite si stretnutie s naším fyzioterapeutom a vstupnú konzultáciu máte zdarma.<br>Ak nemáte čas na stretnutie, konzultovať vieme aj telefonicky.</p>
                 <p class="mt-4">Využite náš výhodný balík mobilnej fyzioterapie priamo u Vás doma alebo balík<br>ambulantnej fyzioterapie v priestoroch našej prevádzky.</p>
             </div>
         </div>

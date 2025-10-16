@@ -78,7 +78,7 @@
                             <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
                         <h3 class="text-xl font-bold lg:mb-4 min-h-[3.5rem]">Klasická masáž</h3>
-                        <p class="hidden lg:flex text-gray-600 text-md px-4">Klasická masáž je terapeutická metóda, ktorá sa zameriava na zlepšenie zdravia prostredníctvom rôznych techník manipuláciou s mäkkými tkanivami ako sú svaly, väzy a šľachy.</p>
+                        <p class="hidden lg:flex text-gray-600 text-md px-4">Klasická masáž je terapeutická metóda, ktorá sa zameriava na zlepšenie zdravia prostredníctvom rôznych techník manipuláce s mäkkými tkanivami ako sú svaly, väzy a šľachy.</p>
                     </a>
 
                     <!-- Reflexná masáž -->

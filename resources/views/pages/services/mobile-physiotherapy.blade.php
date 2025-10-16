@@ -1,7 +1,7 @@
 @section('title', 'Mobilná a ambulantná fyzioterapia')
 
 @push('meta')
-    <meta name="description" content="Je moderný prístup poskytovania fyzioterapeutickej starostlivosti, ktorý prináša profesionálnu pomoc priamo k pacientovi, bez nutnosti návštevy fyzioterapeutickej ambulancie.">
+    <meta name="description" content="Ide o moderný prístup poskytovania fyzioterapeutickej starostlivosti, ktorý prináša profesionálnu pomoc priamo k pacientovi, bez nutnosti návštevy fyzioterapeutickej ambulancie.">
 @endpush
 
 <x-layout>
@@ -36,7 +36,7 @@
                 <!-- Introduction Text -->
                 <div class="max-w-4xl mx-auto space-y-6 text-lg text-gray-700 text-center mb-12">
                     <p>
-                        Je moderný prístup poskytovania fyzioterapeutickej starostlivosti, ktorý prináša profesionálnu pomoc priamo k pacientovi, bez nutnosti návštevy fyzioterapeutickej ambulancie.
+                        Ide o moderný prístup poskytovania fyzioterapeutickej starostlivosti, ktorý prináša profesionálnu pomoc priamo k pacientovi bez nutnosti návštevy fyzioterapeutickej ambulancie.
                     </p>
                     <p>
                         Tento typ fyzioterapie sa vykonáva priamo v bydlisku pacientov.
@@ -131,7 +131,7 @@
            <div class="flex-1">
                         <h2 class="text-2xl md:text-xl font-black mb-6 ml-8 lg:ml-0">Typy fyzioterapie</h2>
                         <p class="text-md md:text-md text-gray-700 ml-8 lg:ml-0">
-                            Naše fyzioterapie sú určené predovšetkým starším ľuďom s problémami pohybového aparátu, pacientom po operáciách alebo úrazoch, osobám so zníženou mobilitou, pracujúcim s časovým obmedzením, ľuďom trpiacim chronickými bolesťami & neurologickým pacientom, ktorým chceme uľahčiť a individuálne prispôsobiť fyzioterapiu.
+                            Naše fyzioterapie sú určené predovšetkým starším ľuďom s problémami pohybového aparátu, pacientom po operáciách alebo úrazoch, osobám so zníženou mobilitou, pracujúcim s časovým obmedzením, ľuďom trpiacim chronickými bolesťami a neurologickým pacientom, ktorým chceme uľahčiť a individuálne prispôsobiť fyzioterapiu.
                         </p>
                     </div>
                 </div>

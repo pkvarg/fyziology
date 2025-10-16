@@ -13,8 +13,7 @@
                 <h1 class="text-5xl md:text-6xl lg:text-7xl font-black mb-6 tracking-wider">
                     Vitajte vo <span class="primary-color">Fyziology</span>!
                 </h1>
-                <p class="text-lg md:text-xl max-w-6xl mx-auto mb-8 text-gray-700">
-                    Fyziology je moderná a dynamická firma zameraná na poskytovanie kvalitných fyzioterapeutických služieb a rehabilitácie v Bratislave a okolí. Našim cieľom je pomáhať klientom dosiahnuť ich maximálny potenciál v oblasti pohybu a zdravia, a to pomocou mobilnej fyzioterapie v domácom prostredí klientov.
+                <p class="text-lg md:text-xl max-w-6xl mx-auto mb-8 text-gray-700">      Fyziology je moderná a dynamická firma zameraná na poskytovanie kvalitných fyzioterapeutických služieb a rehabilitácie v Bratislave a okolí. Naším cieľom je pomáhať klientom dosiahnuť ich maximálny potenciál v oblasti pohybu a zdravia, a to pomocou mobilnej fyzioterapie v domácom prostredí klientov.
                 </p>
 
                 <a href="{{ route('page.contact') }}" class="inline-block bg-primary-color text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-opacity mt-8">
@@ -37,7 +36,7 @@
                     <div class="flex-1">
                         <h2 class="text-2xl font-black mb-6 ml-8 lg:ml-0">Prečo si vybrať Fyziology?</h2>
                         <p class="text-lg md:text-xl mb-6 text-gray-700 md:ml-8 lg:ml-0 ml-8">
-                            Ponúkame fyzioterapiu priamo u Vás doma alebo v našej ambulancii, ktorú zabezpečuje náš tím s odrazom na profesionalitu, ľudský prístup a ochotu, pričom počas celej terapie poskytujeme neustálu podporu a motiváciu.
+                            Ponúkame fyzioterapiu priamo u Vás doma alebo v našej ambulancii, ktorú zabezpečuje náš tím s dôrazom na profesionalitu, ľudský prístup a ochotu, pričom počas celej terapie poskytujeme neustálu podporu a motiváciu.
                         </p>
 
                         <div class="flex flex-col lg:flex-row gap-8 ml-8 md:ml-0">
@@ -77,7 +76,7 @@
                     <div class="flex-1">
                         <h2 class="text-2xl font-black mb-6 ml-8 lg:ml-0">Typy fyzioterapie</h2>
                         <p class="text-lg md:text-xl text-gray-700 ml-8 lg:ml-0">
-                            Naše fyzioterapie sú určené predovšetkým starším ľuďom s problémami pohybového aparátu, pacientom po operáciách alebo úrazoch, osobám so zníženou mobilitou, pracujúcim s časovým obmedzením, ľuďom trpiacim chronickými bolesťami & neurologickým pacientom, ktorým chceme uľahčiť a individuálne prispôsobiť fyzioterapii.
+                            Naše fyzioterapie sú určené predovšetkým starším ľuďom s problémami pohybového aparátu, pacientom po operáciách alebo úrazoch, osobám so zníženou mobilitou, pracujúcim s časovým obmedzením, ľuďom trpiacim chronickými bolesťami a neurologickým pacientom, ktorým chceme uľahčiť a individuálne prispôsobiť fyzioterapiu.
                         </p>
                     </div>
                 </div>
@@ -163,7 +162,7 @@
                     <div class="flex-1">
                         <h2 class="text-2xl font-black mb-6 ml-8 lg:ml-0">Náš tím</h2>
                         <p class="text-lg md:text-xl text-gray-700 ml-8 lg:ml-0">
-                            Za našimi službami stojí odborne pripravený fyzioterapeut, ktorý pristupuje ku každému klientovi s individuálne, s rešpektom a plným nasadením. Vďaka odbornému vzdelaniu, praxi a ľudskému prístupu vytvárame bezpečné a podporujúce prostredie, v ktorom sa klienti môžu sústrediť na svoje zdravie.
+                            Za našimi službami stojí odborne pripravený fyzioterapeut, ktorý pristupuje ku každému klientovi individuálne, s rešpektom a plným nasadením. Vďaka odbornému vzdelaniu, praxi a ľudskému prístupu vytvárame bezpečné a podporujúce prostredie, v ktorom sa klienti môžu sústrediť na svoje zdravie.
                         </p>
                     </div>
                 </div>

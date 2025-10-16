@@ -1,7 +1,7 @@
 @section('title', 'Služby')
 
 @push('meta')
-    <meta name="description" content="Vo Fyziology ponúkame na výber z viacerých možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Našim cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok či zabezpečiť pohodu počas terapie.">
+    <meta name="description" content="Vo Fyziology ponúkame na výber z viacerých možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Naším cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok a zabezpečiť pohodu počas terapie.">
 @endpush
 
 <x-layout xmlns:x-slot="http://www.w3.org/1999/html">
@@ -9,7 +9,7 @@
     <div class="services relative overflow-hidden">
         {{-- <x-pjcomponents::portfolio-headers.header-2
             heading="Naše služby"
-            text="Vo Fyziology ponúkame na výber z viacerých  možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Našim cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok či zabezpečiť pohodu počas terapie."
+            text="Vo Fyziology ponúkame na výber z viacerých  možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Naším cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok a zabezpečiť pohodu počas terapie."
         >
             <x-slot:image>
                 <img src="{{ asset('assets/images/sluzby.jpg') }}" alt="sluzby">
@@ -23,7 +23,7 @@
     </div> 
 
             <h1 class="text-4xl md:text-6xl font-black mb-5 md:mb-6 relative z-10">Naše služby</h1>
-            <p class="max-w-3xl mx-auto md:text-lg relative z-10">Vo Fyziology ponúkame na výber z viacerých  možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Našim cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok či zabezpečiť pohodu počas terapie.</p>
+            <p class="max-w-3xl mx-auto md:text-lg relative z-10">Vo Fyziology ponúkame na výber z viacerých  možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Naším cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok a zabezpečiť pohodu počas terapie.</p>
         </div>
 
        

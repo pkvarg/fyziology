@@ -35,13 +35,13 @@
 
         <x-pjcomponents::faq.faq-7
             heading="Často kladené otázky"
-            text="V tejto časti nájdete prehľad najčastejších otázok, ktoré nám kladú naši klienti, spolu s jasnými a praktickými odpoveďami týkajúcimi sa našich fyzioterapeutických služieb – od priebehu terapie až po objednávanie či dostupnosť."
+            text="V tejto časti nájdete prehľad najčastejších otázok, ktoré nám kladú naši klienti, spolu s jasnými a praktickými odpoveďami týkajúcimi sa našich fyzioterapeutických služieb – od priebehu terapie až po objednávanie a dostupnosť."
         >
             <x-slot:qa>
                 <x-pjcomponents::faq.qa-7
                     class="active"
                     question="Aká je čakacia doba na fyzioterapiu?"
-                    answer="Vo Fyziology dostanete termín ihneď ako zavoláte, takže na termín v podstate nečakáte."
+                    answer="Vo Fyziology dostanete termín ihneď, ako zavoláte, takže na termín v podstate nečakáte."
                 />
 
                 <x-pjcomponents::faq.qa-7
