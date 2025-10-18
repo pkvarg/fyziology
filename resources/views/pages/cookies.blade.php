@@ -126,13 +126,8 @@
                     </a>
                 </div>
             </div>
-        
-
-
         </section>
 
-   
-     
         <x-footer />
     </div>
 
