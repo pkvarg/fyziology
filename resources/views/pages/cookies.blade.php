@@ -90,7 +90,7 @@
 
                 <p class="text-[20px] font-bold primary-color">Kontakt</p>
                 <br>
-                <p class="text-[18px]">Ak máte akékoliek otázky týkajúce sa našej politiky cookies, kontaktujte nás:</p>
+                <p class="text-[18px]">Ak máte akékoľvek otázky týkajúce sa našej politiky cookies, kontaktujte nás:</p>
                 <br>
                 <p class="font-bold">Mgr. Vladimír Chovanec</p>
                 <p>Prevádzka Fyziology</p>
@@ -106,12 +106,12 @@
            <!-- CTA Section -->   
       
                 <!-- Gradient Circle - bottom right -->
-            <div class="absolute bottom-[8rem] lg:top-[115rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60 md:hidden lg:inline 2xl:hidden">
+            <div class="absolute bottom-[8rem] lg:top-[70rem] -right-48 lg:-right-96 w-[100%] lg:w-[50%] h-auto pointer-events-none opacity-60 md:hidden lg:inline 2xl:hidden">
                 <img src="{{ asset('assets/svg/Gradient circle.svg') }}" alt="" class="w-full h-full object-contain" />
             </div>
 
-            <div class="container mx-auto w-full relative z-10 px-[5%] lg:ml-16">
-                <!-- Gradient Half Circle - left -->
+            <!-- <div class="container mx-auto w-full relative z-10 px-[5%] lg:ml-16">
+               
                 <div class="lg:flex absolute top-[0.25rem] -left-[2rem] lg:-top-[0rem] lg:-left-[2.5rem] w-40 h-40 pointer-events-none px-[5%]">
                     <img src="{{ asset('assets/svg/Gradient half circle.svg') }}" alt="" class="w-20 lg:w-20 h-20 lg:h-20 object-contain" />
                 </div>
@@ -125,7 +125,7 @@
                         Kontaktujte nás
                     </a>
                 </div>
-            </div>
+            </div> -->
         </section>
 
         <x-footer />
