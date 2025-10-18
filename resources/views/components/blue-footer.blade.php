@@ -99,6 +99,7 @@
                     <a href="{{ route('page.terms') }}" class="hover:text-cyan-300 transition-colors">Všeobecné obchodné podmienky</a>
                     <a href="{{ route('page.complaints') }}" class="hover:text-cyan-300 transition-colors">Reklamačné podmienky</a>
                     <a href="{{ route('page.privacy') }}" class="hover:text-cyan-300 transition-colors">Ochrana osobných údajov</a>
+                    <a href="{{ route('page.cookies') }}" class="hover:text-cyan-300 transition-colors">Cookies</a>
                 </div>
             </div>
         </div>

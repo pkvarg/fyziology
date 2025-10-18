@@ -105,4 +105,9 @@ class PageController
     {
         return view('pages.privacy');
     }
+
+    public function cookies(): View
+    {
+        return view('pages.cookies');
+    }
 }

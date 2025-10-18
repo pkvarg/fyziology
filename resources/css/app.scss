@@ -370,6 +370,116 @@ body {
     }
 }
 
+// Cookie Consent Banner
+.cookie-consent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.98);
+    border-top: 2px solid $primary;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    z-index: 9999;
+    backdrop-filter: blur(10px);
+    animation: slideUp 0.5s ease-out;
+
+    &.hidden {
+        display: none;
+    }
+
+    .cookie-consent-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            text-align: left;
+            justify-content: space-between;
+        }
+    }
+
+    .cookie-consent-text {
+        flex: 1;
+        color: #333333;
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin: 0;
+
+        @media (min-width: 768px) {
+            padding-right: 2rem;
+        }
+    }
+
+    .cookie-consent-link {
+        color: $primary;
+        text-decoration: underline;
+        font-weight: 500;
+        margin-left: 0.5rem;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: #0a4c8c;
+        }
+    }
+
+    .cookie-consent-buttons {
+        display: flex;
+        gap: 0.75rem;
+        flex-shrink: 0;
+    }
+
+    .cookie-consent-accept,
+    .cookie-consent-decline {
+        padding: 0.75rem 1.5rem;
+        border-radius: 50px;
+        font-weight: 500;
+        font-size: 0.95rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 2px solid $primary;
+        white-space: nowrap;
+    }
+
+    .cookie-consent-accept {
+        background-color: $primary;
+        color: #ffffff;
+
+        &:hover {
+            background-color: #0a4c8c;
+            border-color: #0a4c8c;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(12, 94, 182, 0.3);
+        }
+    }
+
+    .cookie-consent-decline {
+        background-color: transparent;
+        color: $primary;
+
+        &:hover {
+            background-color: rgba(12, 94, 182, 0.1);
+            transform: translateY(-2px);
+        }
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 @media (min-width: 1024px) {
     .portfolio-header-2 .image-container img,
     .header-9 img {

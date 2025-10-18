@@ -11,6 +11,7 @@ Route::get('/kontakt', [PageController::class, 'contact'])->name('page.contact')
 Route::get('/vseobecne-obchodne-podmienky', [PageController::class, 'terms'])->name('page.terms');
 Route::get('/reklamacne-podmienky', [PageController::class, 'complaints'])->name('page.complaints');
 Route::get('/ochrana-osobnych-udajov', [PageController::class, 'privacy'])->name('page.privacy');
+Route::get('/cookies', [PageController::class, 'cookies'])->name('page.cookies');
 
 Route::post('/contact', [ContactController::class, 'sendContactForm'])->name('contact.send');
 
