@@ -85,7 +85,7 @@
                 <br>
                 <p class="text-[18px]">Túto informáciu o cookies môžeme príležitostne aktualizovať. Odporúčame vám pravidelne kontrolovať túto stránku, aby ste boli informovaní o akýchkoľvek zmenách.</p>
                 <br>
-                <p class="text-[18px]"><span class="font-bold">Posledná aktualizácia:</span> {{ date('d.m.Y') }}</p>
+                <p class="text-[18px]"><span class="font-bold">Posledná aktualizácia:</span> 18.10.2025</p>
                 <br>
 
                 <p class="text-[20px] font-bold primary-color">Kontakt</p>
