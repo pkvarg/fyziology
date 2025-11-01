@@ -1,5 +1,13 @@
 @section('title', 'Mobilná fyzioterapia- Rehabilitácia priamo u Vás doma')
 
+@push('meta')
+    <meta name="description" content="Fyziology - moderná mobilná a ambulantná fyzioterapia v Bratislave. Profesionálna rehabilitácia priamo u vás doma alebo v našej ambulancii. Prvá konzultácia zdarma. Kontakt: 0918 378 781.">
+@endpush
+
+@push('schema')
+    <x-review-schema />
+@endpush
+
 <x-layout>
     <div class="index">
         <!-- Hero Section -->
@@ -54,7 +62,7 @@
 
                 <!-- Large Ambulance Image -->
                 <div class="mt-12">
-                    <img src="{{ asset('assets/images/ambulance.jpg') }}" alt="Ambulance" class="w-full max-w-5xl mx-auto rounded-3xl shadow-lg object-cover" style="max-height: 500px;">
+                    <img src="{{ asset('assets/images/ambulance.jpg') }}" alt="Ambulancia Fyziology - moderné priestory fyzioterapie v Bratislave" class="w-full max-w-5xl mx-auto rounded-3xl shadow-lg object-cover" style="max-height: 500px;">
                 </div>
             </div>
         </section>
@@ -86,7 +94,7 @@
                     <!-- Fyzioterapia pre seniorov -->
                     <a href="{{ route('page.services.senior-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
                         <div class="mb-6 overflow-hidden rounded-2xl relative">
-                            <img src="{{ asset('assets/images/fyzio-pre-seniorov.jpg') }}" alt="Fyzioterapia pre seniorov" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <img src="{{ asset('assets/images/fyzio-pre-seniorov.jpg') }}" alt="Fyzioterapia pre seniorov - cvičenie a rehabilitácia starších ľudí" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
                             <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
                         <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pre seniorov</h3>
@@ -95,7 +103,7 @@
                     <!-- Fyzioterapia pre dospelých -->
                     <a href="{{ route('page.services.adult-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
                         <div class="mb-6 overflow-hidden rounded-2xl relative">
-                            <img src="{{ asset('assets/images/fyzio-pre-dospelych.jpg') }}" alt="Fyzioterapia pre dospelých" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <img src="{{ asset('assets/images/fyzio-pre-dospelych.jpg') }}" alt="Fyzioterapia pre dospelých - liečba bolesti a rehabilitácia" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
                             <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
                         <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pre dospelých</h3>
@@ -104,7 +112,7 @@
                     <!-- Fyzioterapia pri ochoreniach chrbtice -->
                     <a href="{{ route('page.services.vertebrogenic-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
                         <div class="mb-6 overflow-hidden rounded-2xl relative">
-                            <img src="{{ asset('assets/images/verte.jpg') }}" alt="Fyzioterapia pri ochoreniach chrbtice" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <img src="{{ asset('assets/images/verte.jpg') }}" alt="Fyzioterapia pri ochoreniach chrbtice - liečba bolesti chrbta" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
                             <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
                         <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pri ochoreniach chrbtice</h3>
@@ -113,7 +121,7 @@
                     <!-- Fyzioterapia pri neurologických ochoreniach -->
                     <a href="{{ route('page.services.neurological-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
                         <div class="mb-6 overflow-hidden rounded-2xl relative">
-                            <img src="{{ asset('assets/images/neuro.jpg') }}" alt="Fyzioterapia pri neurologických ochoreniach" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <img src="{{ asset('assets/images/neuro.jpg') }}" alt="Fyzioterapia pri neurologických ochoreniach - liečba po CMP a parézy" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
                             <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
                         <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pri neurologických ochoreniach</h3>
@@ -122,7 +130,7 @@
                     <!-- Fyzioterapia pri imobilných pacientoch -->
                     <a href="{{ route('page.services.immobile-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
                         <div class="mb-6 overflow-hidden rounded-2xl relative">
-                            <img src="{{ asset('assets/images/imobilny-pacienti.jpg') }}" alt="Fyzioterapia pri imobilných pacientoch" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <img src="{{ asset('assets/images/imobilny-pacienti.jpg') }}" alt="Fyzioterapia pre imobilných pacientov - domáca rehabilitácia" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
                             <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
                         <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pri imobilných pacientoch</h3>
@@ -131,7 +139,7 @@
                     <!-- Fyzioterapia pri poúrazových a pooperačných stavoch -->
                     <a href="{{ route('page.services.postoperative-physiotherapy') }}" class="text-center flex flex-col group cursor-pointer">
                         <div class="mb-6 overflow-hidden rounded-2xl relative">
-                            <img src="{{ asset('assets/images/pooperacne.jpg') }}" alt="Fyzioterapia pri poúrazových a pooperačných stavoch" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                            <img src="{{ asset('assets/images/pooperacne.jpg') }}" alt="Fyzioterapia po operácii a úrazoch - pooperačná rehabilitácia" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
                             <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
                         <h3 class="text-xl font-bold mb-4 min-h-[3.5rem]">Fyzioterapia pri poúrazových a pooperačných stavoch</h3>
@@ -170,7 +178,7 @@
                 <div class="flex flex-col lg:flex-row gap-8 items-center bg-gray-50 rounded-3xl lg:p-8 mt-12 lg:mx-[5%]">
                     <!-- Circular Avatar with Gradient Overlay -->
                     <div class="flex-shrink-0 relative">
-                        <img src="{{ asset('assets/images/vlado.jpg') }}" alt="Mgr. Vladimír Chovanec" class="w-48 h-48 lg:w-64 lg:h-64 rounded-full object-cover shadow-lg">
+                        <img src="{{ asset('assets/images/vlado.jpg') }}" alt="Mgr. Vladimír Chovanec - profesionálny fyzioterapeut v Bratislave" class="w-48 h-48 lg:w-64 lg:h-64 rounded-full object-cover shadow-lg">
                         <div class="absolute inset-0 rounded-full bg-gradient-to-r from-transparent via-blue-500/20 to-cyan-400/30"></div>
                     </div>
 
