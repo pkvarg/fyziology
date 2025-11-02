@@ -1,8 +1,6 @@
 @section('title', 'Reflexná masáž')
 
-@push('meta')
-    <meta name="description" content="Reflexnú masáž zaradzujeme do skupiny liečebných metód s cieľom odstrániť chorobné zmeny na koži a v tkanivách. Liečebný účinok dosahujeme prostredníctvom nervových spojov cez reflexné oblúky. Masáž pôsobí na nervový systém, ktorý je hlavným riadiacim systémom v organizme človeka.">
-@endpush
+@section('meta_description', 'Reflexnú masáž zaradzujeme do skupiny liečebných metód s cieľom odstrániť chorobné zmeny na koži a v tkanivách. Liečebný účinok dosahujeme prostredníctvom nervových spojov cez reflexné oblúky. Masáž pôsobí na nervový systém, ktorý je hlavným riadiacim systémom v organizme človeka.')
 
 <x-layout>
     <div class="reflex-massage bg-gray-50 mt-8">

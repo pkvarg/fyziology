@@ -1,8 +1,6 @@
 @section('title', 'Cenník')
 
-@push('meta')
-    <meta name="description" content="Cenník fyzioterapeutických služieb Fyziology v Bratislave. Transparentné ceny za mobilnú fyzioterapiu, ambulantnú fyzioterapiu, bankovanie a masáže. Vstupná konzultácia zdarma.">
-@endpush
+@section('meta_description', 'Cenník fyzioterapeutických služieb Fyziology v Bratislave. Transparentné ceny za mobilnú fyzioterapiu, ambulantnú fyzioterapiu, bankovanie a masáže. Vstupná konzultácia zdarma.')
 
 <x-layout xmlns:x-slot="http://www.w3.org/1999/html">
 

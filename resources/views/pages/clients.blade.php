@@ -1,8 +1,6 @@
 @section('title', 'Naši klienti')
 
-@push('meta')
-    <meta name="description" content="Pozrite si recenzie a ohlasy našich spokojných klientov. Fyziology pomáha ľuďom v Bratislave a okolí dosiahnuť lepšie zdravie a pohyblivosť vďaka individuálnej fyzioterapii.">
-@endpush
+@section('meta_description', 'Pozrite si recenzie a ohlasy našich spokojných klientov. Fyziology pomáha ľuďom v Bratislave a okolí dosiahnuť lepšie zdravie a pohyblivosť vďaka individuálnej fyzioterapii.')
 
 <x-layout>
     <div class="clients bg-gray-50 mt-8">

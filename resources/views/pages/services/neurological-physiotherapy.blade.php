@@ -1,8 +1,6 @@
 @section('title', 'Fyzioterapia pri neurologických ochoreniach')
 
-@push('meta')
-    <meta name="description" content="Vo Fyziology venujeme pozornosť aj odboru ako je neurológia a jej najčastejším ochoreniam. Starostlivosť o pacienta s centrálnou parézou po CMP či fyzioterapii pri periférnych parézach horných a dolných končatín.">
-@endpush
+@section('meta_description', 'Vo Fyziology venujeme pozornosť aj odboru ako je neurológia a jej najčastejším ochoreniam. Starostlivosť o pacienta s centrálnou parézou po CMP či fyzioterapii pri periférnych parézach horných a dolných končatín.')
 
 <x-layout>
     <div class="neurological-physiotherapy bg-gray-50 mt-8">

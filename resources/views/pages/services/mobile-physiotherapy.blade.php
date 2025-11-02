@@ -1,8 +1,6 @@
 @section('title', 'Mobilná a ambulantná fyzioterapia')
 
-@push('meta')
-    <meta name="description" content="Ide o moderný prístup poskytovania fyzioterapeutickej starostlivosti, ktorý prináša profesionálnu pomoc priamo k pacientovi, bez nutnosti návštevy fyzioterapeutickej ambulancie.">
-@endpush
+@section('meta_description', 'Ide o moderný prístup poskytovania fyzioterapeutickej starostlivosti, ktorý prináša profesionálnu pomoc priamo k pacientovi, bez nutnosti návštevy fyzioterapeutickej ambulancie.')
 
 <x-layout>
     <div class="mobile-physiotherapy bg-gray-50 mt-8">

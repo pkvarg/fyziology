@@ -1,8 +1,6 @@
 @section('title', 'Bankovanie')
 
-@push('meta')
-    <meta name="description" content="Bankovanie je terapeutická technika, ktorá sa používa na zlepšenie prietoku krvi, uvoľnenie svalového napätia a zmiernenie bolesti. V súvislosti s fyzioterapiou sa bankovanie často používa ako doplnková metóda pri liečbe rôznych muskuloskeletálnych problémov.">
-@endpush
+@section('meta_description', 'Bankovanie je terapeutická technika, ktorá sa používa na zlepšenie prietoku krvi, uvoľnenie svalového napätia a zmiernenie bolesti. V súvislosti s fyzioterapiou sa bankovanie často používa ako doplnková metóda pri liečbe rôznych muskuloskeletálnych problémov.')
 
 <x-layout>
     <div class="banking bg-gray-50 mt-8">
@@ -110,9 +108,9 @@
             <div class="max-w-5xl mx-auto">
                 <h2 class="text-3xl md:text-4xl lg:text-3xl font-black mb-8 text-center">Fotogaléria</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-                    <img src="{{ asset('assets/images/bankovanie-1.jpg') }}" alt="photo 1" class="w-full h-auto rounded-3xl shadow-lg">
-                    <img src="{{ asset('assets/images/bankovanie-8.jpg') }}" alt="photo 8" class="w-full h-auto rounded-3xl shadow-lg">
-                    <img src="{{ asset('assets/images/bankovanie-7.jpg') }}" alt="photo 7" class="w-full h-auto rounded-3xl shadow-lg">
+                    <img src="{{ asset('assets/images/bankovanie-1.jpg') }}" alt="Bankovanie v praxi - aplikácia bánok pri fyzioterapii" class="w-full h-auto rounded-3xl shadow-lg">
+                    <img src="{{ asset('assets/images/bankovanie-8.jpg') }}" alt="Terapeutické bankovanie - príklad terapie so suchými bankami" class="w-full h-auto rounded-3xl shadow-lg">
+                    <img src="{{ asset('assets/images/bankovanie-7.jpg') }}" alt="Bankovacia terapia v Bratislave - profesionálna aplikácia bánok" class="w-full h-auto rounded-3xl shadow-lg">
                 </div>
             </div>
         </section>

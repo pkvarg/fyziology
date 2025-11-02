@@ -1,8 +1,6 @@
 @section('title', 'Fyzioterapia pre seniorov')
 
-@push('meta')
-    <meta name="description" content="Venujeme sa starším vekovým skupinám, ktoré aj v pokročilejšom veku vďaka pohybu chcú udržiavať svoje telo aktívne a v dobrej fyzickej kondícii. Fyzioterapia pre dôchodcov je veľmi dôležitá, pretože pomáha udržiavať a zlepšovať fyzickú kondíciu.">
-@endpush
+@section('meta_description', 'Venujeme sa starším vekovým skupinám, ktoré aj v pokročilejšom veku vďaka pohybu chcú udržiavať svoje telo aktívne a v dobrej fyzickej kondícii. Fyzioterapia pre dôchodcov je veľmi dôležitá, pretože pomáha udržiavať a zlepšovať fyzickú kondíciu.')
 
 <x-layout>
     <div class="senior-physiotherapy bg-gray-50 mt-8">

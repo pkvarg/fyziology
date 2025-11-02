@@ -1,8 +1,6 @@
 @section('title', 'Služby')
 
-@push('meta')
-    <meta name="description" content="Vo Fyziology ponúkame na výber z viacerých možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Naším cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok a zabezpečiť pohodu počas terapie.">
-@endpush
+@section('meta_description', 'Vo Fyziology ponúkame na výber z viacerých možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Naším cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok a zabezpečiť pohodu počas terapie.')
 
 <x-layout xmlns:x-slot="http://www.w3.org/1999/html">
 
@@ -12,7 +10,7 @@
             text="Vo Fyziology ponúkame na výber z viacerých  možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Naším cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok a zabezpečiť pohodu počas terapie."
         >
             <x-slot:image>
-                <img src="{{ asset('assets/images/sluzby.jpg') }}" alt="sluzby">
+                <img src="{{ asset('assets/images/sluzby.jpg') }}" alt="Naše fyzioterapeutické služby v Bratislave - mobilná fyzioterapia, bankovanie a masáže">
             </x-slot:image>
         </x-pjcomponents::portfolio-headers.header-2> --}}
 

@@ -1,8 +1,6 @@
 @section('title', 'Reklamačné podmienky')
 
-@push('meta')
-    <meta name="description" content="Reklamačné podmienky Fyziology. Informácie o uplatnení reklamácie fyzioterapeutických služieb v Bratislave a postupe pri vybavovaní reklamácií.">
-@endpush
+@section('meta_description', 'Reklamačné podmienky Fyziology. Informácie o uplatnení reklamácie fyzioterapeutických služieb v Bratislave a postupe pri vybavovaní reklamácií.')
 
 <x-layout>
 

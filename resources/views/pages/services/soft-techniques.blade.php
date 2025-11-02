@@ -1,8 +1,6 @@
 @section('title', 'Mäkké techniky')
 
-@push('meta')
-    <meta name="description" content="Mäkké techniky sú manuálna terapia, pri ktorej najskôr uvoľňujeme kožu, podkožie a následne účinky prenikajú do hlbšie úložených štruktúr, a to fascie a svalu. Cieľom je obnoviť pohyblivosť mäkkých tkanív v mieste patologickej bariéry a v smere obmedzenia.">
-@endpush
+@section('meta_description', 'Mäkké techniky sú manuálna terapia, pri ktorej najskôr uvoľňujeme kožu, podkožie a následne účinky prenikajú do hlbšie úložených štruktúr, a to fascie a svalu. Cieľom je obnoviť pohyblivosť mäkkých tkanív v mieste patologickej bariéry a v smere obmedzenia.')
 
 <x-layout>
     <div class="soft-techniques bg-gray-50 mt-8">

@@ -1,8 +1,6 @@
 @section('title', 'Kontakt')
 
-@push('meta')
-    <meta name="description" content="Kontaktujte Fyziology v Bratislave. Objednajte si prvú konzultáciu zdarma na telefóne 0918 378 781 alebo cez kontaktný formulár. Ambulancia na Námestí Martina Benku 12.">
-@endpush
+@section('meta_description', 'Kontaktujte Fyziology v Bratislave. Objednajte si prvú konzultáciu zdarma na telefóne 0918 378 781 alebo cez kontaktný formulár. Ambulancia na Námestí Martina Benku 12.')
 
 @push('schema')
     <x-faq-schema />

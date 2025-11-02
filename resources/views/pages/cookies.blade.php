@@ -1,8 +1,6 @@
 @section('title', 'Cookies')
 
-@push('meta')
-    <meta name="description" content="Informácie o používaní cookies na fyziology.sk. Používame analytické cookies Umami Analytics v súlade s GDPR pre zlepšenie našich služieb fyzioterapie v Bratislave.">
-@endpush
+@section('meta_description', 'Informácie o používaní cookies na fyziology.sk. Používame analytické cookies Umami Analytics v súlade s GDPR pre zlepšenie našich služieb fyzioterapie v Bratislave.')
 
 <x-layout>
 

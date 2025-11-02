@@ -7,13 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="keywords" content="fyzioterapia, fyzioterapia bratislava, domáca fyzioterapia, domaca fyzioterapia, mobilná fyzioterapia, mobilna fyzioterapia, masáže bratislava, masaze bratislava, bankovanie bratislava, rehabilitácia, rehabilitacia, ambulantná fyzioterapia, ambulantna fyzioterapia, fyzioterapeut bratislava">
-    <meta name="description" content="Fyziology je moderná a dynamická firma, ktorej cieľom je pomáhať klientom dosiahnuť ich maximálny potenciál v oblasti pohybu a zdravia, a to pomocou mobilnej fyzioterapie v Bratislave a okolí.">
+    <meta name="description" content="@hasSection('meta_description')@yield('meta_description')@else Fyziology je moderná a dynamická firma, ktorej cieľom je pomáhať klientom dosiahnuť ich maximálny potenciál v oblasti pohybu a zdravia, a to pomocou mobilnej fyzioterapie v Bratislave a okolí.@endif">
     <meta name="robots" content="index, follow">
     @stack('meta')
     <title>Fyziology | @yield('title')</title>
 
     {{-- Canonical URL --}}
-    <link rel="canonical" href="{{ url()->current() }}">
+    <link rel="canonical" href="{{ preg_replace('/\/index\.(html|php)$/', '', url()->current()) }}">
 
     {{-- Open Graph Meta Tags --}}
     <meta property="og:title" content="@yield('title') | Fyziology">

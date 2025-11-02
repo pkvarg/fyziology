@@ -1,8 +1,6 @@
 @section('title', 'Ochrana osobných údajov')
 
-@push('meta')
-    <meta name="description" content="Vyhlásenie o ochrane osobných údajov Fyziology v súlade s GDPR. Transparentné informácie o spracovaní osobných údajov pri poskytovaní fyzioterapeutických služieb v Bratislave.">
-@endpush
+@section('meta_description', 'Vyhlásenie o ochrane osobných údajov Fyziology v súlade s GDPR. Transparentné informácie o spracovaní osobných údajov pri poskytovaní fyzioterapeutických služieb v Bratislave.')
 
 <x-layout>
 

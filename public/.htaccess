@@ -5,6 +5,14 @@
 
     RewriteEngine On
 
+    # Redirect index.html and index.php to clean URLs
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.(html|php)\ HTTP/
+    RewriteRule ^index\.(html|php)$ / [R=301,L]
+
+    # Redirect any directory/index.html or directory/index.php to directory/
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.+)/index\.(html|php)\ HTTP/
+    RewriteRule ^(.+)/index\.(html|php)$ /$1/ [R=301,L]
+
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]

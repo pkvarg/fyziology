@@ -1,8 +1,6 @@
 @section('title', 'Mobilná fyzioterapia- Rehabilitácia priamo u Vás doma')
 
-@push('meta')
-    <meta name="description" content="Fyziology - moderná mobilná a ambulantná fyzioterapia v Bratislave. Profesionálna rehabilitácia priamo u vás doma alebo v našej ambulancii. Prvá konzultácia zdarma. Kontakt: 0918 378 781.">
-@endpush
+@section('meta_description', 'Fyziology - moderná mobilná a ambulantná fyzioterapia v Bratislave. Profesionálna rehabilitácia priamo u vás doma alebo v našej ambulancii. Prvá konzultácia zdarma. Kontakt: 0918 378 781.')
 
 @push('schema')
     <x-review-schema />
@@ -239,7 +237,7 @@
                             <div>
                                 <h4 class="font-bold text-lg">Sofia</h4>
                                 <div class="flex gap-1 overflow-hidden">
-                                    <img src="{{ asset('assets/svg/Review.svg') }}" alt="star" class="w-36">
+                                    <img src="{{ asset('assets/svg/Review.svg') }}" alt="5-hviezdičkové hodnotenie" class="w-36">
                                 </div>
                             </div>
                         </div>
@@ -267,7 +265,7 @@
                             <div>
                                 <h4 class="font-bold text-lg">Daniel</h4>
                                  <div class="flex gap-1 overflow-hidden">
-                                    <img src="{{ asset('assets/svg/Review.svg') }}" alt="star" class="w-36">
+                                    <img src="{{ asset('assets/svg/Review.svg') }}" alt="5-hviezdičkové hodnotenie" class="w-36">
                                 </div>
                             </div>
                         </div>
@@ -295,7 +293,7 @@
                             <div>
                                 <h4 class="font-bold text-lg">Martina</h4>
                                  <div class="flex gap-1 overflow-hidden">
-                                    <img src="{{ asset('assets/svg/Review.svg') }}" alt="star" class="w-36">
+                                    <img src="{{ asset('assets/svg/Review.svg') }}" alt="5-hviezdičkové hodnotenie" class="w-36">
                                 </div>
                             </div>
                         </div>

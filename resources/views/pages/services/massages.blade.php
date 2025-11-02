@@ -1,8 +1,6 @@
 @section('title', 'Masáže')
 
-@push('meta')
-    <meta name="description" content="Masáž je technika, ktorá zahŕňa manipuláciu s pokožkou, svalmi, šľachami a inými mäkkými tkanivami tela. Využíva sa na uvoľnenie napätia, zmiernenie bolesti, zlepšenie prekrvenia a podporu zdravia.">
-@endpush
+@section('meta_description', 'Masáž je technika, ktorá zahŕňa manipuláciu s pokožkou, svalmi, šľachami a inými mäkkými tkanivami tela. Využíva sa na uvoľnenie napätia, zmiernenie bolesti, zlepšenie prekrvenia a podporu zdravia.')
 
 <x-layout>
     <div class="massages bg-gray-50 mt-8 overflow-x-hidden">

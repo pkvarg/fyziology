@@ -1,8 +1,6 @@
 @section('title', 'Všeobecné obchodné podmienky')
 
-@push('meta')
-    <meta name="description" content="Všeobecné obchodné podmienky poskytovateľa fyzioterapeutických služieb Fyziology v Bratislave. Informácie o objednávaní, cenách a podmienkach poskytovania zdravotnej starostlivosti.">
-@endpush
+@section('meta_description', 'Všeobecné obchodné podmienky poskytovateľa fyzioterapeutických služieb Fyziology v Bratislave. Informácie o objednávaní, cenách a podmienkach poskytovania zdravotnej starostlivosti.')
 
 <x-layout>
 

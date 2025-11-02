@@ -1,8 +1,6 @@
 @section('title', 'Fyzioterapia pri poúrazových a pooperačných stavoch')
 
-@push('meta')
-    <meta name="description" content="Operačný zákrok je zásah do organizmu, pri ktorom dochádza k narušeniu kože, podkožia, fascie, svalov, ciev, lymfatického systému a nervov. Fyzioterapia je veľmi dôležitou súčasťou liečebného procesu pred a po operácii.">
-@endpush
+@section('meta_description', 'Operačný zákrok je zásah do organizmu, pri ktorom dochádza k narušeniu kože, podkožia, fascie, svalov, ciev, lymfatického systému a nervov. Fyzioterapia je veľmi dôležitou súčasťou liečebného procesu pred a po operácii.')
 
 <x-layout>
     <div class="postoperative-physiotherapy bg-gray-50 mt-8">
