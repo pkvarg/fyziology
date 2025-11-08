@@ -9,102 +9,112 @@
 
 <url>
   <loc>https://fyziology.sk/</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/sluzby</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/sluzby/mobilna-fyzioterapia</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fyziology.sk/sluzby/ambulantna-fyzioterapia</loc>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/sluzby/bankovanie</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/sluzby/masaze</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/nasi-klienti</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/cennik</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/kontakt</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/vseobecne-obchodne-podmienky</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/reklamacne-podmienky</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/ochrana-osobnych-udajov</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fyziology.sk/cookies</loc>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/sluzby/fyzioterapia-pre-seniorov</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/sluzby/fyzioterapia-pre-dospelych</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/sluzby/fyzioterapia-pri-ochoreniach-chrbtice</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/sluzby/fyzioterapia-pri-neurologickych-ochoreniach</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/sluzby/fyzioterapia-pri-imobilnych-pacientoch</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/sluzby/fyzioterapia-pri-pourazovych-a-pooperacnych-stavoch</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/sluzby/klasicka-masaz</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/sluzby/reflexna-masaz</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://fyziology.sk/sluzby/makke-techniky</loc>
-  <lastmod>2025-02-26T19:27:50+00:00</lastmod>
+  <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
