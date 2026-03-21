@@ -56,10 +56,10 @@ class PageController
         return view('pages.services.banking');
     }
 
-    public function massages(): View
-    {
-        return view('pages.services.massages');
-    }
+    // public function massages(): View
+    // {
+    //     return view('pages.services.massages');
+    // }
 
     public function classicMassage(): View
     {

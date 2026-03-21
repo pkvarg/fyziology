@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="keywords" content="fyzioterapia, fyzioterapia bratislava, domáca fyzioterapia, domaca fyzioterapia, mobilná fyzioterapia, mobilna fyzioterapia, masáže bratislava, masaze bratislava, bankovanie bratislava, rehabilitácia, rehabilitacia, ambulantná fyzioterapia, ambulantna fyzioterapia, fyzioterapeut bratislava">
+    <meta name="keywords" content="Fyzioterapia pri cievnej mozgovej príhode, Domáca fyzioterapia pri cievnej mozgovej príhode, Domaca fyzioterapia pri cievnej mozgovej prihode, Mobilna fyzioterapia pri cievnej mozgovej prihode, Mobilná fyzioterapia pri cievnej mozgovej príhode, Fyzioterapia pri cievnej príhode, Domáca fyzioterapia pri cievnej príhode, Mobilna fyzioterapia pri cievnej príhode, Mobilná fyzioterapia pri cievnej príhode, Fyzioterapia pri imobilných pacientoch, Domáca fyzioterapia pri imobilných pacientoch, Domaca fyzioterapia pri imobilnych pacientoch, Mobilna fyzioterapia pri imobilnych pacientoch, Mobilná fyzioterapia pri imobilných pacientoch, Fyzioterapia pri zlomeninách, Domáca fyzioterapia pri zlomeninách, Domaca fyzioterapia pri zlomeninach, Mobilná fyzioterapia pri zlomeninách, Mobilna fyzioterapia pri zlomeninach, Fyzioterapia pri neurologických ochoreniach, Domaca fyzioterapia pri neurologickych ochoreniach, Domáca fyzioterapia pri neurologických ochoreniach, Mobilna fyzioterapia pri neurologickych ochoreniach, Mobilná fyzioterapia pri neurologických ochoreniach, Fyzioterapia pri Parkinsonovej chorobe, Domaca fyzioterapia pri Parkinsonovej chorobe, Domáca fyzioterapia pri Parkinsonovej chorobe, Mobilna fyzioterapia pri Parkinsonovej chorobe, Mobilná fyzioterapia pri Parkinsonovej chorobe">
     <meta name="description" content="@hasSection('meta_description')@yield('meta_description')@else Fyziology je moderná a dynamická firma, ktorej cieľom je pomáhať klientom dosiahnuť ich maximálny potenciál v oblasti pohybu a zdravia, a to pomocou mobilnej fyzioterapie v Bratislave a okolí.@endif">
     <meta name="robots" content="index, follow">
     @stack('meta')
@@ -65,7 +65,6 @@
                     <x-pjcomponents::navbars.simple-link text="Naše služby" :link="route('page.services.index')" />
                     <x-pjcomponents::navbars.simple-link text="Mobilná a ambulantná fyzioterapia" :link="route('page.services.mobile-physiotherapy')" />
                     <x-pjcomponents::navbars.simple-link text="Bankovanie" :link="route('page.services.banking')" />
-                    <x-pjcomponents::navbars.simple-link text="Masáže" :link="route('page.services.massages')" />
                 </x-pjcomponents::navbars.items-link>
 
                 <x-pjcomponents::navbars.simple-link text="Naši klienti" :link="route('page.clients')" />
