@@ -108,21 +108,6 @@
                         </x-slot:benefits>
                     </x-pjcomponents::pricing.pricing-shared-item-1>
 
-                    <x-pjcomponents::pricing.pricing-shared-item-1 tagline="Masáže">
-                        <x-slot:benefits>
-                            <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
-                                <x-slot:text>
-                                    <span class="text-gray-700">25 min./ <span class="font-bold">30 €</span></span>
-                                </x-slot:text>
-                            </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
-
-                            <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
-                                <x-slot:text>
-                                    <span class="text-gray-700">50 min./ <span class="font-bold">45 €</span></span>
-                                </x-slot:text>
-                            </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
-                        </x-slot:benefits>
-                    </x-pjcomponents::pricing.pricing-shared-item-1>
                 </x-slot:prices>
             </x-pjcomponents::pricing.pricing-18c1>
             
