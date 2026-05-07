@@ -112,13 +112,13 @@
                         <x-slot:benefits>
                             <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
                                 <x-slot:text>
-                                    <span class="text-gray-700">25 min./ <span class="font-bold">30 €</span></span>
+                                    <span class="text-gray-700">25 min./ <span class="font-bold">35 €</span></span>
                                 </x-slot:text>
                             </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
 
                             <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
                                 <x-slot:text>
-                                    <span class="text-gray-700">50 min./ <span class="font-bold">45 €</span></span>
+                                    <span class="text-gray-700">50 min./ <span class="font-bold">60 €</span></span>
                                 </x-slot:text>
                             </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
                         </x-slot:benefits>
