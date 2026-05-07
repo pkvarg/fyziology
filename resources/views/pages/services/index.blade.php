@@ -1,16 +1,16 @@
 @section('title', 'Služby')
 
-@section('meta_description', 'Vo Fyziology ponúkame na výber z viacerých možností služieb ako je mobilná či ambulantná fyzioterapia a bankovanie. Naším cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok a zabezpečiť pohodu počas terapie.')
+@section('meta_description', 'Vo Fyziology ponúkame na výber z viacerých možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Naším cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok a zabezpečiť pohodu počas terapie.')
 
 <x-layout xmlns:x-slot="http://www.w3.org/1999/html">
 
     <div class="services relative overflow-hidden">
         {{-- <x-pjcomponents::portfolio-headers.header-2
             heading="Naše služby"
-            text="Vo Fyziology ponúkame na výber z viacerých  možností služieb ako je mobilná či ambulantná fyzioterapia a bankovanie. Naším cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok a zabezpečiť pohodu počas terapie."
+            text="Vo Fyziology ponúkame na výber z viacerých  možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Naším cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok a zabezpečiť pohodu počas terapie."
         >
             <x-slot:image>
-                <img src="{{ asset('assets/images/sluzby.jpg') }}" alt="Naše fyzioterapeutické služby v Bratislave - mobilná fyzioterapia a bankovanie">
+                <img src="{{ asset('assets/images/sluzby.jpg') }}" alt="Naše fyzioterapeutické služby v Bratislave - mobilná fyzioterapia, bankovanie a masáže">
             </x-slot:image>
         </x-pjcomponents::portfolio-headers.header-2> --}}
 
@@ -21,7 +21,7 @@
     </div> 
 
             <h1 class="text-4xl md:text-6xl font-black mb-5 md:mb-6 relative z-10">Naše služby</h1>
-            <p class="max-w-3xl mx-auto md:text-lg relative z-10">Vo Fyziology ponúkame na výber z viacerých  možností služieb ako je mobilná či ambulantná fyzioterapia a bankovanie. Naším cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok a zabezpečiť pohodu počas terapie.</p>
+            <p class="max-w-3xl mx-auto md:text-lg relative z-10">Vo Fyziology ponúkame na výber z viacerých  možností služieb ako je mobilná či ambulantná fyzioterapia, bankovanie a masáže. Naším cieľom je zlepšiť Váš zdravotný stav, dopriať Vám odpočinok a zabezpečiť pohodu počas terapie.</p>
         </div>
 
        
@@ -46,6 +46,16 @@
                     </a>
                     <h3 class="text-xl font-bold lg:mb-4 lg:min-h-[3.5rem]">Bankovanie</h3>
                     <a href="{{ route('page.services.banking') }}" class="bg-primary-color text-white px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity mx-auto mt-6 lg:mt-0">Viac info</a>
+                </div>
+
+                <!-- Masáže -->
+                <div class="text-center flex flex-col -mt-0 lg:-mt-0">
+                    <a href="{{ route('page.services.massages') }}" class="mb-6 overflow-hidden rounded-2xl group relative block">
+                        <img src="{{ asset('assets/images/massages-cover.jpg') }}" alt="Masáže" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-primary-color/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    </a>
+                    <h3 class="text-xl font-bold lg:mb-4 min-h-[3.5rem]">Masáže</h3>
+                    <a href="{{ route('page.services.massages') }}" class="bg-primary-color text-white px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity mx-auto -mt-2 lg:mt-0">Viac info</a>
                 </div>
 
             </div>

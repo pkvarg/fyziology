@@ -1,6 +1,6 @@
 @section('title', 'Cenník')
 
-@section('meta_description', 'Cenník fyzioterapeutických služieb Fyziology v Bratislave. Transparentné ceny za mobilnú fyzioterapiu, ambulantnú fyzioterapiu a bankovanie. Vstupná konzultácia zdarma.')
+@section('meta_description', 'Cenník fyzioterapeutických služieb Fyziology v Bratislave. Transparentné ceny za mobilnú fyzioterapiu, ambulantnú fyzioterapiu, bankovanie a masáže. Vstupná konzultácia zdarma.')
 
 <x-layout xmlns:x-slot="http://www.w3.org/1999/html">
 
@@ -103,6 +103,22 @@
                             <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
                                 <x-slot:text>
                                     <span class="text-gray-700">25 min./ <span class="font-bold">25 €</span></span>
+                                </x-slot:text>
+                            </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                        </x-slot:benefits>
+                    </x-pjcomponents::pricing.pricing-shared-item-1>
+
+                    <x-pjcomponents::pricing.pricing-shared-item-1 tagline="Masáže">
+                        <x-slot:benefits>
+                            <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                                <x-slot:text>
+                                    <span class="text-gray-700">25 min./ <span class="font-bold">30 €</span></span>
+                                </x-slot:text>
+                            </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+
+                            <x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
+                                <x-slot:text>
+                                    <span class="text-gray-700">50 min./ <span class="font-bold">45 €</span></span>
                                 </x-slot:text>
                             </x-pjcomponents::pricing.pricing-shared-plan-benefit-1>
                         </x-slot:benefits>

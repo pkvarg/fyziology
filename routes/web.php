@@ -26,7 +26,7 @@ Route::prefix('sluzby')
         Route::redirect('/ambulantna-fyzioterapia', '/sluzby/mobilna-fyzioterapia', 301);
 
         Route::get('/bankovanie', [PageController::class, 'banking'])->name('banking');
-        // Route::get('/masaze', [PageController::class, 'massages'])->name('massages');
+        Route::get('/masaze', [PageController::class, 'massages'])->name('massages');
 
         Route::get('/fyzioterapia-pre-seniorov', [PageController::class, 'seniorPhysiotherapy'])
             ->name('senior-physiotherapy');
