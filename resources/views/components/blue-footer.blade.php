@@ -94,7 +94,19 @@
         <!-- Footer Links -->
         <div class="mt-16 pt-8 border-t border-white/20">
             <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[#c5eaf4]">
-                <p>©2025 Fyziology</p>
+                <div class="flex items-center gap-4">
+                    <p>©2025 Fyziology</p>
+                    {{-- Self-hosted Zlatá Firma badge: SVG is served from our own domain (downloaded once,
+                         no live third-party asset/script), so the year/content changes only when we change it.
+                         Link uses nofollow (don't pass SEO credit) + noopener (tab-hijack protection). --}}
+                    <a href="https://www.zlatafirma.eu/company/fyziology-646367"
+                       target="_blank" rel="nofollow noopener"
+                       title="Fyziology – Zlatá Firma 2026">
+                        <img src="{{ asset('assets/images/zlata-firma-2026.svg') }}"
+                             alt="Fyziology – Zlatá Firma 2026" width="200" height="49"
+                             class="w-[200px] h-auto hover:opacity-90 transition-opacity" loading="lazy" />
+                    </a>
+                </div>
                 <div class="flex flex-wrap justify-center gap-6">
                     <a href="{{ route('page.terms') }}" class="hover:text-cyan-300 transition-colors">Všeobecné obchodné podmienky</a>
                     <a href="{{ route('page.complaints') }}" class="hover:text-cyan-300 transition-colors">Reklamačné podmienky</a>
